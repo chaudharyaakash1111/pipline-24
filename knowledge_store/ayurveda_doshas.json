@@ -1,0 +1,28 @@
+{
+  "subject": "Ayurveda",
+  "topic": "Doshas",
+  "title": "The Tridosha Theory: Foundation of Ayurvedic Medicine",
+  "shloka": "वातपित्तकफा दोषा धातवस्तु रसादयः। मलामूत्रपुरीषाणि दोषधातुमलाः स्मृताः॥",
+  "translation": "Vata, pitta and kapha are the doshas; rasa and others are the dhatus; urine and feces are the malas; these are remembered as the dosha, dhatu and mala.",
+  "explanation": "The Tridosha theory forms the cornerstone of Ayurvedic medicine, proposing that three biological energies or doshas—Vata (air and space), Pitta (fire and water), and Kapha (earth and water)—govern all physiological and psychological functions. Each person has a unique constitution or prakriti determined by the proportion of these doshas at conception. Health is maintained when the doshas are in balance according to one's natural constitution, while imbalance leads to disease. Vata governs movement and is responsible for all nervous system functions, respiration, and elimination. Pitta governs metabolism, digestion, and transformation processes in the body. Kapha provides structure, stability, and lubrication to the body. The doshas not only influence physical characteristics but also mental tendencies and emotional patterns. Ayurvedic diagnosis involves determining a person's constitutional type and identifying which doshas are in excess or deficiency. Treatment aims to restore balance through diet, herbs, lifestyle adjustments, and various therapeutic procedures. This personalized approach to health makes Ayurveda one of the earliest systems of personalized medicine, recognizing that each individual requires unique care based on their constitution.",
+  "activity": "Observe your daily patterns of hunger, energy, and sleep for three days. Note which dosha characteristics seem most prominent in your constitution based on Ayurvedic descriptions.",
+  "question": "How might the Tridosha theory complement modern medical understanding of human physiology and personalized medicine?",
+  "wikipedia_info": {
+    "title": "Dosha",
+    "summary": "In Ayurveda, doshas are the three energies that define every person's makeup. Doshas are the energies that make up every individual, which perform different physiological functions in the body. Doshas are the three fundamental principles that govern the function of our bodies on the physical and emotional level. The three doshas are vata, pitta, and kapha. They are present in every cell, tissue, and organ—for movement, metabolism, and structure—and they are essential to all our physical and mental processes. Each person has a unique proportion of these three forces at birth. This unique combination is determined at the moment of conception and is responsible for a person's physiological and psychological tendencies.",
+    "url": "https://en.wikipedia.org/wiki/Dosha",
+    "related_articles": [
+      "Ayurveda",
+      "Traditional medicine",
+      "Humors",
+      "Prakriti",
+      "Panchakarma"
+    ]
+  },
+  "sources": ["Wikipedia", "Ollama (llama3)"],
+  "metadata": {
+    "timestamp": 1716465600,
+    "date_created": "2025-05-23T12:00:00",
+    "version": "1.0"
+  }
+}

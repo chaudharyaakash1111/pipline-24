@@ -1,0 +1,28 @@
+{
+  "subject": "Ganita",
+  "topic": "Algebra",
+  "title": "Bījagaṇita: The Science of Algebra in Ancient India",
+  "shloka": "यथा शिखा मयूराणां नागानां मणयो यथा। तद्वद्वेदाङ्गशास्त्राणां गणितं मूर्धनि स्थितम्॥",
+  "translation": "Just as the crest on the peacock, or the gem on the head of a snake, so is mathematics at the head of all sciences.",
+  "explanation": "Bījagaṇita (algebra) in ancient Indian mathematics was a sophisticated system for solving equations and working with unknowns. The term 'bīja' means 'seed' or 'element' and 'gaṇita' means 'calculation'. Mathematicians like Brahmagupta (7th century) and Bhaskara II (12th century) made significant contributions to algebra, developing methods for solving linear and quadratic equations, as well as indeterminate equations. The 'chakravala' method for solving Pell's equation was discovered centuries before European mathematicians tackled similar problems. Indian algebraists were pioneers in working with negative numbers and zero, concepts that were not fully accepted in European mathematics until much later. Bhaskara II's work 'Bījagaṇita' contains sophisticated methods for solving quadratic, cubic, and quartic equations, as well as equations with multiple unknowns. The Indian approach to algebra was both practical and theoretical, with applications in astronomy, commerce, and architecture.",
+  "activity": "Try to solve this ancient Indian algebraic problem: If a number is multiplied by 3, and then 12 is added, the result is 30. What is the original number?",
+  "question": "How did the development of algebra in ancient India differ from its development in other civilizations, and what unique insights did Indian mathematicians contribute?",
+  "wikipedia_info": {
+    "title": "Indian mathematics",
+    "summary": "Indian mathematics emerged in the Indian subcontinent from 1200 BCE until the end of the 18th century. In the classical period of Indian mathematics (400 CE to 1200 CE), important contributions were made by scholars like Aryabhata, Brahmagupta, Bhaskara II, Varāhamihira, and Madhava. The decimal number system in use today was first recorded in Indian mathematics. Indian mathematicians made early contributions to the study of the concept of zero as a number, negative numbers, arithmetic, and algebra. In addition, trigonometry was further advanced in India, and, in particular, the modern definitions of sine and cosine were developed there. These mathematical concepts were transmitted to the Middle East, China, and Europe and led to further developments that now form the foundations of many areas of mathematics.",
+    "url": "https://en.wikipedia.org/wiki/Indian_mathematics",
+    "related_articles": [
+      "Bhāskara II",
+      "Brahmagupta",
+      "Aryabhata",
+      "History of mathematics",
+      "Algebra"
+    ]
+  },
+  "sources": ["Wikipedia", "Ollama (llama3)"],
+  "metadata": {
+    "timestamp": 1716465600,
+    "date_created": "2025-05-23T12:00:00",
+    "version": "1.0"
+  }
+}

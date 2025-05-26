@@ -1,0 +1,28 @@
+{
+  "subject": "Veda",
+  "topic": "Sound",
+  "title": "The Sacred Sound in Vedic Tradition",
+  "shloka": "ॐ अग्निमीळे पुरोहितं यज्ञस्य देवम् ऋत्विजम्",
+  "translation": "Om, I praise Agni, the priest of the sacrifice, the divine, the ritual performer.",
+  "explanation": "In Vedic tradition, sound (shabda) is considered not just a physical phenomenon but a spiritual one. The primordial sound OM (ॐ) is considered the source of all creation. Mantras are sacred sound formulas that, when recited with proper pronunciation, rhythm, and devotion, create powerful vibrations affecting both the chanter and the environment. The concept of Nada Brahma suggests that the entire universe is a manifestation of sound vibration. The Vedas themselves are primarily oral traditions, emphasizing the importance of correct pronunciation and intonation (svara). The power of sound in Vedic tradition extends beyond mere communication to become a tool for transformation of consciousness and a bridge between the material and spiritual realms.",
+  "activity": "Recite the shloka aloud thrice, paying attention to the vibration you feel in different parts of your body. Then, sit in silence for 2 minutes and observe the subtle sounds around you.",
+  "question": "How does the concept of sound in Vedic tradition differ from the modern scientific understanding of sound?",
+  "wikipedia_info": {
+    "title": "Vedic chant",
+    "summary": "Vedic chant is the oral tradition of the Vedas, consisting of several pathas, \"recitations\" or ways of chanting the Vedic mantras. Such traditions of Vedic chant are often considered the oldest unbroken oral tradition in existence, the fixation of the Vedic texts as preserved dating to roughly the time of Homer (early Iron Age).\nThe Vedas were orally transmitted by memorization for many generations and was written down for the first time around 500 BCE. The emphasis on preserving the exact intonation and pronunciation of these hymns stems from the belief that the potency of the mantras lies in their sound when pronounced correctly. The recitation of the mantras in worship takes precedence over their meaning. Carefully maintained oral tradition ensured an unbroken transmission of the Vedas in an unaltered form for about 3000 years.",
+    "url": "https://en.wikipedia.org/wiki/Vedic_chant",
+    "related_articles": [
+      "Vedas",
+      "Rigveda",
+      "Samaveda",
+      "Mantra",
+      "Om"
+    ]
+  },
+  "sources": ["Wikipedia", "Ollama (llama3)"],
+  "metadata": {
+    "timestamp": 1716465600,
+    "date_created": "2025-05-23T12:00:00",
+    "version": "1.0"
+  }
+}
