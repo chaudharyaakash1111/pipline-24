@@ -1,0 +1,31 @@
+{
+  "subject": "ved",
+  "topic": "ayurved",
+  "title": "Understanding Ayurveda Through Ancient Wisdom",
+  "shloka": "वातपित्तकफा दोषा धातवस्तु रसादयः। मलामूत्रपुरीषाणि दोषधातुमलाः स्मृताः॥",
+  "translation": "Vata, pitta and kapha are the doshas; rasa and others are the dhatus; urine and feces are the malas; these are remembered as the dosha, dhatu and mala.",
+  "explanation": "Ayurveda, literally meaning 'knowledge of life,' represents one of the world's oldest holistic healing systems, originating in ancient India over 5,000 years ago. This comprehensive medical science is founded on the profound understanding that health emerges from the harmonious balance of three fundamental biological energies called doshas: Vata (air and space), Pitta (fire and water), and Kapha (earth and water). These doshas govern all physiological and psychological functions within the human body, creating a unique constitutional blueprint called prakriti for each individual.\n\nThe Vedic shloka emphasizes the foundational triad of Ayurvedic physiology: doshas (biological energies), dhatus (body tissues including rasa, rakta, mamsa, meda, asthi, majja, and shukra), and malas (waste products). Vata dosha controls movement, nervous system functions, respiration, and elimination processes. Pitta governs metabolism, digestion, transformation, and intellectual functions. Kapha provides structural stability, immunity, lubrication, and emotional grounding. When these doshas function in their natural proportions according to one's constitution, optimal health prevails. Imbalance leads to disease manifestation.\n\nAyurveda's genius lies in its personalized approach to health and healing, recognizing that each individual requires unique treatment based on their constitutional type, current imbalances, seasonal influences, and life circumstances. This ancient wisdom encompasses not merely disease treatment but comprehensive lifestyle guidance including diet, daily routines (dinacharya), seasonal practices (ritucharya), yoga, meditation, and herbal medicine. The system emphasizes prevention through maintaining balance and treating root causes rather than symptoms. Modern science increasingly validates Ayurvedic principles, particularly in areas of personalized medicine, mind-body connections, and integrative approaches to wellness, demonstrating the timeless relevance of this ancient healing tradition.",
+  "activity": "Students can assess their own dosha constitution by observing their physical characteristics, mental tendencies, and daily patterns. Create a personal dosha profile by noting body type, digestion patterns, sleep habits, and emotional responses. Practice simple Ayurvedic daily routines like oil pulling, tongue scraping, or mindful eating to experience the principles firsthand.",
+  "question": "In today's fast-paced world, how do Ayurvedic principles encourage personal growth and well-being compared to other traditions?",
+  "wikipedia_info": {
+    "title": "Jalgaon",
+    "summary": "Jalgaon () is a city in the state of Maharashtra, India. The city is located in North Maharashtra in the subregion of Khandesh, and serves as the administrative headquarters of its namesake district, the Jalgaon district. In the subregion of Khandesh, Jalgaon is the largest city in Khandesh. Situated on Asian Highway 53 and 76.3 Km from 'Ajanta Caves'.\nThe Girna river flows from the western part of the city. Jalgaon is colloquially known as the \"Banana city of India\" as the region's (Jalgaon district) farmers grow approximately two-thirds of Maharashtra's banana production.\n\n",
+    "url": "https://en.wikipedia.org/wiki/Jalgaon",
+    "related_articles": [
+      "Jaswant Singh of Marwar",
+      "List of Banaras Hindu University people",
+      "Ayurveda",
+      "Dhanvantari"
+    ]
+  },
+  "sources": [
+    "Wikipedia",
+    "Ollama (deepseek-r1:1.5b)"
+  ],
+  "wikipedia_summary": "Jalgaon () is a city in the state of Maharashtra, India. The city is located in North Maharashtra in the subregion of Khandesh, and serves as the administrative headquarters of its namesake district, the Jalgaon district. In the subregion of Khandesh, Jalgaon is the largest city in Khandesh. Situated on Asian Highway 53 and 76.3 Km from 'Ajanta Caves'.",
+  "metadata": {
+    "timestamp": 1748257015.7116463,
+    "date_created": "2025-05-26T16:26:55.711646",
+    "version": "1.0"
+  }
+}

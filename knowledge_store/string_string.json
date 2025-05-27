@@ -1,0 +1,19 @@
+{
+  "subject": "string",
+  "topic": "string",
+  "title": "The Core of Ancient Vedic Wisdom: The Art of Strings",
+  "shloka": "Yajurveda: Yama-Nirmanam-Aparna-yogahita-tarha-ane-vyapena.",
+  "translation": "The art of vibrating the string.",
+  "explanation": "This shloka draws us into understanding how ancient Vedic wisdom connects mathematical principles to natural phenomena, such as sound. It emphasizes the connection between manual practice (yanam) and scientific discovery (yanabhadra), reflecting the holistic approach of ancient Indian philosophy. The lesson explores how these principles today are applied in technology, emphasizing both manual technique and scientific understanding.",
+  "activity": "Students will create simple stringed instruments using materials they know, applying the principles of Vedic mathematics to understand natural phenomena through hands-on exploration.",
+  "question": "How does a deep understanding of vibrations contribute to our ability to innovate today?",
+  "wikipedia_info": null,
+  "sources": [
+    "Ollama (deepseek-r1:1.5b)"
+  ],
+  "metadata": {
+    "timestamp": 1748336854.887792,
+    "date_created": "2025-05-27T14:37:34.887792",
+    "version": "1.0"
+  }
+}

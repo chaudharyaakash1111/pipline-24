@@ -1,0 +1,31 @@
+{
+  "subject": "hindi",
+  "topic": "english",
+  "title": " hindu wisdom and its connection to modern language",
+  "shloka": "Yamuna nanda dhaan dhyak dhaan",
+  "translation": "Know yourself.",
+  "explanation": "This shloka from ancient Vedic texts translates to 'Know yourself.' Ancient Indian wisdom emphasizes self-awareness and understanding oneself. This concept is deeply connected to Vedanta, Ayurveda, and philosophical traditions like Ganita (mathematics) in the Western sense. It highlights the importance of personal knowledge, holistic thinking, and a deep understanding of one's nature. The shloka underscores that knowing oneself as an English speaker imparts not only language skills but also wisdom, empathy, and self-reliance, which are crucial for effective communication in today's world.",
+  "activity": "Have students write down their name from a book or journal to reinforce the concept of being aware of one's own identity. Discuss how this awareness translates into improved communication and empathy.",
+  "question": "While language is an integral part of modern English, can we truly understand our own nature without it? How does the practice of knowing oneself as an English speaker reflect ancient wisdom?",
+  "wikipedia_info": {
+    "title": "Hindi",
+    "summary": "Hindus (Hindustani: [ˈɦɪndu] ; ; also known as Sanātanīs) are people who religiously adhere to Hinduism, also known by its endonym Sanātana Dharma. Historically, the term has also been used as a geographical, cultural, and later religious identifier for people living in the Indian subcontinent.\nIt is assumed that the term \"Hindu\" traces back to Avestan scripture Vendidad which refers to land of seven rivers as Hapta Hendu which itself is a cognate to Sanskrit term Sapta Sindhuḥ. (The term Sapta Sindhuḥ is mentioned in Rig Veda and refers to a North western Indian region of seven rivers and to India as a whole.) The Greek cognates of the same terms are \"Indus\" (for the river) and \"India\" (for the land of the river). Likewise the Hebrew cognate hōd-dū refers to India mentioned in Hebrew Bible (Esther 1:1). The term \"Hindu\" also implied a geographic, ethnic or cultural identifier for people living in the Indian subcontinent around or beyond the Sindhu (Indus) River. By the 16th century CE, the term began to refer to residents of the subcontinent who were not Turkic or Muslims.\nThe historical development of Hindu self-identity within the local Indian population, in a religious or cultural sense, is unclear. Competing theories state that Hindu identity developed in the British colonial era, or that it may have developed post-8th century CE after the Muslim invasions and medieval Hindu–Muslim wars. A sense of Hindu identity and the term Hindu appears in some texts dated between the 13th and 18th century in Sanskrit and Bengali. The 14th- and 18th-century Indian poets such as Vidyapati, Kabir, Tulsidas and Eknath used the phrase Hindu dharma (Hinduism) and contrasted it with Turaka dharma (Islam). The Christian friar Sebastiao Manrique used the term 'Hindu' in a religious context in 1649. In the 18th century, European merchants and colonists began to refer to the followers of Indian religions collectively as Hindus, in contrast to Mohamedans for groups such as Turks, Mughals and Arabs, who were adherents of Islam. By the mid-19th century, colonial orientalist texts further distinguished Hindus from Buddhists, Sikhs and Jains, but the colonial laws continued to consider all of them to be within the scope of the term Hindu until about the mid-20th century. Scholars state that the custom of distinguishing between Hindus, Buddhists, Jains and Sikhs is a modern phenomenon.\nAt approximately 1.2 billion, Hindus are the world's third-largest religious group after Christians and Muslims. The vast majority of Hindus, approximately 966 million (94.3% of the global Hindu population), live in India, according to the 2011 Indian census. After India, the next nine countries with the largest Hindu populations are, in decreasing order: Nepal, Bangladesh, Indonesia, Pakistan, Sri Lanka, the United States, Malaysia, the United Arab Emirates and the United Kingdom. These together accounted for 99% of the world's Hindu population, and the remaining nations of the world combined had about 6 million Hindus as of 2010.\n\n",
+    "url": "https://en.wikipedia.org/wiki/Hindus",
+    "related_articles": [
+      "List of English words of Hindi or Urdu origin",
+      "Languages with official recognition in India",
+      "Hindustani language",
+      "Anti-Hindi agitations of Tamil Nadu"
+    ]
+  },
+  "sources": [
+    "Wikipedia",
+    "Ollama (deepseek-r1:1.5b)"
+  ],
+  "wikipedia_summary": "Hindus (Hindustani: [ˈɦɪndu] ; ; also known as Sanātanīs) are people who religiously adhere to Hinduism, also known by its endonym Sanātana Dharma. Historically, the term has also been used as a geographical, cultural, and later religious identifier for people living in the Indian subcontinent.",
+  "metadata": {
+    "timestamp": 1748330310.343685,
+    "date_created": "2025-05-27T12:48:30.343684",
+    "version": "1.0"
+  }
+}

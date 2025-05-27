@@ -1,0 +1,29 @@
+{
+  "subject": "maths ",
+  "topic": "trignometry",
+  "title": "The essence of Ancient Indian Wisdom in Trigonometry",
+  "shloka": "Vedas do apurushasamadha, samhambodha marha, samudha.",
+  "translation": "Things are measured from the beginning.",
+  "explanation": "Trigonometry is a branch of mathematics that deals with the relationships between angles and sides of triangles. It was anciently understood through Vedic texts like the Shulba Sutras, which focus on geometry and measurement. Ancient Indian philosophy emphasized dharma (duty) and Samhita (wisdom), viewing knowledge as a spiritual gift. Trigonometry has been used in astronomy for long years, aiding in measuring celestial distances, and in architecture for designing structures accurately. The concepts of sine, cosine, and tangent, derived from ancient wisdom, are now integral to our modern understanding of angles and their applications.",
+  "activity": "Have students work in groups to construct a model of a triangle using sticks and strings. Use this to measure sides and angles, then apply trigonometric ratios (sine, cosine, tangent) to solve for unknown values. This hands-on activity will reinforce the ancient wisdom behind trigonometry.",
+  "question": "How do ancient Indian wisdom systems influence our modern understanding of angles and measurements in mathematics? Can you think of a real-life application where ancient knowledge is still relevant today?",
+  "wikipedia_info": {
+    "title": "Trigonometry",
+    "summary": "Trigonometry (from Ancient Greek  τρίγωνον (trígōnon) 'triangle' and  μέτρον (métron) 'measure') is a branch of mathematics concerned with relationships between angles and side lengths of triangles. In particular, the trigonometric functions relate the angles of a right triangle with ratios of its side lengths. The field emerged in the Hellenistic world during the 3rd century BC from applications of geometry to astronomical studies. The Greeks focused on the calculation of chords, while mathematicians in India created the earliest-known tables of values for trigonometric ratios (also called trigonometric functions) such as sine.\nThroughout history, trigonometry has been applied in areas such as geodesy, surveying, celestial mechanics, and navigation.\nTrigonometry is known for its many identities. These \ntrigonometric identities are commonly used for rewriting trigonometrical expressions with the aim to simplify an expression, to find a more useful form of an expression, or to solve an equation.",
+    "url": "https://en.wikipedia.org/wiki/Trigonometry",
+    "related_articles": [
+      "Math library",
+      "History of science"
+    ]
+  },
+  "sources": [
+    "Wikipedia",
+    "Ollama (deepseek-r1:1.5b)"
+  ],
+  "wikipedia_summary": "Trigonometry (from Ancient Greek  τρίγωνον (trígōnon) 'triangle' and  μέτρον (métron) 'measure') is a branch of mathematics concerned with relationships between angles and side lengths of triangles. In particular, the trigonometric functions relate the angles of a right triangle with ratios of its side lengths. The field emerged in the Hellenistic world during the 3rd century BC from applications of geometry to astronomical studies. The Greeks focused on the calculation of chords, while mathe...",
+  "metadata": {
+    "timestamp": 1748322788.531608,
+    "date_created": "2025-05-27T10:43:08.531608",
+    "version": "1.0"
+  }
+}

@@ -3921,3 +3921,723 @@ I should make sure the content is authentic and respectful of tradition while be
 2025-05-23 13:41:45,250 [INFO] Successfully generated enhanced lesson: The Power of Ardhsharstra: A Journey Through Ancient Indian Wisdom
 2025-05-23 13:41:45,250 [INFO] Lesson on Veda/Ardhsharstra saved to knowledge store
 2025-05-23 13:41:45,251 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 17.4793s
+2025-05-26 15:45:03,136 [INFO] Using CPU for compute
+2025-05-26 15:45:03,623 [INFO] Using CPU for compute
+2025-05-26 15:45:09,693 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-26 15:45:09,693 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0010s
+2025-05-26 15:45:09,732 [INFO] >>> HTTP REQUEST: GET /favicon.ico - Query params: 
+2025-05-26 15:45:09,732 [INFO] <<< HTTP RESPONSE: GET /favicon.ico - Status: 404 - Time: 0.0010s
+2025-05-26 15:45:17,382 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-26 15:45:17,383 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0010s
+2025-05-26 15:45:17,432 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-26 15:45:17,436 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0042s
+2025-05-26 15:45:51,186 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-26 15:45:51,187 [INFO] Generating lesson for subject: ganita, topic: calculas, include_wikipedia: True, use_knowledge_store: True
+2025-05-26 15:45:52,141 [INFO] No lesson found for ganita/calculas in knowledge store
+2025-05-26 15:45:52,141 [INFO] Generating enhanced lesson for ganita/calculas
+2025-05-26 15:45:52,142 [INFO] Creating enhanced lesson for subject: ganita, topic: calculas
+2025-05-26 15:45:52,142 [INFO] No lesson found for ganita/calculas in knowledge store
+2025-05-26 15:45:52,985 [INFO] Wikipedia search for 'calculas in ganita' returned 0 results
+2025-05-26 15:45:53,877 [INFO] Wikipedia search for 'calculas ganita ancient India' returned 0 results
+2025-05-26 15:45:54,715 [INFO] Wikipedia search for 'calculas in ancient Indian ganita' returned 0 results
+2025-05-26 15:45:55,537 [INFO] Wikipedia search for 'ganita calculas' returned 0 results
+2025-05-26 15:45:56,364 [INFO] Wikipedia search for 'calculas in Indian mathematics' returned 0 results
+2025-05-26 15:45:57,242 [INFO] Wikipedia search for 'Indian mathematics calculas' returned 0 results
+2025-05-26 15:46:01,340 [ERROR] Error checking Ollama service: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B940D000D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-05-26 15:46:01,340 [WARNING] Ollama service is not available. Using fallback content.
+2025-05-26 15:46:01,340 [ERROR] Error using enhanced lesson generator: 'sources'
+2025-05-26 15:46:01,340 [INFO] Fetching Wikipedia information for ganita/calculas
+2025-05-26 15:46:01,341 [INFO] Wikipedia search for 'calculas in ganita' returned 0 results
+2025-05-26 15:46:01,341 [INFO] Wikipedia search for 'calculas ganita ancient India' returned 0 results
+2025-05-26 15:46:01,341 [INFO] Wikipedia search for 'calculas in ancient Indian ganita' returned 0 results
+2025-05-26 15:46:01,341 [INFO] Wikipedia search for 'ganita calculas' returned 0 results
+2025-05-26 15:46:01,341 [INFO] Wikipedia search for 'calculas in Indian mathematics' returned 0 results
+2025-05-26 15:46:01,341 [INFO] Wikipedia search for 'Indian mathematics calculas' returned 0 results
+2025-05-26 15:46:01,341 [WARNING] No Wikipedia information found for ganita/calculas
+2025-05-26 15:46:01,341 [INFO] Checking Ollama service status...
+2025-05-26 15:58:56,107 [INFO] Using CPU for compute
+2025-05-26 15:58:56,164 [INFO] Using CPU for compute
+2025-05-26 15:59:01,854 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-26 15:59:01,855 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0010s
+2025-05-26 15:59:01,875 [INFO] >>> HTTP REQUEST: GET /favicon.ico - Query params: 
+2025-05-26 15:59:01,875 [INFO] <<< HTTP RESPONSE: GET /favicon.ico - Status: 404 - Time: 0.0000s
+2025-05-26 15:59:07,412 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-26 15:59:07,413 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0010s
+2025-05-26 15:59:07,466 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-26 15:59:07,472 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0056s
+2025-05-26 15:59:45,786 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-26 15:59:45,788 [INFO] Generating lesson for subject: MATHS, topic: CIRCLE, include_wikipedia: True, use_knowledge_store: True
+2025-05-26 15:59:45,982 [INFO] No lesson found for MATHS/CIRCLE in knowledge store
+2025-05-26 15:59:45,982 [INFO] Generating enhanced lesson for MATHS/CIRCLE
+2025-05-26 15:59:45,982 [INFO] Creating enhanced lesson for subject: MATHS, topic: CIRCLE
+2025-05-26 15:59:45,982 [INFO] No lesson found for MATHS/CIRCLE in knowledge store
+2025-05-26 15:59:46,907 [INFO] Wikipedia search for 'CIRCLE in MATHS' returned 5 results
+2025-05-26 15:59:47,947 [INFO] Wikipedia search for 'CIRCLE MATHS ancient India' returned 5 results
+2025-05-26 15:59:48,852 [INFO] Wikipedia search for 'CIRCLE in ancient Indian MATHS' returned 5 results
+2025-05-26 15:59:49,764 [INFO] Wikipedia search for 'MATHS CIRCLE' returned 5 results
+2025-05-26 15:59:52,983 [INFO] Successfully fetched Wikipedia content for 'Math circle'
+2025-05-26 15:59:52,985 [INFO] Saved Wikipedia content to cache for MATHS/CIRCLE
+2025-05-26 15:59:55,068 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-26 16:00:07,097 [INFO] Successfully generated lesson with Ollama: Exploring Circles in Ancient India: A Geometric Journey
+2025-05-26 16:00:07,098 [INFO] Lesson on MATHS/CIRCLE saved to knowledge store
+2025-05-26 16:00:07,098 [INFO] Successfully generated enhanced lesson: Exploring Circles in Ancient India: A Geometric Journey
+2025-05-26 16:00:07,098 [INFO] Lesson on MATHS/CIRCLE saved to knowledge store
+2025-05-26 16:00:07,099 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 21.3134s
+2025-05-26 16:19:15,040 [INFO] Using CPU for compute
+2025-05-26 16:19:15,096 [INFO] Using CPU for compute
+2025-05-26 16:19:18,920 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-26 16:19:18,921 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0021s
+2025-05-26 16:19:19,114 [INFO] >>> HTTP REQUEST: GET /favicon.ico - Query params: 
+2025-05-26 16:19:19,114 [INFO] <<< HTTP RESPONSE: GET /favicon.ico - Status: 404 - Time: 0.0000s
+2025-05-26 16:19:29,810 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-26 16:19:29,811 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0010s
+2025-05-26 16:19:29,984 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-26 16:19:29,989 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0050s
+2025-05-26 16:19:58,145 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-26 16:19:58,146 [INFO] Generating lesson for subject: maths, topic: circle, include_wikipedia: True, use_knowledge_store: True
+2025-05-26 16:19:58,338 [INFO] Lesson on maths/circle retrieved from knowledge store
+2025-05-26 16:19:58,338 [INFO] Retrieved lesson from knowledge store for maths/circle
+2025-05-26 16:19:58,338 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.1933s
+2025-05-26 16:20:00,429 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-26 16:20:00,430 [INFO] Generating lesson for subject: maths, topic: circle, include_wikipedia: True, use_knowledge_store: True
+2025-05-26 16:20:00,431 [INFO] Lesson on maths/circle retrieved from knowledge store
+2025-05-26 16:20:00,431 [INFO] Retrieved lesson from knowledge store for maths/circle
+2025-05-26 16:20:00,431 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.0020s
+2025-05-26 16:20:01,982 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-26 16:20:01,983 [INFO] Generating lesson for subject: maths, topic: circle, include_wikipedia: True, use_knowledge_store: True
+2025-05-26 16:20:01,983 [INFO] Lesson on maths/circle retrieved from knowledge store
+2025-05-26 16:20:01,984 [INFO] Retrieved lesson from knowledge store for maths/circle
+2025-05-26 16:20:01,984 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.0020s
+2025-05-26 16:20:02,605 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-26 16:20:02,606 [INFO] Generating lesson for subject: maths, topic: circle, include_wikipedia: True, use_knowledge_store: True
+2025-05-26 16:20:02,606 [INFO] Lesson on maths/circle retrieved from knowledge store
+2025-05-26 16:20:02,606 [INFO] Retrieved lesson from knowledge store for maths/circle
+2025-05-26 16:20:02,607 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.0020s
+2025-05-26 16:20:03,173 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-26 16:20:03,174 [INFO] Generating lesson for subject: maths, topic: circle, include_wikipedia: True, use_knowledge_store: True
+2025-05-26 16:20:03,174 [INFO] Lesson on maths/circle retrieved from knowledge store
+2025-05-26 16:20:03,174 [INFO] Retrieved lesson from knowledge store for maths/circle
+2025-05-26 16:20:03,175 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.0023s
+2025-05-26 16:20:28,805 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-26 16:20:28,806 [INFO] Generating lesson for subject: maths, topic: algebra, include_wikipedia: True, use_knowledge_store: True
+2025-05-26 16:20:28,807 [INFO] No lesson found for maths/algebra in knowledge store
+2025-05-26 16:20:28,807 [INFO] Generating enhanced lesson for maths/algebra
+2025-05-26 16:20:28,807 [INFO] Creating enhanced lesson for subject: maths, topic: algebra
+2025-05-26 16:20:28,807 [INFO] No lesson found for maths/algebra in knowledge store
+2025-05-26 16:20:28,808 [INFO] Loaded Wikipedia content from cache for maths/algebra
+2025-05-26 16:20:30,886 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-26 16:20:40,130 [INFO] Successfully generated lesson with Ollama: The Power of Algebra: A Journey Through Ancient Wisdom
+2025-05-26 16:20:40,131 [INFO] Lesson on maths/algebra saved to knowledge store
+2025-05-26 16:20:40,131 [INFO] Successfully generated enhanced lesson: The Power of Algebra: A Journey Through Ancient Wisdom
+2025-05-26 16:20:40,132 [INFO] Lesson on maths/algebra saved to knowledge store
+2025-05-26 16:20:40,132 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 11.3268s
+2025-05-26 16:25:55,855 [INFO] Using CPU for compute
+2025-05-26 16:25:55,909 [INFO] Using CPU for compute
+2025-05-26 16:26:00,224 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-26 16:26:00,225 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0011s
+2025-05-26 16:26:06,818 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-26 16:26:06,818 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0000s
+2025-05-26 16:26:06,989 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-26 16:26:06,994 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0055s
+2025-05-26 16:26:33,747 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-26 16:26:33,748 [INFO] Generating lesson for subject: ved, topic: ayurved, include_wikipedia: True, use_knowledge_store: True
+2025-05-26 16:26:33,934 [INFO] No lesson found for ved/ayurved in knowledge store
+2025-05-26 16:26:33,934 [INFO] Generating enhanced lesson for ved/ayurved
+2025-05-26 16:26:33,934 [INFO] Creating enhanced lesson for subject: ved, topic: ayurved
+2025-05-26 16:26:33,936 [INFO] No lesson found for ved/ayurved in knowledge store
+2025-05-26 16:26:34,796 [INFO] Wikipedia search for 'ayurved in ved' returned 3 results
+2025-05-26 16:26:35,728 [INFO] Wikipedia search for 'ayurved ved ancient India' returned 2 results
+2025-05-26 16:26:37,649 [INFO] Wikipedia search for 'ayurved in ancient Indian ved' returned 2 results
+2025-05-26 16:26:38,605 [INFO] Wikipedia search for 'ved ayurved' returned 3 results
+2025-05-26 16:26:40,474 [INFO] Wikipedia search for 'ayurved in Vedas' returned 5 results
+2025-05-26 16:26:41,321 [INFO] Wikipedia search for 'Vedas ayurved' returned 5 results
+2025-05-26 16:26:44,541 [INFO] Successfully fetched Wikipedia content for 'Jalgaon'
+2025-05-26 16:26:44,543 [INFO] Saved Wikipedia content to cache for ved/ayurved
+2025-05-26 16:26:46,618 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-26 16:26:55,711 [INFO] Successfully generated lesson with Ollama: Understanding Ayurveda Through Ancient Wisdom
+2025-05-26 16:26:55,711 [INFO] Lesson on ved/ayurved saved to knowledge store
+2025-05-26 16:26:55,711 [INFO] Successfully generated enhanced lesson: Understanding Ayurveda Through Ancient Wisdom
+2025-05-26 16:26:55,712 [INFO] Lesson on ved/ayurved saved to knowledge store
+2025-05-26 16:26:55,712 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 21.9650s
+2025-05-26 16:32:23,032 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-26 16:32:23,033 [INFO] Generating lesson for subject: ved, topic: ayurved, include_wikipedia: True, use_knowledge_store: True
+2025-05-26 16:32:23,033 [INFO] Lesson on ved/ayurved retrieved from knowledge store
+2025-05-26 16:32:23,033 [INFO] Retrieved lesson from knowledge store for ved/ayurved
+2025-05-26 16:32:23,033 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.0010s
+2025-05-26 16:50:40,518 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-26 16:50:40,519 [INFO] Generating lesson for subject: ved, topic: ayurved, include_wikipedia: True, use_knowledge_store: True
+2025-05-26 16:50:40,519 [INFO] Lesson on ved/ayurved retrieved from knowledge store
+2025-05-26 16:50:40,519 [INFO] Retrieved lesson from knowledge store for ved/ayurved
+2025-05-26 16:50:40,520 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.0020s
+2025-05-26 16:50:46,937 [INFO] Using CPU for compute
+2025-05-26 16:50:46,995 [INFO] Using CPU for compute
+2025-05-27 10:35:47,973 [INFO] Using CPU for compute
+2025-05-27 10:35:54,050 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-27 10:35:54,051 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0010s
+2025-05-27 10:35:54,429 [INFO] >>> HTTP REQUEST: GET /favicon.ico - Query params: 
+2025-05-27 10:35:54,429 [INFO] <<< HTTP RESPONSE: GET /favicon.ico - Status: 404 - Time: 0.0000s
+2025-05-27 10:36:06,925 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-27 10:36:06,926 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0010s
+2025-05-27 10:36:07,064 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-27 10:36:07,071 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0071s
+2025-05-27 10:37:10,215 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-27 10:37:10,216 [INFO] Generating lesson for subject: ved, topic: nindrasasn, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 10:37:11,132 [INFO] No lesson found for ved/nindrasasn in knowledge store
+2025-05-27 10:37:11,132 [INFO] Generating enhanced lesson for ved/nindrasasn
+2025-05-27 10:37:11,132 [INFO] Creating enhanced lesson for subject: ved, topic: nindrasasn
+2025-05-27 10:37:11,132 [INFO] No lesson found for ved/nindrasasn in knowledge store
+2025-05-27 10:37:11,997 [INFO] Wikipedia search for 'nindrasasn in ved' returned 0 results
+2025-05-27 10:37:12,862 [INFO] Wikipedia search for 'nindrasasn ved ancient India' returned 0 results
+2025-05-27 10:37:13,690 [INFO] Wikipedia search for 'nindrasasn in ancient Indian ved' returned 0 results
+2025-05-27 10:37:14,599 [INFO] Wikipedia search for 'ved nindrasasn' returned 0 results
+2025-05-27 10:37:15,446 [INFO] Wikipedia search for 'nindrasasn in Vedas' returned 0 results
+2025-05-27 10:37:16,296 [INFO] Wikipedia search for 'Vedas nindrasasn' returned 0 results
+2025-05-27 10:37:20,380 [ERROR] Error checking Ollama service: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002016B797AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-05-27 10:37:20,380 [WARNING] Ollama service is not available. Using fallback content.
+2025-05-27 10:37:20,380 [ERROR] Error using enhanced lesson generator: 'sources'
+2025-05-27 10:37:20,381 [INFO] Fetching Wikipedia information for ved/nindrasasn
+2025-05-27 10:37:20,381 [INFO] Wikipedia search for 'nindrasasn in ved' returned 0 results
+2025-05-27 10:37:20,381 [INFO] Wikipedia search for 'nindrasasn ved ancient India' returned 0 results
+2025-05-27 10:37:20,381 [INFO] Wikipedia search for 'nindrasasn in ancient Indian ved' returned 0 results
+2025-05-27 10:37:20,381 [INFO] Wikipedia search for 'ved nindrasasn' returned 0 results
+2025-05-27 10:37:20,381 [INFO] Wikipedia search for 'nindrasasn in Vedas' returned 0 results
+2025-05-27 10:37:20,382 [INFO] Wikipedia search for 'Vedas nindrasasn' returned 0 results
+2025-05-27 10:37:20,382 [WARNING] No Wikipedia information found for ved/nindrasasn
+2025-05-27 10:37:20,382 [INFO] Checking Ollama service status...
+2025-05-27 10:40:09,543 [INFO] Using CPU for compute
+2025-05-27 10:40:10,001 [INFO] Using CPU for compute
+2025-05-27 10:40:28,407 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-27 10:40:28,408 [INFO] Generating lesson for subject: ved, topic: ayurved, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 10:40:28,799 [INFO] Lesson on ved/ayurved retrieved from knowledge store
+2025-05-27 10:40:28,799 [INFO] Retrieved lesson from knowledge store for ved/ayurved
+2025-05-27 10:40:28,799 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.3927s
+2025-05-27 10:41:01,081 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-27 10:41:01,081 [INFO] Generating lesson for subject: ved, topic: ayurved, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 10:41:01,083 [INFO] Lesson on ved/ayurved retrieved from knowledge store
+2025-05-27 10:41:01,083 [INFO] Retrieved lesson from knowledge store for ved/ayurved
+2025-05-27 10:41:01,083 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.0012s
+2025-05-27 10:41:07,993 [INFO] Using CPU for compute
+2025-05-27 10:41:37,030 [INFO] Using CPU for compute
+2025-05-27 10:41:37,083 [INFO] Using CPU for compute
+2025-05-27 10:41:45,400 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-27 10:41:45,401 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0010s
+2025-05-27 10:41:45,726 [INFO] >>> HTTP REQUEST: GET /favicon.ico - Query params: 
+2025-05-27 10:41:45,726 [INFO] <<< HTTP RESPONSE: GET /favicon.ico - Status: 404 - Time: 0.0011s
+2025-05-27 10:41:55,953 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-27 10:41:55,954 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0010s
+2025-05-27 10:42:03,869 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-27 10:42:03,869 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0000s
+2025-05-27 10:42:04,020 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-27 10:42:04,024 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0040s
+2025-05-27 10:42:49,527 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-27 10:42:49,529 [INFO] Generating lesson for subject: maths , topic: trignometry, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 10:42:49,721 [INFO] No lesson found for maths /trignometry in knowledge store
+2025-05-27 10:42:49,721 [INFO] Generating enhanced lesson for maths /trignometry
+2025-05-27 10:42:49,721 [INFO] Creating enhanced lesson for subject: maths , topic: trignometry
+2025-05-27 10:42:49,722 [INFO] No lesson found for maths /trignometry in knowledge store
+2025-05-27 10:42:50,600 [INFO] Wikipedia search for 'trignometry in maths ' returned 3 results
+2025-05-27 10:42:51,518 [INFO] Wikipedia search for 'trignometry maths  ancient India' returned 2 results
+2025-05-27 10:42:52,415 [INFO] Wikipedia search for 'trignometry in ancient Indian maths ' returned 2 results
+2025-05-27 10:42:53,293 [INFO] Wikipedia search for 'maths  trignometry' returned 3 results
+2025-05-27 10:42:56,641 [INFO] Successfully fetched Wikipedia content for 'Trigonometry'
+2025-05-27 10:42:56,642 [INFO] Saved Wikipedia content to cache for maths /trignometry
+2025-05-27 10:42:58,837 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-27 10:43:08,530 [INFO] Successfully generated lesson with Ollama: The essence of Ancient Indian Wisdom in Trigonometry
+2025-05-27 10:43:08,531 [INFO] Lesson on maths /trignometry saved to knowledge store
+2025-05-27 10:43:08,531 [INFO] Successfully generated enhanced lesson: The essence of Ancient Indian Wisdom in Trigonometry
+2025-05-27 10:43:08,532 [INFO] Lesson on maths /trignometry saved to knowledge store
+2025-05-27 10:43:08,532 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 19.0058s
+2025-05-27 12:10:01,119 [INFO] Using CPU for compute
+2025-05-27 12:10:01,185 [INFO] Using CPU for compute
+2025-05-27 12:10:06,569 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-27 12:10:06,571 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0020s
+2025-05-27 12:10:06,765 [INFO] >>> HTTP REQUEST: GET /favicon.ico - Query params: 
+2025-05-27 12:10:06,766 [INFO] <<< HTTP RESPONSE: GET /favicon.ico - Status: 404 - Time: 0.0012s
+2025-05-27 12:10:15,511 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-27 12:10:15,511 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0000s
+2025-05-27 12:10:15,737 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-27 12:10:15,743 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0054s
+2025-05-27 12:12:00,315 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:12:00,319 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0032s
+2025-05-27 12:12:00,647 [INFO] >>> HTTP REQUEST: GET /favicon.ico - Query params: 
+2025-05-27 12:12:00,648 [INFO] <<< HTTP RESPONSE: GET /favicon.ico - Status: 404 - Time: 0.0000s
+2025-05-27 12:12:28,704 [INFO] Using CPU for compute
+2025-05-27 12:12:28,761 [INFO] Using CPU for compute
+2025-05-27 12:12:38,107 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:12:38,108 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 12:12:38,189 [INFO] >>> HTTP REQUEST: GET /favicon.ico - Query params: 
+2025-05-27 12:12:38,191 [INFO] <<< HTTP RESPONSE: GET /favicon.ico - Status: 404 - Time: 0.0000s
+2025-05-27 12:12:39,875 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:12:39,875 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0000s
+2025-05-27 12:12:51,096 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=english&topic=verb&user_id=3e7b836d-2f62-45fc-a0b3-8095c78e0ab0
+2025-05-27 12:12:51,097 [INFO] Generating lesson for subject: english, topic: verb, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 12:12:51,287 [INFO] No lesson found for english/verb in knowledge store
+2025-05-27 12:12:51,287 [INFO] Generating enhanced lesson for english/verb
+2025-05-27 12:12:51,288 [INFO] Creating enhanced lesson for subject: english, topic: verb
+2025-05-27 12:12:51,288 [INFO] No lesson found for english/verb in knowledge store
+2025-05-27 12:12:52,278 [INFO] Wikipedia search for 'verb in english' returned 5 results
+2025-05-27 12:12:53,217 [INFO] Wikipedia search for 'verb english ancient India' returned 5 results
+2025-05-27 12:12:54,197 [INFO] Wikipedia search for 'verb in ancient Indian english' returned 5 results
+2025-05-27 12:12:55,127 [INFO] Wikipedia search for 'english verb' returned 5 results
+2025-05-27 12:12:58,520 [INFO] Successfully fetched Wikipedia content for 'English verbs'
+2025-05-27 12:12:58,521 [INFO] Saved Wikipedia content to cache for english/verb
+2025-05-27 12:13:00,629 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-27 12:13:09,873 [INFO] Successfully generated lesson with Ollama: Inner Verbal Force of Reasoning
+2025-05-27 12:13:09,874 [INFO] Lesson on english/verb saved to knowledge store
+2025-05-27 12:13:09,874 [INFO] Successfully generated enhanced lesson: Inner Verbal Force of Reasoning
+2025-05-27 12:13:09,875 [INFO] Lesson on english/verb saved to knowledge store
+2025-05-27 12:13:09,875 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 18.7787s
+2025-05-27 12:13:18,098 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:13:18,099 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 12:13:41,045 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:13:41,046 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 12:13:49,745 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:13:49,746 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 12:13:50,275 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:13:50,276 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 12:14:20,882 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:14:20,883 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 12:14:21,721 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:14:21,721 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0000s
+2025-05-27 12:17:12,919 [INFO] >>> HTTP REQUEST: GET /search_lessons - Query params: 
+2025-05-27 12:17:12,920 [INFO] <<< HTTP RESPONSE: GET /search_lessons - Status: 422 - Time: 0.0010s
+2025-05-27 12:17:24,269 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=maths&topic=geometry&user_id=3e7b836d-2f62-45fc-a0b3-8095c78e0ab0
+2025-05-27 12:17:24,270 [INFO] Generating lesson for subject: maths, topic: geometry, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 12:17:24,270 [INFO] No lesson found for maths/geometry in knowledge store
+2025-05-27 12:17:24,270 [INFO] Generating enhanced lesson for maths/geometry
+2025-05-27 12:17:24,270 [INFO] Creating enhanced lesson for subject: maths, topic: geometry
+2025-05-27 12:17:24,271 [INFO] No lesson found for maths/geometry in knowledge store
+2025-05-27 12:17:25,191 [INFO] Wikipedia search for 'geometry in maths' returned 5 results
+2025-05-27 12:17:26,112 [INFO] Wikipedia search for 'geometry maths ancient India' returned 5 results
+2025-05-27 12:17:27,060 [INFO] Wikipedia search for 'geometry in ancient Indian maths' returned 5 results
+2025-05-27 12:17:27,951 [INFO] Wikipedia search for 'maths geometry' returned 5 results
+2025-05-27 12:17:31,526 [INFO] Successfully fetched Wikipedia content for 'Hyperbolic geometry'
+2025-05-27 12:17:31,528 [INFO] Saved Wikipedia content to cache for maths/geometry
+2025-05-27 12:17:33,650 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-27 12:17:42,917 [INFO] Successfully generated lesson with Ollama: The title of the lesson
+2025-05-27 12:17:42,919 [INFO] Lesson on maths/geometry saved to knowledge store
+2025-05-27 12:17:42,919 [INFO] Successfully generated enhanced lesson: The title of the lesson
+2025-05-27 12:17:42,919 [INFO] Lesson on maths/geometry saved to knowledge store
+2025-05-27 12:17:42,920 [INFO] >>> HTTP REQUEST: GET /search_lessons - Query params: 
+2025-05-27 12:17:42,921 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 18.6518s
+2025-05-27 12:17:42,922 [INFO] <<< HTTP RESPONSE: GET /search_lessons - Status: 422 - Time: 0.0020s
+2025-05-27 12:17:52,897 [INFO] >>> HTTP REQUEST: GET /search_lessons - Query params: 
+2025-05-27 12:17:52,898 [INFO] <<< HTTP RESPONSE: GET /search_lessons - Status: 422 - Time: 0.0011s
+2025-05-27 12:17:53,552 [INFO] >>> HTTP REQUEST: GET /search_lessons - Query params: 
+2025-05-27 12:17:53,553 [INFO] <<< HTTP RESPONSE: GET /search_lessons - Status: 422 - Time: 0.0000s
+2025-05-27 12:18:04,954 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:18:04,956 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 12:18:05,230 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:18:05,231 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 12:18:32,650 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:18:32,651 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0013s
+2025-05-27 12:19:49,644 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:19:49,645 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 12:19:50,199 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:19:50,200 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 12:21:12,599 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-27 12:21:12,600 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0010s
+2025-05-27 12:21:12,793 [INFO] >>> HTTP REQUEST: GET /favicon.ico - Query params: 
+2025-05-27 12:21:12,794 [INFO] <<< HTTP RESPONSE: GET /favicon.ico - Status: 404 - Time: 0.0010s
+2025-05-27 12:21:35,091 [INFO] >>> HTTP REQUEST: GET /generate_lessons - Query params: 
+2025-05-27 12:21:35,092 [INFO] <<< HTTP RESPONSE: GET /generate_lessons - Status: 404 - Time: 0.0011s
+2025-05-27 12:21:41,102 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:21:41,103 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0012s
+2025-05-27 12:22:21,214 [INFO] >>> HTTP REQUEST: GET /subjects_dummy - Query params: 
+2025-05-27 12:22:21,215 [INFO] <<< HTTP RESPONSE: GET /subjects_dummy - Status: 404 - Time: 0.0010s
+2025-05-27 12:22:28,988 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=maths&topic=geometry&user_id=3e7b836d-2f62-45fc-a0b3-8095c78e0ab0
+2025-05-27 12:22:28,989 [INFO] Generating lesson for subject: maths, topic: geometry, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 12:22:28,989 [INFO] Lesson on maths/geometry retrieved from knowledge store
+2025-05-27 12:22:28,989 [INFO] Retrieved lesson from knowledge store for maths/geometry
+2025-05-27 12:22:28,989 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 0.0010s
+2025-05-27 12:22:36,281 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=maths&topic=scince&user_id=3e7b836d-2f62-45fc-a0b3-8095c78e0ab0
+2025-05-27 12:22:36,282 [INFO] Generating lesson for subject: maths, topic: scince, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 12:22:36,282 [INFO] No lesson found for maths/scince in knowledge store
+2025-05-27 12:22:36,282 [INFO] Generating enhanced lesson for maths/scince
+2025-05-27 12:22:36,282 [INFO] Creating enhanced lesson for subject: maths, topic: scince
+2025-05-27 12:22:36,282 [INFO] No lesson found for maths/scince in knowledge store
+2025-05-27 12:22:37,209 [INFO] Wikipedia search for 'scince in maths' returned 2 results
+2025-05-27 12:22:38,057 [INFO] Wikipedia search for 'scince maths ancient India' returned 0 results
+2025-05-27 12:22:38,901 [INFO] Wikipedia search for 'scince in ancient Indian maths' returned 0 results
+2025-05-27 12:22:39,737 [INFO] Wikipedia search for 'maths scince' returned 2 results
+2025-05-27 12:22:43,027 [INFO] Successfully fetched Wikipedia content for 'Sylhet Science And Technology College'
+2025-05-27 12:22:43,029 [INFO] Saved Wikipedia content to cache for maths/scince
+2025-05-27 12:22:45,118 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-27 12:22:55,400 [ERROR] Error parsing JSON from Ollama response: Expecting ',' delimiter: line 6 column 5 (char 989)
+2025-05-27 12:22:55,400 [ERROR] Error using enhanced lesson generator: 'sources'
+2025-05-27 12:22:55,400 [INFO] Fetching Wikipedia information for maths/scince
+2025-05-27 12:22:55,401 [INFO] Loaded Wikipedia content from cache for maths/scince
+2025-05-27 12:22:55,401 [INFO] Found Wikipedia article: Sylhet Science And Technology College
+2025-05-27 12:22:55,401 [INFO] Checking Ollama service status...
+2025-05-27 12:22:57,471 [INFO] Ollama API is responding
+2025-05-27 12:22:57,471 [INFO] Ollama service is running.
+2025-05-27 12:22:57,510 [INFO] Trying to generate lesson using Ollama subprocess...
+2025-05-27 12:22:59,545 [INFO] Using Ollama model: deepseek-r1:1.5b
+2025-05-27 12:22:59,545 [INFO] Generating lesson with Ollama...
+2025-05-27 12:23:06,890 [INFO] Ollama output received. Length: 3567 characters
+2025-05-27 12:23:06,890 [INFO] Found and parsed JSON from text
+2025-05-27 12:23:06,890 [INFO] Successfully generated and validated lesson
+2025-05-27 12:23:06,890 [INFO] Successfully generated lesson with Ollama: Ancient Indian Wisdom on Science
+2025-05-27 12:23:06,891 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 30.6101s
+2025-05-27 12:23:32,329 [INFO] Using CPU for compute
+2025-05-27 12:23:32,391 [INFO] Using CPU for compute
+2025-05-27 12:24:01,013 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-27 12:24:01,014 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0010s
+2025-05-27 12:24:06,936 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:24:06,937 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 12:24:09,544 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:24:09,545 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 12:24:30,972 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:24:30,973 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 12:27:27,299 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-27 12:27:27,301 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0022s
+2025-05-27 12:27:37,816 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-27 12:27:37,816 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0000s
+2025-05-27 12:27:37,981 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-27 12:27:37,987 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0053s
+2025-05-27 12:28:08,477 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=helloa+&topic=dofmjd&user_id=3e7b836d-2f62-45fc-a0b3-8095c78e0ab0
+2025-05-27 12:28:08,478 [INFO] Generating lesson for subject: helloa , topic: dofmjd, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 12:28:08,678 [INFO] No lesson found for helloa /dofmjd in knowledge store
+2025-05-27 12:28:08,678 [INFO] Generating enhanced lesson for helloa /dofmjd
+2025-05-27 12:28:08,678 [INFO] Creating enhanced lesson for subject: helloa , topic: dofmjd
+2025-05-27 12:28:08,679 [INFO] No lesson found for helloa /dofmjd in knowledge store
+2025-05-27 12:28:09,497 [INFO] Wikipedia search for 'dofmjd in helloa ' returned 0 results
+2025-05-27 12:28:10,664 [INFO] Wikipedia search for 'dofmjd helloa  ancient India' returned 0 results
+2025-05-27 12:28:11,512 [INFO] Wikipedia search for 'dofmjd in ancient Indian helloa ' returned 0 results
+2025-05-27 12:28:12,341 [INFO] Wikipedia search for 'helloa  dofmjd' returned 0 results
+2025-05-27 12:28:14,418 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-27 12:28:24,652 [INFO] Successfully generated lesson with Ollama: The Path to Self-Essence: Dofkmt in Ayurveda
+2025-05-27 12:28:24,652 [INFO] Lesson on helloa /dofmjd saved to knowledge store
+2025-05-27 12:28:24,652 [INFO] Successfully generated enhanced lesson: The Path to Self-Essence: Dofkmt in Ayurveda
+2025-05-27 12:28:24,654 [INFO] Lesson on helloa /dofmjd saved to knowledge store
+2025-05-27 12:28:24,655 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=ved&topic=ayurved&include_wikipedia=true&use_knowledge_store=true
+2025-05-27 12:28:24,655 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 16.1777s
+2025-05-27 12:28:24,656 [INFO] Generating lesson for subject: ved, topic: ayurved, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 12:28:24,656 [INFO] Lesson on ved/ayurved retrieved from knowledge store
+2025-05-27 12:28:24,656 [INFO] Retrieved lesson from knowledge store for ved/ayurved
+2025-05-27 12:28:24,657 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 0.0020s
+2025-05-27 12:30:08,780 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 12:30:08,781 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 12:33:31,767 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 12:33:31,768 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 12:33:31,770 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 12:33:31,770 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0000s
+2025-05-27 12:39:10,086 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=sds&topic=dsd&user_id=3e7b836d-2f62-45fc-a0b3-8095c78e0ab0
+2025-05-27 12:39:10,087 [INFO] Generating lesson for subject: sds, topic: dsd, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 12:39:10,087 [INFO] No lesson found for sds/dsd in knowledge store
+2025-05-27 12:39:10,087 [INFO] Generating enhanced lesson for sds/dsd
+2025-05-27 12:39:10,087 [INFO] Creating enhanced lesson for subject: sds, topic: dsd
+2025-05-27 12:39:10,088 [INFO] No lesson found for sds/dsd in knowledge store
+2025-05-27 12:39:10,977 [INFO] Wikipedia search for 'dsd in sds' returned 5 results
+2025-05-27 12:39:11,914 [INFO] Wikipedia search for 'dsd sds ancient India' returned 0 results
+2025-05-27 12:39:12,756 [INFO] Wikipedia search for 'dsd in ancient Indian sds' returned 0 results
+2025-05-27 12:39:13,679 [INFO] Wikipedia search for 'sds dsd' returned 5 results
+2025-05-27 12:39:17,211 [INFO] Successfully fetched Wikipedia content for '2018 Slovenian parliamentary election'
+2025-05-27 12:39:17,212 [INFO] Saved Wikipedia content to cache for sds/dsd
+2025-05-27 12:39:19,294 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-27 12:39:30,642 [INFO] Successfully generated lesson with Ollama: The Core of Truth: Dharma Sutradoha in Sadratnamana
+2025-05-27 12:39:30,643 [INFO] Lesson on sds/dsd saved to knowledge store
+2025-05-27 12:39:30,643 [INFO] Successfully generated enhanced lesson: The Core of Truth: Dharma Sutradoha in Sadratnamana
+2025-05-27 12:39:30,644 [INFO] Lesson on sds/dsd saved to knowledge store
+2025-05-27 12:39:30,644 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 20.5585s
+2025-05-27 12:39:37,780 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 12:39:37,781 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 12:39:37,782 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0021s
+2025-05-27 12:39:37,782 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 12:39:42,200 [INFO] >>> HTTP REQUEST: GET /test_dummy - Query params: 
+2025-05-27 12:39:42,200 [INFO] <<< HTTP RESPONSE: GET /test_dummy - Status: 404 - Time: 0.0000s
+2025-05-27 12:39:42,750 [INFO] >>> HTTP REQUEST: GET /lecture_dummy - Query params: 
+2025-05-27 12:39:42,750 [INFO] <<< HTTP RESPONSE: GET /lecture_dummy - Status: 404 - Time: 0.0000s
+2025-05-27 12:39:49,859 [INFO] >>> HTTP REQUEST: GET /test_dummy - Query params: 
+2025-05-27 12:39:49,860 [INFO] <<< HTTP RESPONSE: GET /test_dummy - Status: 404 - Time: 0.0010s
+2025-05-27 12:39:50,820 [INFO] >>> HTTP REQUEST: GET /lecture_dummy - Query params: 
+2025-05-27 12:39:50,820 [INFO] <<< HTTP RESPONSE: GET /lecture_dummy - Status: 404 - Time: 0.0000s
+2025-05-27 12:39:59,223 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 12:39:59,224 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 12:39:59,224 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 12:39:59,225 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0013s
+2025-05-27 12:40:09,272 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 12:40:09,272 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 12:40:09,273 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 12:40:09,273 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 12:41:48,389 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=sds&topic=dsds&user_id=3e7b836d-2f62-45fc-a0b3-8095c78e0ab0
+2025-05-27 12:41:48,390 [INFO] Generating lesson for subject: sds, topic: dsds, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 12:41:48,390 [INFO] No lesson found for sds/dsds in knowledge store
+2025-05-27 12:41:48,390 [INFO] Generating enhanced lesson for sds/dsds
+2025-05-27 12:41:48,390 [INFO] Creating enhanced lesson for subject: sds, topic: dsds
+2025-05-27 12:41:48,391 [INFO] No lesson found for sds/dsds in knowledge store
+2025-05-27 12:41:49,258 [INFO] Wikipedia search for 'dsds in sds' returned 5 results
+2025-05-27 12:41:50,086 [INFO] Wikipedia search for 'dsds sds ancient India' returned 0 results
+2025-05-27 12:41:50,932 [INFO] Wikipedia search for 'dsds in ancient Indian sds' returned 0 results
+2025-05-27 12:41:51,806 [INFO] Wikipedia search for 'sds dsds' returned 5 results
+2025-05-27 12:41:55,192 [INFO] Successfully fetched Wikipedia content for 'United Left (Slovenia)'
+2025-05-27 12:41:55,194 [INFO] Saved Wikipedia content to cache for sds/dsds
+2025-05-27 12:41:57,325 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-27 12:42:05,977 [INFO] Successfully generated lesson with Ollama: The Ancient Indian Mathematical Concepts Within the Framework of S SDS
+2025-05-27 12:42:05,978 [INFO] Lesson on sds/dsds saved to knowledge store
+2025-05-27 12:42:05,978 [INFO] Successfully generated enhanced lesson: The Ancient Indian Mathematical Concepts Within the Framework of S SDS
+2025-05-27 12:42:05,979 [INFO] Lesson on sds/dsds saved to knowledge store
+2025-05-27 12:42:05,979 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 17.5908s
+2025-05-27 12:45:21,623 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 12:45:21,624 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 12:45:21,629 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 12:45:21,629 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0000s
+2025-05-27 12:45:27,318 [INFO] >>> HTTP REQUEST: GET /lecture_dummy - Query params: 
+2025-05-27 12:45:27,319 [INFO] <<< HTTP RESPONSE: GET /lecture_dummy - Status: 404 - Time: 0.0010s
+2025-05-27 12:45:27,756 [INFO] >>> HTTP REQUEST: GET /test_dummy - Query params: 
+2025-05-27 12:45:27,756 [INFO] <<< HTTP RESPONSE: GET /test_dummy - Status: 404 - Time: 0.0000s
+2025-05-27 12:47:49,797 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=sds&topic=dsds&user_id=3e7b836d-2f62-45fc-a0b3-8095c78e0ab0
+2025-05-27 12:47:49,798 [INFO] Generating lesson for subject: sds, topic: dsds, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 12:47:49,798 [INFO] Lesson on sds/dsds retrieved from knowledge store
+2025-05-27 12:47:49,798 [INFO] Retrieved lesson from knowledge store for sds/dsds
+2025-05-27 12:47:49,799 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 0.0020s
+2025-05-27 12:48:11,795 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=hindi&topic=english&user_id=3e7b836d-2f62-45fc-a0b3-8095c78e0ab0
+2025-05-27 12:48:11,796 [INFO] Generating lesson for subject: hindi, topic: english, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 12:48:11,796 [INFO] No lesson found for hindi/english in knowledge store
+2025-05-27 12:48:11,796 [INFO] Generating enhanced lesson for hindi/english
+2025-05-27 12:48:11,796 [INFO] Creating enhanced lesson for subject: hindi, topic: english
+2025-05-27 12:48:11,797 [INFO] No lesson found for hindi/english in knowledge store
+2025-05-27 12:48:12,844 [INFO] Wikipedia search for 'english in hindi' returned 5 results
+2025-05-27 12:48:13,819 [INFO] Wikipedia search for 'english hindi ancient India' returned 5 results
+2025-05-27 12:48:14,812 [INFO] Wikipedia search for 'english in ancient Indian hindi' returned 5 results
+2025-05-27 12:48:15,782 [INFO] Wikipedia search for 'hindi english' returned 5 results
+2025-05-27 12:48:19,979 [INFO] Successfully fetched Wikipedia content for 'Hindi'
+2025-05-27 12:48:19,981 [INFO] Saved Wikipedia content to cache for hindi/english
+2025-05-27 12:48:22,079 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-27 12:48:30,342 [INFO] Successfully generated lesson with Ollama:  hindu wisdom and its connection to modern language
+2025-05-27 12:48:30,343 [INFO] Lesson on hindi/english saved to knowledge store
+2025-05-27 12:48:30,343 [INFO] Successfully generated enhanced lesson:  hindu wisdom and its connection to modern language
+2025-05-27 12:48:30,344 [INFO] Lesson on hindi/english saved to knowledge store
+2025-05-27 12:48:30,344 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 18.5490s
+2025-05-27 12:48:51,322 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=hindi&topic=english&user_id=3e7b836d-2f62-45fc-a0b3-8095c78e0ab0
+2025-05-27 12:48:51,322 [INFO] Generating lesson for subject: hindi, topic: english, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 12:48:51,323 [INFO] Lesson on hindi/english retrieved from knowledge store
+2025-05-27 12:48:51,323 [INFO] Retrieved lesson from knowledge store for hindi/english
+2025-05-27 12:48:51,323 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 0.0013s
+2025-05-27 12:48:54,354 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=hindi&topic=english&user_id=3e7b836d-2f62-45fc-a0b3-8095c78e0ab0
+2025-05-27 12:48:54,355 [INFO] Generating lesson for subject: hindi, topic: english, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 12:48:54,355 [INFO] Lesson on hindi/english retrieved from knowledge store
+2025-05-27 12:48:54,355 [INFO] Retrieved lesson from knowledge store for hindi/english
+2025-05-27 12:48:54,356 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 0.0010s
+2025-05-27 12:51:50,876 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=hindi&topic=english&user_id=3e7b836d-2f62-45fc-a0b3-8095c78e0ab0
+2025-05-27 12:51:50,877 [INFO] Generating lesson for subject: hindi, topic: english, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 12:51:50,878 [INFO] Lesson on hindi/english retrieved from knowledge store
+2025-05-27 12:51:50,879 [INFO] Retrieved lesson from knowledge store for hindi/english
+2025-05-27 12:51:50,879 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 0.0030s
+2025-05-27 14:00:24,822 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:00:24,823 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:00:24,824 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0020s
+2025-05-27 14:00:24,824 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:00:27,290 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:00:27,290 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:00:27,291 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0011s
+2025-05-27 14:00:27,291 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0011s
+2025-05-27 14:00:29,730 [INFO] >>> HTTP REQUEST: GET /lecture_dummy - Query params: 
+2025-05-27 14:00:29,730 [INFO] <<< HTTP RESPONSE: GET /lecture_dummy - Status: 404 - Time: 0.0000s
+2025-05-27 14:00:30,157 [INFO] >>> HTTP REQUEST: GET /test_dummy - Query params: 
+2025-05-27 14:00:30,157 [INFO] <<< HTTP RESPONSE: GET /test_dummy - Status: 404 - Time: 0.0000s
+2025-05-27 14:20:42,591 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 14:20:42,591 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0000s
+2025-05-27 14:20:42,922 [INFO] >>> HTTP REQUEST: GET /favicon.ico - Query params: 
+2025-05-27 14:20:42,922 [INFO] <<< HTTP RESPONSE: GET /favicon.ico - Status: 404 - Time: 0.0000s
+2025-05-27 14:20:50,720 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 14:20:50,721 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 14:25:12,862 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:25:12,863 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:25:12,863 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:25:12,864 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 14:25:14,186 [INFO] >>> HTTP REQUEST: GET /lecture_dummy - Query params: 
+2025-05-27 14:25:14,187 [INFO] <<< HTTP RESPONSE: GET /lecture_dummy - Status: 404 - Time: 0.0010s
+2025-05-27 14:25:14,571 [INFO] >>> HTTP REQUEST: GET /test_dummy - Query params: 
+2025-05-27 14:25:14,572 [INFO] <<< HTTP RESPONSE: GET /test_dummy - Status: 404 - Time: 0.0011s
+2025-05-27 14:25:14,943 [INFO] >>> HTTP REQUEST: GET /lecture_dummy - Query params: 
+2025-05-27 14:25:14,944 [INFO] <<< HTTP RESPONSE: GET /lecture_dummy - Status: 404 - Time: 0.0000s
+2025-05-27 14:25:22,581 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:25:22,582 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:25:22,583 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0020s
+2025-05-27 14:25:22,583 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:25:28,359 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:25:28,360 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:25:28,360 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 14:25:28,361 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:26:04,258 [INFO] >>> HTTP REQUEST: GET /test_dummy - Query params: 
+2025-05-27 14:26:04,259 [INFO] <<< HTTP RESPONSE: GET /test_dummy - Status: 404 - Time: 0.0011s
+2025-05-27 14:26:05,242 [INFO] >>> HTTP REQUEST: GET /test_dummy - Query params: 
+2025-05-27 14:26:05,242 [INFO] <<< HTTP RESPONSE: GET /test_dummy - Status: 404 - Time: 0.0000s
+2025-05-27 14:26:06,842 [INFO] >>> HTTP REQUEST: GET /test_dummy - Query params: 
+2025-05-27 14:26:06,842 [INFO] <<< HTTP RESPONSE: GET /test_dummy - Status: 404 - Time: 0.0000s
+2025-05-27 14:26:08,698 [INFO] >>> HTTP REQUEST: GET /lecture_dummy - Query params: 
+2025-05-27 14:26:08,699 [INFO] <<< HTTP RESPONSE: GET /lecture_dummy - Status: 404 - Time: 0.0010s
+2025-05-27 14:26:09,712 [INFO] >>> HTTP REQUEST: GET /lecture_dummy - Query params: 
+2025-05-27 14:26:09,713 [INFO] <<< HTTP RESPONSE: GET /lecture_dummy - Status: 404 - Time: 0.0010s
+2025-05-27 14:26:11,378 [INFO] >>> HTTP REQUEST: GET /test_dummy - Query params: 
+2025-05-27 14:26:11,379 [INFO] <<< HTTP RESPONSE: GET /test_dummy - Status: 404 - Time: 0.0000s
+2025-05-27 14:26:12,031 [INFO] >>> HTTP REQUEST: GET /lecture_dummy - Query params: 
+2025-05-27 14:26:12,032 [INFO] <<< HTTP RESPONSE: GET /lecture_dummy - Status: 404 - Time: 0.0006s
+2025-05-27 14:26:14,881 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:26:14,882 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:26:14,882 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 14:26:14,883 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:27:12,993 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:27:12,994 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:27:12,995 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0022s
+2025-05-27 14:27:12,995 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 14:27:14,632 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:27:14,632 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:27:14,633 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 14:27:14,633 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:27:20,616 [INFO] >>> HTTP REQUEST: GET /test_dummy - Query params: 
+2025-05-27 14:27:20,617 [INFO] <<< HTTP RESPONSE: GET /test_dummy - Status: 404 - Time: 0.0013s
+2025-05-27 14:27:21,335 [INFO] >>> HTTP REQUEST: GET /lecture_dummy - Query params: 
+2025-05-27 14:27:21,335 [INFO] <<< HTTP RESPONSE: GET /lecture_dummy - Status: 404 - Time: 0.0000s
+2025-05-27 14:27:32,446 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:27:32,447 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 14:27:32,448 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:27:32,448 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:27:42,507 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:27:42,508 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0008s
+2025-05-27 14:27:42,522 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:27:42,522 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0000s
+2025-05-27 14:27:52,556 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:27:52,557 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:27:52,578 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:27:52,579 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 14:28:02,607 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:28:02,608 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0013s
+2025-05-27 14:28:02,635 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:28:02,635 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0000s
+2025-05-27 14:28:12,664 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:28:12,664 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0006s
+2025-05-27 14:28:12,696 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:28:12,696 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0000s
+2025-05-27 14:28:22,721 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:28:22,722 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0012s
+2025-05-27 14:28:22,747 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:28:22,747 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0000s
+2025-05-27 14:28:32,786 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:28:32,787 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0011s
+2025-05-27 14:28:32,810 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:28:32,810 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0000s
+2025-05-27 14:28:42,835 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:28:42,836 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:28:42,870 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:28:42,870 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0000s
+2025-05-27 14:28:52,892 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:28:52,893 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:28:52,918 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:28:52,918 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0000s
+2025-05-27 14:29:02,949 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:29:02,950 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:29:02,976 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:29:02,976 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0000s
+2025-05-27 14:29:12,999 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:29:13,000 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:29:13,029 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:29:13,029 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0000s
+2025-05-27 14:29:23,050 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:29:23,051 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:29:23,086 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:29:23,086 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0000s
+2025-05-27 14:29:33,109 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:29:33,110 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0011s
+2025-05-27 14:29:33,138 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:29:33,138 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0000s
+2025-05-27 14:29:43,164 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:29:43,165 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:29:43,192 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:29:43,192 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0000s
+2025-05-27 14:29:53,221 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:29:53,222 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:29:53,247 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:29:53,248 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 14:30:03,278 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:30:03,279 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0011s
+2025-05-27 14:30:03,310 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:30:03,311 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0011s
+2025-05-27 14:30:13,335 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:30:13,336 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0011s
+2025-05-27 14:30:13,361 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:30:13,361 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0000s
+2025-05-27 14:30:23,391 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:30:23,392 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:30:23,418 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:30:23,419 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 14:30:33,449 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:30:33,450 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0011s
+2025-05-27 14:30:33,485 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:30:33,485 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0000s
+2025-05-27 14:30:43,505 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:30:43,506 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:30:43,540 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:30:43,541 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 14:30:53,562 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:30:53,563 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:30:53,588 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:30:53,588 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0000s
+2025-05-27 14:31:04,059 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:31:04,060 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:31:04,060 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0014s
+2025-05-27 14:31:04,061 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 14:31:15,031 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:31:15,032 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:31:15,032 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 14:31:15,033 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:31:26,030 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:31:26,031 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:31:26,031 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-27 14:31:26,032 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:33:30,251 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-27 14:33:30,252 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0012s
+2025-05-27 14:33:30,252 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-27 14:33:30,253 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0010s
+2025-05-27 14:33:51,419 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 14:33:51,420 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 14:33:51,745 [INFO] >>> HTTP REQUEST: GET /favicon.ico - Query params: 
+2025-05-27 14:33:51,745 [INFO] <<< HTTP RESPONSE: GET /favicon.ico - Status: 404 - Time: 0.0000s
+2025-05-27 14:34:09,590 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=maths&topic=GEOMETRY&user_id=3e7b836d-2f62-45fc-a0b3-8095c78e0ab0
+2025-05-27 14:34:09,591 [INFO] Generating lesson for subject: maths, topic: GEOMETRY, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 14:34:09,592 [INFO] Lesson on maths/GEOMETRY retrieved from knowledge store
+2025-05-27 14:34:09,593 [INFO] Retrieved lesson from knowledge store for maths/GEOMETRY
+2025-05-27 14:34:09,593 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 0.0031s
+2025-05-27 14:34:14,771 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 14:34:14,772 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 14:34:58,924 [INFO] Using CPU for compute
+2025-05-27 14:34:59,250 [INFO] Using CPU for compute
+2025-05-27 14:35:10,480 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=MATHS&topic=GEOMETRY&user_id=3e7b836d-2f62-45fc-a0b3-8095c78e0ab0
+2025-05-27 14:35:10,481 [INFO] Generating lesson for subject: MATHS, topic: GEOMETRY, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 14:35:11,149 [INFO] Lesson on MATHS/GEOMETRY retrieved from knowledge store
+2025-05-27 14:35:11,149 [INFO] Retrieved lesson from knowledge store for MATHS/GEOMETRY
+2025-05-27 14:35:11,150 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 0.6701s
+2025-05-27 14:35:16,291 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 14:35:16,292 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0014s
+2025-05-27 14:36:05,499 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 14:36:05,500 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 14:36:11,018 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 14:36:11,019 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 14:36:11,755 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 14:36:11,756 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 14:36:12,363 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 14:36:12,364 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 14:36:12,698 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 14:36:12,699 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 14:36:12,898 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 14:36:12,899 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0008s
+2025-05-27 14:37:14,425 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-27 14:37:14,426 [INFO] Generating lesson for subject: string, topic: string, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 14:37:14,427 [INFO] No lesson found for string/string in knowledge store
+2025-05-27 14:37:14,427 [INFO] Generating enhanced lesson for string/string
+2025-05-27 14:37:14,427 [INFO] Creating enhanced lesson for subject: string, topic: string
+2025-05-27 14:37:14,427 [INFO] No lesson found for string/string in knowledge store
+2025-05-27 14:37:15,473 [INFO] Wikipedia search for 'string in string' returned 5 results
+2025-05-27 14:37:16,512 [INFO] Wikipedia search for 'string string ancient India' returned 5 results
+2025-05-27 14:37:17,525 [INFO] Wikipedia search for 'string in ancient Indian string' returned 5 results
+2025-05-27 14:37:18,480 [INFO] Wikipedia search for 'string string' returned 5 results
+2025-05-27 14:37:20,249 [ERROR] Page error for 'String theory': Page id "strong theory" does not match any pages. Try another id!
+2025-05-27 14:37:22,381 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-27 14:37:34,886 [INFO] Successfully generated lesson with Ollama: The Core of Ancient Vedic Wisdom: The Art of Strings
+2025-05-27 14:37:34,887 [INFO] Lesson on string/string saved to knowledge store
+2025-05-27 14:37:34,887 [INFO] Successfully generated enhanced lesson: The Core of Ancient Vedic Wisdom: The Art of Strings
+2025-05-27 14:37:34,888 [INFO] Lesson on string/string saved to knowledge store
+2025-05-27 14:37:34,889 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 20.4645s
+2025-05-27 14:37:35,995 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 14:37:35,996 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s

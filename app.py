@@ -246,15 +246,30 @@ async def llm_status():
 
 @app.get("/generate_lesson", response_model=LessonResponse)
 async def generate_lesson_endpoint(
-    subject: str = Query(..., description="Subject of the lesson (e.g., Ved, Ganita, Yoga)"),
-    topic: str = Query(..., description="Topic of the lesson (e.g., Sound, Mathematics, Meditation)"),
+    subject: str = Query(..., description="Subject of the lesson (e.g., Ved, Ganita, Yoga)", example="ved"),
+    topic: str = Query(..., description="Topic of the lesson (e.g., Sound, Mathematics, Meditation)", example="ayurved"),
     include_wikipedia: bool = Query(True, description="Whether to include Wikipedia information in the response"),
     use_knowledge_store: bool = Query(True, description="Whether to use the knowledge store for retrieving/saving lessons")
 ):
     """
     Generate a structured lesson based on subject and topic
+
+    Example usage:
+    GET /generate_lesson?subject=ved&topic=ayurved&include_wikipedia=true&use_knowledge_store=true
     """
     try:
+        # Validate required parameters
+        if not subject or not topic:
+            raise HTTPException(
+                status_code=400,
+                detail={
+                    "message": "Both 'subject' and 'topic' parameters are required",
+                    "example": "/generate_lesson?subject=ved&topic=ayurved",
+                    "available_subjects": ["ved", "ganita", "yoga", "ayurveda"],
+                    "example_topics": ["sound", "algebra", "asana", "doshas"]
+                }
+            )
+
         logger.info(f"Generating lesson for subject: {subject}, topic: {topic}, include_wikipedia: {include_wikipedia}, use_knowledge_store: {use_knowledge_store}")
         lesson = None
         error_messages = []
@@ -621,5 +636,5 @@ async def search_lessons(query: str = Query(..., description="Search query")):
 if __name__ == "__main__":
     import uvicorn
     # Try with localhost and a different port
-    print("Starting server on http://127.0.0.1:8090")
-    uvicorn.run("app:app", host="127.0.0.1", port=8090, reload=False)
+    print("Starting server on http://192.168.0.73:8000")
+    uvicorn.run("app:app", host="192.168.0.73", port=8000, reload=False)

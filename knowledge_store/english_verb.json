@@ -1,0 +1,31 @@
+{
+  "subject": "english",
+  "topic": "verb",
+  "title": "Inner Verbal Force of Reasoning",
+  "shloka": "Vasisthāra Āniruddha: Yūsobo vēkārakrambōrdha. Čaraṇa bhyātān naresha vishvega.",
+  "translation": "The inner force of reasoning is the force that speaks through speech and reason itself.",
+  "explanation": "In ancient Indian wisdom, the verb within the subject refers to the inner force or the mental tool used in thinking and reasoning. This force is not merely logical but is a powerful tool for growth and self-realization. It allows individuals to understand concepts deeply, make connections, and navigate life with greater clarity. This concept draws from Vedic philosophy, where wisdom often involves understanding oneself through words and ideas, much like how we grow mindfully through our thoughts and reasoning.",
+  "activity": "Group activity: Each student pairs up with a partner. One person discusses the importance of specific verbs in daily communication, while the other reflects on how these verbs symbolize growth and self-awareness in their own lives.",
+  "question": "In your view, which verb from your daily interactions stands out as the most powerful? Why does it resonate with you?",
+  "wikipedia_info": {
+    "title": "English verbs",
+    "summary": "Verbs constitute one of the main parts of speech (word classes) in the English language. Like other types of words in the language, English verbs are not heavily inflected. Most combinations of tense, aspect, mood and voice are expressed periphrastically, using constructions with auxiliary verbs.\nGenerally, the only inflected forms of an English verb are a third person singular present tense form ending in -s, a past tense (also called preterite), a past participle (which may be the same as the past tense), and a form ending in -ing that serves as a present participle and gerund. Most verbs inflect in a simple regular fashion, although there are about 200 irregular verbs; the irregularity in nearly all cases concerns the past tense and past participle forms. The copula verb be has a larger number of different inflected forms, and is highly irregular.\nAlthough many of the most commonly used verbs in English (and almost all the irregular verbs) come from Old English, many others are taken from Latin or French. Nouns or adjectives can become verbs (see Conversion (word formation)). Adjectives like \"separate\" and \"direct\" thus became verbs, starting in the 16th century, and eventually it became standard practice to form verbs from Latin passive participles, even if the adjective didn't exist. Sometimes verbs were formed from Latin roots that were not verbs by adding \"-ate\" (such as \"capacitate\"), or from French words (such as \"isolate\" from French \"isoler\").\nFor details of the uses of particular verb tenses and other forms, see the article Uses of English verb forms.\n\n",
+    "url": "https://en.wikipedia.org/wiki/English_verbs",
+    "related_articles": [
+      "English irregular verbs",
+      "English modal auxiliary verbs",
+      "English phrasal verbs",
+      "English auxiliary verbs"
+    ]
+  },
+  "sources": [
+    "Wikipedia",
+    "Ollama (deepseek-r1:1.5b)"
+  ],
+  "wikipedia_summary": "Verbs constitute one of the main parts of speech (word classes) in the English language. Like other types of words in the language, English verbs are not heavily inflected. Most combinations of tense, aspect, mood and voice are expressed periphrastically, using constructions with auxiliary verbs.",
+  "metadata": {
+    "timestamp": 1748328189.8741324,
+    "date_created": "2025-05-27T12:13:09.874132",
+    "version": "1.0"
+  }
+}

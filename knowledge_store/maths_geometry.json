@@ -1,0 +1,31 @@
+{
+  "subject": "maths",
+  "topic": "geometry",
+  "title": "The title of the lesson",
+  "shloka": "Shloka from ancient Indian wisdom related to geometry: 'Amaanarama maanam, samadhi niyanavaam, vishistama niyaavayet. Pali naanam, manjanaanam, chandramita niyaavayet.'",
+  "translation": "Amaanarama maanam, samadhi niyanavaam, vishistama niyaavayet. Pali naanam, manjanaanam, chandramita niyaavayet.",
+  "explanation": "This shloka from ancient Indian wisdom teaches us about the beauty and harmony in geometric forms. It suggests that circles (Amaanarama) are infinite, squares (Pali) represent limits, and triangles (Manjanaanam) denote balance. The concept of samadhi (sameness) is also emphasized, indicating that all forms can coexist harmoniously. This connects to ancient Vedic principles of harmony and proportion, which influence our understanding of geometry today.",
+  "activity": "Have students draw circles, squares, and triangles on paper and discuss how these shapes symbolize infinity, limits, and balance as per the shloka.",
+  "question": "How has ancient Indian wisdom shaped your understanding of geometry? Does geometry still resonate with you in its principles or practical applications?",
+  "wikipedia_info": {
+    "title": "Hyperbolic geometry",
+    "summary": "In mathematics, hyperbolic geometry (also called Lobachevskian geometry or Bolyai–Lobachevskian geometry) is a non-Euclidean geometry. The parallel postulate of Euclidean geometry is replaced with:\n\nFor any given line R and point P not on R, in the plane containing both line R and point P there are at least two distinct lines through P that do not intersect R.\n(Compare the above with Playfair's axiom, the modern version of Euclid's parallel postulate.)\nThe hyperbolic plane is a plane where every point is a saddle point. \nHyperbolic plane geometry is also the geometry of pseudospherical surfaces, surfaces with a constant negative Gaussian curvature. Saddle surfaces have negative Gaussian curvature in at least some regions, where they locally resemble the hyperbolic plane.\nThe hyperboloid model of hyperbolic geometry provides a representation of events one temporal unit into the future in Minkowski space, the basis of special relativity. Each of these events corresponds to a rapidity in some direction.\nWhen geometers first realised they were working with something other than the standard Euclidean geometry, they described their geometry under many different names; Felix Klein finally gave the subject the name hyperbolic geometry to include it in the now rarely used sequence elliptic geometry (spherical geometry), parabolic geometry (Euclidean geometry), and hyperbolic geometry.\nIn the former Soviet Union, it is commonly called Lobachevskian geometry, named after one of its discoverers, the Russian geometer Nikolai Lobachevsky.\n\n",
+    "url": "https://en.wikipedia.org/wiki/Hyperbolic_geometry",
+    "related_articles": [
+      "Geometry",
+      "SageMath",
+      "Journal of Geometry",
+      "Babylonian mathematics"
+    ]
+  },
+  "sources": [
+    "Wikipedia",
+    "Ollama (deepseek-r1:1.5b)"
+  ],
+  "wikipedia_summary": "In mathematics, hyperbolic geometry (also called Lobachevskian geometry or Bolyai–Lobachevskian geometry) is a non-Euclidean geometry. The parallel postulate of Euclidean geometry is replaced with:",
+  "metadata": {
+    "timestamp": 1748328462.9190671,
+    "date_created": "2025-05-27T12:17:42.919067",
+    "version": "1.0"
+  }
+}
