@@ -1,0 +1,31 @@
+{
+  "subject": "english",
+  "topic": "verbs",
+  "title": "Understanding Ancient Indian Mathematics",
+  "shloka": "Vedasamhita Shloka: 'Vedasamhita, Triyogshastra, Samya-vargana, Anuvargana, Urdhva-Vyala, Upasambhasha, Bhagya-samati.'",
+  "translation": "The Shloka from the Veda text 'Vedasamhita' stating the values of numbers and shapes.",
+  "explanation": "In ancient India, mathematics was viewed as a fundamental tool for understanding the universe. The concept of 3 (tri) symbolized completeness and wholeness. Numbers were not just abstract concepts but were used to measure quantities and structures. Geometric shapes like triangles and squares represented order and balance. The Shloka from 'Vedasamhita' highlights how ancient mathematicians explored numbers and shapes, emphasizing their roles in the cosmos and practical applications.",
+  "activity": "Have students draw geometric shapes using traditional art techniques to understand concepts like triangles for strength or circles for completeness.",
+  "question": "How did ancient Indian mathematics differ from modern standards? What is the significance of numbers and shapes in ancient mathematical practices?",
+  "wikipedia_info": {
+    "title": "English verbs",
+    "summary": "Verbs constitute one of the main parts of speech (word classes) in the English language. Like other types of words in the language, English verbs are not heavily inflected. Most combinations of tense, aspect, mood and voice are expressed periphrastically, using constructions with auxiliary verbs.\nGenerally, the only inflected forms of an English verb are a third person singular present tense form ending in -s, a past tense (also called preterite), a past participle (which may be the same as the past tense), and a form ending in -ing that serves as a present participle and gerund. Most verbs inflect in a simple regular fashion, although there are about 200 irregular verbs; the irregularity in nearly all cases concerns the past tense and past participle forms. The copula verb be has a larger number of different inflected forms, and is highly irregular.\nAlthough many of the most commonly used verbs in English (and almost all the irregular verbs) come from Old English, many others are taken from Latin or French. Nouns or adjectives can become verbs (see Conversion (word formation)). Adjectives like \"separate\" and \"direct\" thus became verbs, starting in the 16th century, and eventually it became standard practice to form verbs from Latin passive participles, even if the adjective didn't exist. Sometimes verbs were formed from Latin roots that were not verbs by adding \"-ate\" (such as \"capacitate\"), or from French words (such as \"isolate\" from French \"isoler\").\nFor details of the uses of particular verb tenses and other forms, see the article Uses of English verb forms.",
+    "url": "https://en.wikipedia.org/wiki/English_verbs",
+    "related_articles": [
+      "English auxiliary verbs",
+      "English irregular verbs",
+      "English modal auxiliary verbs",
+      "English phrasal verbs"
+    ]
+  },
+  "sources": [
+    "Wikipedia",
+    "Ollama (deepseek-r1:1.5b)"
+  ],
+  "wikipedia_summary": "Verbs constitute one of the main parts of speech (word classes) in the English language. Like other types of words in the language, English verbs are not heavily inflected. Most combinations of tense, aspect, mood and voice are expressed periphrastically, using constructions with auxiliary verbs.",
+  "metadata": {
+    "timestamp": 1748510749.0475495,
+    "date_created": "2025-05-29T14:55:49.047549",
+    "version": "1.0"
+  }
+}

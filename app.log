@@ -4641,3 +4641,415 @@ I should make sure the content is authentic and respectful of tradition while be
 2025-05-27 14:37:34,889 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 20.4645s
 2025-05-27 14:37:35,995 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
 2025-05-27 14:37:35,996 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 422 - Time: 0.0010s
+2025-05-27 14:39:03,237 [INFO] Using CPU for compute
+2025-05-27 14:39:03,290 [INFO] Using CPU for compute
+2025-05-27 14:40:44,212 [INFO] Using CPU for compute
+2025-05-27 14:40:44,278 [INFO] Using CPU for compute
+2025-05-27 14:40:48,468 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 14:40:48,469 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 405 - Time: 0.0010s
+2025-05-27 14:40:49,313 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: 
+2025-05-27 14:40:49,314 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 405 - Time: 0.0010s
+2025-05-27 14:40:57,602 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=english&topic=grammer&user_id=3e7b836d-2f62-45fc-a0b3-8095c78e0ab0
+2025-05-27 14:40:57,603 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 405 - Time: 0.0011s
+2025-05-27 14:41:11,646 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=MATHS&topic=GEOMETRY&user_id=3e7b836d-2f62-45fc-a0b3-8095c78e0ab0
+2025-05-27 14:41:11,647 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 405 - Time: 0.0010s
+2025-05-27 14:41:23,769 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-27 14:41:23,770 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0010s
+2025-05-27 14:41:24,040 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-27 14:41:24,046 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0062s
+2025-05-27 14:41:51,509 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-27 14:45:15,692 [INFO] Using CPU for compute
+2025-05-27 14:45:15,752 [INFO] Using CPU for compute
+2025-05-27 14:45:22,756 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-27 14:45:22,757 [INFO] Generating lesson for subject: maths, topic: algebra, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 14:45:22,953 [INFO] Lesson on maths/algebra retrieved from knowledge store
+2025-05-27 14:45:22,953 [INFO] Retrieved lesson from knowledge store for maths/algebra
+2025-05-27 14:45:22,954 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.1975s
+2025-05-27 14:45:54,577 [INFO] Using CPU for compute
+2025-05-27 14:45:54,634 [INFO] Using CPU for compute
+2025-05-27 14:46:07,985 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-27 14:46:07,985 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0000s
+2025-05-27 14:46:08,268 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-27 14:46:08,273 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0051s
+2025-05-27 14:47:01,472 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-27 14:47:01,474 [INFO] Generating lesson for subject: maths, topic: algebra, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 14:47:01,652 [INFO] Lesson on maths/algebra retrieved from knowledge store
+2025-05-27 14:47:01,653 [INFO] Retrieved lesson from knowledge store for maths/algebra
+2025-05-27 14:47:01,653 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.1816s
+2025-05-27 14:48:22,363 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=ved&topic=ayurved&include_wikipedia=true&use_knowledge_store=true
+2025-05-27 14:48:22,364 [INFO] Generating lesson for subject: ved, topic: ayurved, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 14:48:22,365 [INFO] Lesson on ved/ayurved retrieved from knowledge store
+2025-05-27 14:48:22,366 [INFO] Retrieved lesson from knowledge store for ved/ayurved
+2025-05-27 14:48:22,367 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 0.0040s
+2025-05-27 14:49:49,608 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=ved&topic=ayurved&include_wikipedia=true&use_knowledge_store=true
+2025-05-27 14:49:49,608 [INFO] Generating lesson for subject: ved, topic: ayurved, include_wikipedia: True, use_knowledge_store: True
+2025-05-27 14:49:49,609 [INFO] Lesson on ved/ayurved retrieved from knowledge store
+2025-05-27 14:49:49,609 [INFO] Retrieved lesson from knowledge store for ved/ayurved
+2025-05-27 14:49:49,609 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 0.0010s
+2025-05-29 11:37:41,357 [INFO] Using CPU for compute
+2025-05-29 11:37:41,851 [INFO] Using CPU for compute
+2025-05-29 11:44:26,120 [INFO] Using CPU for compute
+2025-05-29 11:44:26,185 [INFO] Using CPU for compute
+2025-05-29 11:45:14,232 [INFO] Using CPU for compute
+2025-05-29 11:45:14,293 [INFO] Using CPU for compute
+2025-05-29 11:45:23,343 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-29 11:45:23,345 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0015s
+2025-05-29 11:45:23,368 [INFO] >>> HTTP REQUEST: GET /favicon.ico - Query params: 
+2025-05-29 11:45:23,369 [INFO] <<< HTTP RESPONSE: GET /favicon.ico - Status: 404 - Time: 0.0010s
+2025-05-29 11:45:35,674 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-29 11:45:35,674 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0000s
+2025-05-29 11:45:47,238 [INFO] >>> HTTP REQUEST: GET /lessons/ved/sound - Query params: 
+2025-05-29 11:45:47,239 [INFO] Retrieving lesson for subject: ved, topic: sound
+2025-05-29 11:45:47,240 [INFO] No lesson found for ved/sound in knowledge store
+2025-05-29 11:45:47,241 [INFO] <<< HTTP RESPONSE: GET /lessons/ved/sound - Status: 404 - Time: 0.0034s
+2025-05-29 11:46:04,883 [INFO] >>> HTTP REQUEST: GET /lessons/ved/sound - Query params: 
+2025-05-29 11:46:04,884 [INFO] Retrieving lesson for subject: ved, topic: sound
+2025-05-29 11:46:04,884 [INFO] No lesson found for ved/sound in knowledge store
+2025-05-29 11:46:04,885 [INFO] <<< HTTP RESPONSE: GET /lessons/ved/sound - Status: 404 - Time: 0.0025s
+2025-05-29 11:46:44,012 [INFO] >>> HTTP REQUEST: GET /lessons/veda/sound - Query params: 
+2025-05-29 11:46:44,013 [INFO] Retrieving lesson for subject: veda, topic: sound
+2025-05-29 11:46:44,013 [INFO] Lesson on veda/sound retrieved from knowledge store
+2025-05-29 11:46:44,013 [INFO] Successfully retrieved lesson: The Sacred Sound in Vedic Tradition
+2025-05-29 11:46:44,013 [INFO] <<< HTTP RESPONSE: GET /lessons/veda/sound - Status: 200 - Time: 0.0015s
+2025-05-29 11:46:54,631 [INFO] >>> HTTP REQUEST: GET /lessons/Veda/Sound - Query params: 
+2025-05-29 11:46:54,632 [INFO] Retrieving lesson for subject: Veda, topic: Sound
+2025-05-29 11:46:54,633 [INFO] Lesson on Veda/Sound retrieved from knowledge store
+2025-05-29 11:46:54,633 [INFO] Successfully retrieved lesson: The Sacred Sound in Vedic Tradition
+2025-05-29 11:46:54,633 [INFO] <<< HTTP RESPONSE: GET /lessons/Veda/Sound - Status: 200 - Time: 0.0021s
+2025-05-29 11:46:58,721 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-29 11:46:58,722 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0010s
+2025-05-29 11:46:58,869 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-29 11:46:58,874 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0050s
+2025-05-29 11:47:44,905 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-29 11:47:44,905 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0000s
+2025-05-29 11:47:44,909 [INFO] >>> HTTP REQUEST: GET /lessons/Veda/Sound - Query params: 
+2025-05-29 11:47:44,909 [INFO] Retrieving lesson for subject: Veda, topic: Sound
+2025-05-29 11:47:44,910 [INFO] Lesson on Veda/Sound retrieved from knowledge store
+2025-05-29 11:47:44,910 [INFO] Successfully retrieved lesson: The Sacred Sound in Vedic Tradition
+2025-05-29 11:47:44,910 [INFO] <<< HTTP RESPONSE: GET /lessons/Veda/Sound - Status: 200 - Time: 0.0010s
+2025-05-29 11:47:44,913 [INFO] >>> HTTP REQUEST: GET /lessons/nonexistent/topic - Query params: 
+2025-05-29 11:47:44,915 [INFO] Retrieving lesson for subject: nonexistent, topic: topic
+2025-05-29 11:47:44,915 [INFO] No lesson found for nonexistent/topic in knowledge store
+2025-05-29 11:47:44,915 [INFO] <<< HTTP RESPONSE: GET /lessons/nonexistent/topic - Status: 404 - Time: 0.0011s
+2025-05-29 11:47:44,918 [INFO] >>> HTTP REQUEST: POST /lessons - Query params: 
+2025-05-29 11:47:44,919 [INFO] Creating lesson for subject: yoga, topic: test_topic_1748499464, user: test_user_123
+2025-05-29 11:47:44,919 [INFO] No lesson found for yoga/test_topic_1748499464 in knowledge store
+2025-05-29 11:47:45,344 [INFO] Generating enhanced lesson for yoga/test_topic_1748499464
+2025-05-29 11:47:45,344 [INFO] Creating enhanced lesson for subject: yoga, topic: test_topic_1748499464
+2025-05-29 11:47:45,346 [INFO] No lesson found for yoga/test_topic_1748499464 in knowledge store
+2025-05-29 11:47:46,213 [INFO] Wikipedia search for 'test_topic_1748499464 in yoga' returned 0 results
+2025-05-29 11:47:47,061 [INFO] Wikipedia search for 'test_topic_1748499464 yoga ancient India' returned 0 results
+2025-05-29 11:47:47,910 [INFO] Wikipedia search for 'test_topic_1748499464 in ancient Indian yoga' returned 0 results
+2025-05-29 11:47:48,792 [INFO] Wikipedia search for 'yoga test_topic_1748499464' returned 0 results
+2025-05-29 11:47:49,628 [INFO] Wikipedia search for 'test_topic_1748499464 in Yoga' returned 0 results
+2025-05-29 11:47:50,458 [INFO] Wikipedia search for 'Yoga test_topic_1748499464' returned 0 results
+2025-05-29 11:47:54,563 [ERROR] Error checking Ollama service: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000210CB2A5250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-05-29 11:47:54,563 [WARNING] Ollama service is not available. Using fallback content.
+2025-05-29 11:47:54,563 [ERROR] Error using enhanced lesson generator: 'sources'
+2025-05-29 11:47:54,563 [INFO] Generating lesson for subject: yoga, topic: test_topic_1748499464, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 11:47:54,564 [INFO] No lesson found for yoga/test_topic_1748499464 in knowledge store
+2025-05-29 11:47:54,564 [INFO] Generating enhanced lesson for yoga/test_topic_1748499464
+2025-05-29 11:47:54,564 [INFO] Creating enhanced lesson for subject: yoga, topic: test_topic_1748499464
+2025-05-29 11:47:54,564 [INFO] No lesson found for yoga/test_topic_1748499464 in knowledge store
+2025-05-29 11:47:54,564 [INFO] Wikipedia search for 'test_topic_1748499464 in yoga' returned 0 results
+2025-05-29 11:47:54,564 [INFO] Wikipedia search for 'test_topic_1748499464 yoga ancient India' returned 0 results
+2025-05-29 11:47:54,565 [INFO] Wikipedia search for 'test_topic_1748499464 in ancient Indian yoga' returned 0 results
+2025-05-29 11:47:54,565 [INFO] Wikipedia search for 'yoga test_topic_1748499464' returned 0 results
+2025-05-29 11:47:54,565 [INFO] Wikipedia search for 'test_topic_1748499464 in Yoga' returned 0 results
+2025-05-29 11:47:54,565 [INFO] Wikipedia search for 'Yoga test_topic_1748499464' returned 0 results
+2025-05-29 11:47:58,651 [ERROR] Error checking Ollama service: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000210CB34D250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-05-29 11:47:58,651 [WARNING] Ollama service is not available. Using fallback content.
+2025-05-29 11:47:58,651 [ERROR] Error using enhanced lesson generator: 'sources'
+2025-05-29 11:47:58,651 [INFO] Fetching Wikipedia information for yoga/test_topic_1748499464
+2025-05-29 11:47:58,652 [INFO] Wikipedia search for 'test_topic_1748499464 in yoga' returned 0 results
+2025-05-29 11:47:58,652 [INFO] Wikipedia search for 'test_topic_1748499464 yoga ancient India' returned 0 results
+2025-05-29 11:47:58,652 [INFO] Wikipedia search for 'test_topic_1748499464 in ancient Indian yoga' returned 0 results
+2025-05-29 11:47:58,652 [INFO] Wikipedia search for 'yoga test_topic_1748499464' returned 0 results
+2025-05-29 11:47:58,652 [INFO] Wikipedia search for 'test_topic_1748499464 in Yoga' returned 0 results
+2025-05-29 11:47:58,652 [INFO] Wikipedia search for 'Yoga test_topic_1748499464' returned 0 results
+2025-05-29 11:47:58,652 [WARNING] No Wikipedia information found for yoga/test_topic_1748499464
+2025-05-29 11:47:58,653 [INFO] Checking Ollama service status...
+2025-05-29 11:49:09,488 [INFO] Using CPU for compute
+2025-05-29 11:49:09,545 [INFO] Using CPU for compute
+2025-05-29 11:50:19,747 [INFO] Using CPU for compute
+2025-05-29 11:50:19,808 [INFO] Using CPU for compute
+2025-05-29 11:50:25,731 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-29 11:50:25,733 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0013s
+2025-05-29 11:50:25,750 [INFO] >>> HTTP REQUEST: GET /favicon.ico - Query params: 
+2025-05-29 11:50:25,751 [INFO] <<< HTTP RESPONSE: GET /favicon.ico - Status: 404 - Time: 0.0010s
+2025-05-29 11:50:46,880 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-29 11:50:46,881 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0010s
+2025-05-29 11:50:46,993 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-29 11:50:47,000 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0063s
+2025-05-29 11:51:17,050 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-29 11:51:17,051 [INFO] Generating lesson for subject: maths, topic: circle, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 11:51:17,242 [INFO] Lesson on maths/circle retrieved from knowledge store
+2025-05-29 11:51:17,242 [INFO] Retrieved lesson from knowledge store for maths/circle
+2025-05-29 11:51:17,243 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.1936s
+2025-05-29 11:51:20,832 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-29 11:51:20,833 [INFO] Generating lesson for subject: maths, topic: circle, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 11:51:20,833 [INFO] Lesson on maths/circle retrieved from knowledge store
+2025-05-29 11:51:20,833 [INFO] Retrieved lesson from knowledge store for maths/circle
+2025-05-29 11:51:20,834 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.0020s
+2025-05-29 11:51:23,212 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-29 11:51:23,213 [INFO] Generating lesson for subject: maths, topic: circle, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 11:51:23,213 [INFO] Lesson on maths/circle retrieved from knowledge store
+2025-05-29 11:51:23,214 [INFO] Retrieved lesson from knowledge store for maths/circle
+2025-05-29 11:51:23,214 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.0020s
+2025-05-29 11:51:24,140 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-29 11:51:24,141 [INFO] Generating lesson for subject: maths, topic: circle, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 11:51:24,142 [INFO] Lesson on maths/circle retrieved from knowledge store
+2025-05-29 11:51:24,142 [INFO] Retrieved lesson from knowledge store for maths/circle
+2025-05-29 11:51:24,142 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.0020s
+2025-05-29 11:51:26,163 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-29 11:51:26,164 [INFO] Generating lesson for subject: maths, topic: circle, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 11:51:26,164 [INFO] Lesson on maths/circle retrieved from knowledge store
+2025-05-29 11:51:26,164 [INFO] Retrieved lesson from knowledge store for maths/circle
+2025-05-29 11:51:26,164 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.0010s
+2025-05-29 11:51:26,451 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-29 11:51:26,451 [INFO] Generating lesson for subject: maths, topic: circle, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 11:51:26,452 [INFO] Lesson on maths/circle retrieved from knowledge store
+2025-05-29 11:51:26,452 [INFO] Retrieved lesson from knowledge store for maths/circle
+2025-05-29 11:51:26,453 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.0031s
+2025-05-29 11:51:26,716 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-29 11:51:26,717 [INFO] Generating lesson for subject: maths, topic: circle, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 11:51:26,717 [INFO] Lesson on maths/circle retrieved from knowledge store
+2025-05-29 11:51:26,717 [INFO] Retrieved lesson from knowledge store for maths/circle
+2025-05-29 11:51:26,718 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.0022s
+2025-05-29 11:51:26,978 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-29 11:51:26,979 [INFO] Generating lesson for subject: maths, topic: circle, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 11:51:26,979 [INFO] Lesson on maths/circle retrieved from knowledge store
+2025-05-29 11:51:26,979 [INFO] Retrieved lesson from knowledge store for maths/circle
+2025-05-29 11:51:26,981 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.0023s
+2025-05-29 11:51:27,489 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-29 11:51:27,490 [INFO] Generating lesson for subject: maths, topic: circle, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 11:51:27,490 [INFO] Lesson on maths/circle retrieved from knowledge store
+2025-05-29 11:51:27,490 [INFO] Retrieved lesson from knowledge store for maths/circle
+2025-05-29 11:51:27,492 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.0022s
+2025-05-29 11:59:35,009 [INFO] Using CPU for compute
+2025-05-29 11:59:35,070 [INFO] Using CPU for compute
+2025-05-29 12:00:06,987 [INFO] Using CPU for compute
+2025-05-29 12:00:07,050 [INFO] Using CPU for compute
+2025-05-29 12:07:43,074 [INFO] Using CPU for compute
+2025-05-29 12:07:43,433 [INFO] Using CPU for compute
+2025-05-29 12:18:06,520 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-29 12:18:06,521 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0010s
+2025-05-29 12:18:13,993 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-29 12:18:13,995 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0013s
+2025-05-29 12:18:14,046 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-29 12:18:14,052 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0061s
+2025-05-29 14:15:49,913 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-29 14:15:49,914 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0010s
+2025-05-29 14:15:55,587 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-29 14:15:55,588 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0010s
+2025-05-29 14:15:55,639 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-29 14:15:55,640 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0010s
+2025-05-29 14:16:48,499 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=ved&topic=arthashastra&include_wikipedia=true&use_knowledge_store=true
+2025-05-29 14:16:48,499 [INFO] Generating lesson for subject: ved, topic: arthashastra, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 14:16:49,170 [INFO] No lesson found for ved/arthashastra in knowledge store
+2025-05-29 14:16:49,170 [INFO] Generating enhanced lesson for ved/arthashastra
+2025-05-29 14:16:49,171 [INFO] Creating enhanced lesson for subject: ved, topic: arthashastra
+2025-05-29 14:16:49,171 [INFO] No lesson found for ved/arthashastra in knowledge store
+2025-05-29 14:16:50,129 [INFO] Wikipedia search for 'arthashastra in ved' returned 5 results
+2025-05-29 14:16:51,097 [INFO] Wikipedia search for 'arthashastra ved ancient India' returned 5 results
+2025-05-29 14:16:52,080 [INFO] Wikipedia search for 'arthashastra in ancient Indian ved' returned 5 results
+2025-05-29 14:16:52,966 [INFO] Wikipedia search for 'ved arthashastra' returned 5 results
+2025-05-29 14:16:53,866 [INFO] Wikipedia search for 'arthashastra in Vedas' returned 5 results
+2025-05-29 14:16:54,810 [INFO] Wikipedia search for 'Vedas arthashastra' returned 5 results
+2025-05-29 14:16:58,983 [INFO] Successfully fetched Wikipedia content for 'Vyasa'
+2025-05-29 14:16:58,984 [INFO] Saved Wikipedia content to cache for ved/arthashastra
+2025-05-29 14:17:01,124 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-29 14:17:10,532 [INFO] Successfully generated lesson with Ollama: A Modest Mind Is Better Than An Inflated One
+2025-05-29 14:17:10,533 [INFO] Lesson on ved/arthashastra saved to knowledge store
+2025-05-29 14:17:10,533 [INFO] Successfully generated enhanced lesson: A Modest Mind Is Better Than An Inflated One
+2025-05-29 14:17:10,535 [INFO] Lesson on ved/arthashastra saved to knowledge store
+2025-05-29 14:17:10,535 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 22.0365s
+2025-05-29 14:17:21,715 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=ved&topic=arthashastra&include_wikipedia=true&use_knowledge_store=true
+2025-05-29 14:17:21,716 [INFO] Generating lesson for subject: ved, topic: arthashastra, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 14:17:21,716 [INFO] Lesson on ved/arthashastra retrieved from knowledge store
+2025-05-29 14:17:21,716 [INFO] Retrieved lesson from knowledge store for ved/arthashastra
+2025-05-29 14:17:21,717 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 0.0024s
+2025-05-29 14:17:53,849 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=ved&topic=mudras&include_wikipedia=true&use_knowledge_store=true
+2025-05-29 14:17:53,849 [INFO] Generating lesson for subject: ved, topic: mudras, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 14:17:53,850 [INFO] No lesson found for ved/mudras in knowledge store
+2025-05-29 14:17:53,850 [INFO] Generating enhanced lesson for ved/mudras
+2025-05-29 14:17:53,850 [INFO] Creating enhanced lesson for subject: ved, topic: mudras
+2025-05-29 14:17:53,850 [INFO] No lesson found for ved/mudras in knowledge store
+2025-05-29 14:17:54,703 [INFO] Wikipedia search for 'mudras in ved' returned 5 results
+2025-05-29 14:17:55,614 [INFO] Wikipedia search for 'mudras ved ancient India' returned 5 results
+2025-05-29 14:17:56,548 [INFO] Wikipedia search for 'mudras in ancient Indian ved' returned 5 results
+2025-05-29 14:17:57,418 [INFO] Wikipedia search for 'ved mudras' returned 5 results
+2025-05-29 14:17:58,363 [INFO] Wikipedia search for 'mudras in Vedas' returned 5 results
+2025-05-29 14:17:59,217 [INFO] Wikipedia search for 'Vedas mudras' returned 5 results
+2025-05-29 14:18:02,706 [INFO] Successfully fetched Wikipedia content for 'Kuchipudi'
+2025-05-29 14:18:02,707 [INFO] Saved Wikipedia content to cache for ved/mudras
+2025-05-29 14:18:04,787 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-29 14:18:11,587 [ERROR] Error parsing JSON from Ollama response: Extra data: line 4 column 6 (char 210)
+2025-05-29 14:18:11,587 [ERROR] Error using enhanced lesson generator: 'sources'
+2025-05-29 14:18:11,587 [INFO] Fetching Wikipedia information for ved/mudras
+2025-05-29 14:18:11,588 [INFO] Loaded Wikipedia content from cache for ved/mudras
+2025-05-29 14:18:11,588 [INFO] Found Wikipedia article: Kuchipudi
+2025-05-29 14:18:11,588 [INFO] Checking Ollama service status...
+2025-05-29 14:18:13,631 [INFO] Ollama API is responding
+2025-05-29 14:18:13,631 [INFO] Ollama service is running.
+2025-05-29 14:18:13,666 [INFO] Trying to generate lesson using Ollama subprocess...
+2025-05-29 14:18:15,713 [INFO] Using Ollama model: deepseek-r1:1.5b
+2025-05-29 14:18:15,713 [INFO] Generating lesson with Ollama...
+2025-05-29 14:18:21,358 [INFO] Ollama output received. Length: 2256 characters
+2025-05-29 14:18:21,359 [INFO] Found and parsed JSON from code block
+2025-05-29 14:18:21,359 [INFO] Successfully generated and validated lesson
+2025-05-29 14:18:21,359 [INFO] Successfully generated lesson with Ollama: The Art of Transmutation
+2025-05-29 14:18:21,360 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 27.5124s
+2025-05-29 14:32:16,365 [INFO] Using CPU for compute
+2025-05-29 14:32:16,428 [INFO] Using CPU for compute
+2025-05-29 14:34:40,227 [INFO] Using CPU for compute
+2025-05-29 14:34:40,285 [INFO] Using CPU for compute
+2025-05-29 14:34:50,609 [INFO] Using CPU for compute
+2025-05-29 14:34:50,673 [INFO] Using CPU for compute
+2025-05-29 14:34:59,970 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=maths&topic=ciricle&include_wikipedia=true&use_knowledge_store=true
+2025-05-29 14:34:59,971 [INFO] Generating lesson for subject: maths, topic: ciricle, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 14:35:00,145 [INFO] No lesson found for maths/ciricle in knowledge store
+2025-05-29 14:35:00,145 [INFO] Generating enhanced lesson for maths/ciricle
+2025-05-29 14:35:00,145 [INFO] Creating enhanced lesson for subject: maths, topic: ciricle
+2025-05-29 14:35:00,145 [INFO] No lesson found for maths/ciricle in knowledge store
+2025-05-29 14:35:00,973 [INFO] Wikipedia search for 'ciricle in maths' returned 0 results
+2025-05-29 14:35:01,807 [INFO] Wikipedia search for 'ciricle maths ancient India' returned 0 results
+2025-05-29 14:35:02,654 [INFO] Wikipedia search for 'ciricle in ancient Indian maths' returned 0 results
+2025-05-29 14:35:03,456 [INFO] Wikipedia search for 'maths ciricle' returned 0 results
+2025-05-29 14:35:05,545 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-29 14:35:15,401 [INFO] Successfully generated lesson with Ollama: The Roundest of Shapes
+2025-05-29 14:35:15,402 [INFO] Lesson on maths/ciricle saved to knowledge store
+2025-05-29 14:35:15,402 [INFO] Successfully generated enhanced lesson: The Roundest of Shapes
+2025-05-29 14:35:15,402 [INFO] Lesson on maths/ciricle saved to knowledge store
+2025-05-29 14:35:15,403 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 15.4332s
+2025-05-29 14:36:18,500 [INFO] >>> HTTP REQUEST: GET / - Query params: 
+2025-05-29 14:36:18,502 [INFO] <<< HTTP RESPONSE: GET / - Status: 200 - Time: 0.0014s
+2025-05-29 14:36:18,528 [INFO] >>> HTTP REQUEST: GET /favicon.ico - Query params: 
+2025-05-29 14:36:18,529 [INFO] <<< HTTP RESPONSE: GET /favicon.ico - Status: 404 - Time: 0.0010s
+2025-05-29 14:36:24,767 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-29 14:36:24,767 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0000s
+2025-05-29 14:36:25,014 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-29 14:36:25,020 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0063s
+2025-05-29 14:36:45,255 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=maths&topic=ciricle&include_wikipedia=true&use_knowledge_store=true
+2025-05-29 14:36:45,255 [INFO] Generating lesson for subject: maths, topic: ciricle, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 14:36:45,256 [INFO] Lesson on maths/ciricle retrieved from knowledge store
+2025-05-29 14:36:45,256 [INFO] Retrieved lesson from knowledge store for maths/ciricle
+2025-05-29 14:36:45,256 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 0.0015s
+2025-05-29 14:37:32,740 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=maths&topic=circle&include_wikipedia=true&use_knowledge_store=true
+2025-05-29 14:37:32,740 [INFO] Generating lesson for subject: maths, topic: circle, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 14:37:32,741 [INFO] Lesson on maths/circle retrieved from knowledge store
+2025-05-29 14:37:32,741 [INFO] Retrieved lesson from knowledge store for maths/circle
+2025-05-29 14:37:32,742 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 0.0029s
+2025-05-29 14:37:42,896 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=maths&topic=waifu&include_wikipedia=true&use_knowledge_store=true
+2025-05-29 14:37:42,896 [INFO] Generating lesson for subject: maths, topic: waifu, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 14:37:42,896 [INFO] No lesson found for maths/waifu in knowledge store
+2025-05-29 14:37:42,897 [INFO] Generating enhanced lesson for maths/waifu
+2025-05-29 14:37:42,897 [INFO] Creating enhanced lesson for subject: maths, topic: waifu
+2025-05-29 14:37:42,897 [INFO] No lesson found for maths/waifu in knowledge store
+2025-05-29 14:37:43,776 [INFO] Wikipedia search for 'waifu in maths' returned 4 results
+2025-05-29 14:37:44,705 [INFO] Wikipedia search for 'waifu maths ancient India' returned 0 results
+2025-05-29 14:37:45,561 [INFO] Wikipedia search for 'waifu in ancient Indian maths' returned 0 results
+2025-05-29 14:37:46,445 [INFO] Wikipedia search for 'maths waifu' returned 4 results
+2025-05-29 14:37:48,075 [ERROR] Page error for 'Deborah O'Neill': Page id "deborah o'neil" does not match any pages. Try another id!
+2025-05-29 14:37:50,165 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-29 14:37:59,163 [INFO] Successfully generated lesson with Ollama: The Harmonious World of Mathematics
+2025-05-29 14:37:59,164 [INFO] Lesson on maths/waifu saved to knowledge store
+2025-05-29 14:37:59,164 [INFO] Successfully generated enhanced lesson: The Harmonious World of Mathematics
+2025-05-29 14:37:59,164 [INFO] Lesson on maths/waifu saved to knowledge store
+2025-05-29 14:37:59,165 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 16.2699s
+2025-05-29 14:38:57,627 [INFO] >>> HTTP REQUEST: GET /get_agent_output - Query params: 
+2025-05-29 14:38:57,628 [INFO] <<< HTTP RESPONSE: GET /get_agent_output - Status: 404 - Time: 0.0010s
+2025-05-29 14:38:57,628 [INFO] >>> HTTP REQUEST: GET /agent_logs - Query params: 
+2025-05-29 14:38:57,629 [INFO] <<< HTTP RESPONSE: GET /agent_logs - Status: 404 - Time: 0.0011s
+2025-05-29 14:42:05,064 [INFO] >>> HTTP REQUEST: GET /generate_lesson - Query params: subject=maths&topic=ciricle&include_wikipeida=true&use_knowledge_store=true
+2025-05-29 14:42:05,065 [INFO] Generating lesson for subject: maths, topic: ciricle, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 14:42:05,066 [INFO] Lesson on maths/ciricle retrieved from knowledge store
+2025-05-29 14:42:05,066 [INFO] Retrieved lesson from knowledge store for maths/ciricle
+2025-05-29 14:42:05,066 [INFO] <<< HTTP RESPONSE: GET /generate_lesson - Status: 200 - Time: 0.0023s
+2025-05-29 14:52:13,699 [INFO] Using CPU for compute
+2025-05-29 14:52:13,736 [INFO] Using CPU for compute
+2025-05-29 14:52:53,804 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-29 14:52:53,805 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0010s
+2025-05-29 14:52:53,914 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-29 14:52:53,920 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0061s
+2025-05-29 14:53:15,343 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-29 14:53:15,344 [INFO] Generating lesson for subject: maths, topic: linear algebra, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 14:53:15,533 [INFO] No lesson found for maths/linear algebra in knowledge store
+2025-05-29 14:53:15,533 [INFO] Generating enhanced lesson for maths/linear algebra
+2025-05-29 14:53:15,534 [INFO] Creating enhanced lesson for subject: maths, topic: linear algebra
+2025-05-29 14:53:15,534 [INFO] No lesson found for maths/linear algebra in knowledge store
+2025-05-29 14:53:16,550 [INFO] Wikipedia search for 'linear algebra in maths' returned 5 results
+2025-05-29 14:53:17,557 [INFO] Wikipedia search for 'linear algebra maths ancient India' returned 5 results
+2025-05-29 14:53:18,620 [INFO] Wikipedia search for 'linear algebra in ancient Indian maths' returned 5 results
+2025-05-29 14:53:19,524 [INFO] Wikipedia search for 'maths linear algebra' returned 5 results
+2025-05-29 14:53:23,027 [INFO] Successfully fetched Wikipedia content for 'Basic Linear Algebra Subprograms'
+2025-05-29 14:53:23,028 [INFO] Saved Wikipedia content to cache for maths/linear algebra
+2025-05-29 14:53:25,123 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-29 14:53:33,545 [ERROR] Error parsing JSON from Ollama response: Invalid control character at: line 3 column 90 (char 168)
+2025-05-29 14:53:33,545 [ERROR] Error using enhanced lesson generator: 'sources'
+2025-05-29 14:53:33,545 [INFO] Fetching Wikipedia information for maths/linear algebra
+2025-05-29 14:53:33,546 [INFO] Loaded Wikipedia content from cache for maths/linear algebra
+2025-05-29 14:53:33,546 [INFO] Found Wikipedia article: Basic Linear Algebra Subprograms
+2025-05-29 14:53:33,546 [INFO] Checking Ollama service status...
+2025-05-29 14:53:35,598 [INFO] Ollama API is responding
+2025-05-29 14:53:35,599 [INFO] Ollama service is running.
+2025-05-29 14:53:35,631 [INFO] Trying to generate lesson using Ollama subprocess...
+2025-05-29 14:53:37,680 [INFO] Using Ollama model: deepseek-r1:1.5b
+2025-05-29 14:53:37,680 [INFO] Generating lesson with Ollama...
+2025-05-29 14:53:43,953 [INFO] Ollama output received. Length: 2857 characters
+2025-05-29 14:53:43,953 [INFO] Found and parsed JSON from text
+2025-05-29 14:53:43,953 [INFO] Successfully generated and validated lesson
+2025-05-29 14:53:43,954 [INFO] Successfully generated lesson with Ollama: The Order Within the Stars: Exploring Linear Algebra
+2025-05-29 14:53:43,954 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 28.6108s
+2025-05-29 14:54:19,023 [INFO] >>> HTTP REQUEST: GET /generate_lesson/maths/linear algebra - Query params: 
+2025-05-29 14:54:19,024 [INFO] <<< HTTP RESPONSE: GET /generate_lesson/maths/linear algebra - Status: 404 - Time: 0.0000s
+2025-05-29 14:54:32,684 [INFO] >>> HTTP REQUEST: GET /generate_lesson/maths/linearalgebra - Query params: 
+2025-05-29 14:54:32,685 [INFO] <<< HTTP RESPONSE: GET /generate_lesson/maths/linearalgebra - Status: 404 - Time: 0.0011s
+2025-05-29 14:54:34,616 [INFO] >>> HTTP REQUEST: GET /generate_lesson/maths/linearalgebra - Query params: 
+2025-05-29 14:54:34,616 [INFO] <<< HTTP RESPONSE: GET /generate_lesson/maths/linearalgebra - Status: 404 - Time: 0.0000s
+2025-05-29 14:54:58,726 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-29 14:54:58,726 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0011s
+2025-05-29 14:54:58,787 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-29 14:54:58,787 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0000s
+2025-05-29 14:55:20,885 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-29 14:55:20,886 [INFO] Generating lesson for subject: english, topic: verbs, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 14:55:20,886 [INFO] No lesson found for english/verbs in knowledge store
+2025-05-29 14:55:20,886 [INFO] Generating enhanced lesson for english/verbs
+2025-05-29 14:55:20,887 [INFO] Creating enhanced lesson for subject: english, topic: verbs
+2025-05-29 14:55:20,887 [INFO] No lesson found for english/verbs in knowledge store
+2025-05-29 14:55:21,943 [INFO] Wikipedia search for 'verbs in english' returned 5 results
+2025-05-29 14:55:22,954 [INFO] Wikipedia search for 'verbs english ancient India' returned 5 results
+2025-05-29 14:55:23,901 [INFO] Wikipedia search for 'verbs in ancient Indian english' returned 5 results
+2025-05-29 14:55:24,827 [INFO] Wikipedia search for 'english verbs' returned 5 results
+2025-05-29 14:55:28,589 [INFO] Successfully fetched Wikipedia content for 'English verbs'
+2025-05-29 14:55:28,590 [INFO] Saved Wikipedia content to cache for english/verbs
+2025-05-29 14:55:30,661 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-29 14:55:49,046 [INFO] Successfully generated lesson with Ollama: Understanding Ancient Indian Mathematics
+2025-05-29 14:55:49,047 [INFO] Lesson on english/verbs saved to knowledge store
+2025-05-29 14:55:49,047 [INFO] Successfully generated enhanced lesson: Understanding Ancient Indian Mathematics
+2025-05-29 14:55:49,047 [INFO] Lesson on english/verbs saved to knowledge store
+2025-05-29 14:55:49,048 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 28.1628s
+2025-05-29 14:55:52,153 [INFO] >>> HTTP REQUEST: GET /generate_lesson/english/verbs - Query params: 
+2025-05-29 14:55:52,154 [INFO] <<< HTTP RESPONSE: GET /generate_lesson/english/verbs - Status: 404 - Time: 0.0010s
+2025-05-29 14:55:56,365 [INFO] >>> HTTP REQUEST: GET /generate_lesson/english/verbs - Query params: 
+2025-05-29 14:55:56,366 [INFO] <<< HTTP RESPONSE: GET /generate_lesson/english/verbs - Status: 404 - Time: 0.0010s
+2025-05-29 14:55:56,693 [INFO] >>> HTTP REQUEST: GET /generate_lesson/english/verbs - Query params: 
+2025-05-29 14:55:56,694 [INFO] <<< HTTP RESPONSE: GET /generate_lesson/english/verbs - Status: 404 - Time: 0.0010s
+2025-05-29 14:55:56,909 [INFO] >>> HTTP REQUEST: GET /generate_lesson/english/verbs - Query params: 
+2025-05-29 14:55:56,910 [INFO] <<< HTTP RESPONSE: GET /generate_lesson/english/verbs - Status: 404 - Time: 0.0010s
+2025-05-29 14:55:57,093 [INFO] >>> HTTP REQUEST: GET /generate_lesson/english/verbs - Query params: 
+2025-05-29 14:55:57,093 [INFO] <<< HTTP RESPONSE: GET /generate_lesson/english/verbs - Status: 404 - Time: 0.0000s
+2025-05-29 14:55:57,285 [INFO] >>> HTTP REQUEST: GET /generate_lesson/english/verbs - Query params: 
+2025-05-29 14:55:57,286 [INFO] <<< HTTP RESPONSE: GET /generate_lesson/english/verbs - Status: 404 - Time: 0.0010s
+2025-05-29 14:58:12,263 [INFO] >>> HTTP REQUEST: GET /lessons/english/verbs - Query params: 
+2025-05-29 14:58:12,263 [INFO] Retrieving lesson for subject: english, topic: verbs
+2025-05-29 14:58:12,264 [INFO] Lesson on english/verbs retrieved from knowledge store
+2025-05-29 14:58:12,264 [INFO] Successfully retrieved lesson: Understanding Ancient Indian Mathematics
+2025-05-29 14:58:12,264 [INFO] <<< HTTP RESPONSE: GET /lessons/english/verbs - Status: 200 - Time: 0.0010s
+2025-05-29 14:58:26,825 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-29 14:58:26,826 [INFO] Generating lesson for subject: english, topic: verbs, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 14:58:26,827 [INFO] Lesson on english/verbs retrieved from knowledge store
+2025-05-29 14:58:26,827 [INFO] Retrieved lesson from knowledge store for english/verbs
+2025-05-29 14:58:26,827 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.0020s
+2025-05-29 15:08:16,089 [INFO] Using CPU for compute
+2025-05-29 15:08:16,135 [INFO] Using CPU for compute

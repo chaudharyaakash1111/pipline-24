@@ -1,0 +1,19 @@
+{
+  "subject": "maths",
+  "topic": "ciricle",
+  "title": "The Roundest of Shapes",
+  "shloka": "Whose circle is round? Vedic science reveals the truth.",
+  "translation": "Roundest circles are found in ancient texts. Science tells us they're just right!",
+  "explanation": "Circles, a fundamental shape in geometry and mathematics, have been understood with great precision for thousands of years. Ancient Indian mathematical works, such as the Sulbasutras, demonstrate an understanding of circular properties like circumference, diameter, and area. These concepts were rooted in traditional wisdom and are still relevant today due to their universal applicability and historical significance.",
+  "activity": "Have students draw circles of varying sizes using a compass or circular object. Discuss how the measurements relate to each other (radius, diameter, circumference) and explain the concept of pi.",
+  "question": "Reflect on how ancient knowledge about circles has influenced modern mathematics. What are some ways circles remain essential in our daily lives today despite changing definitions?",
+  "wikipedia_info": null,
+  "sources": [
+    "Ollama (deepseek-r1:1.5b)"
+  ],
+  "metadata": {
+    "timestamp": 1748509515.4022744,
+    "date_created": "2025-05-29T14:35:15.402274",
+    "version": "1.0"
+  }
+}

@@ -5,13 +5,18 @@ app.py - FastAPI application for serving the Gurukul Lesson Generator
 import os
 import logging
 from typing import Dict, Any, Optional, List
-from fastapi import FastAPI, HTTPException, Query, Request
+from fastapi import FastAPI, HTTPException, Query, Request, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 import time
 from dotenv import load_dotenv
 import sys
+import uvicorn
+import asyncio
+import uuid
+from datetime import datetime, timedelta
+from enum import Enum
 
 # Add the current directory to the path so we can import our modules
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -96,6 +101,13 @@ class LessonRequest(BaseModel):
     include_wikipedia: bool = True
     use_knowledge_store: bool = True
 
+class CreateLessonRequest(BaseModel):
+    subject: str
+    topic: str
+    user_id: str
+    include_wikipedia: bool = True
+    force_regenerate: bool = True  # Changed default to True for dynamic generation
+
 class WikipediaInfo(BaseModel):
     title: Optional[str] = None
     summary: Optional[str] = None
@@ -110,6 +122,103 @@ class LessonResponse(BaseModel):
     activity: str
     question: str
     wikipedia_info: Optional[WikipediaInfo] = None
+
+# New models for async lesson generation
+class GenerationStatus(str, Enum):
+    PENDING = "pending"
+    IN_PROGRESS = "in_progress"
+    COMPLETED = "completed"
+    FAILED = "failed"
+
+class LessonGenerationTask(BaseModel):
+    task_id: str
+    subject: str
+    topic: str
+    user_id: str
+    status: GenerationStatus
+    created_at: datetime
+    completed_at: Optional[datetime] = None
+    error_message: Optional[str] = None
+    include_wikipedia: bool = True
+
+class LessonGenerationResponse(BaseModel):
+    task_id: str
+    status: GenerationStatus
+    message: str
+    estimated_completion_time: Optional[str] = None
+    poll_url: str
+
+class LessonStatusResponse(BaseModel):
+    task_id: str
+    status: GenerationStatus
+    progress_message: str
+    created_at: datetime
+    completed_at: Optional[datetime] = None
+    error_message: Optional[str] = None
+    lesson_data: Optional[LessonResponse] = None
+
+# Global storage for generation tasks (in production, use Redis or database)
+generation_tasks: Dict[str, LessonGenerationTask] = {}
+generation_results: Dict[str, Dict[str, Any]] = {}
+
+# Background task function for lesson generation
+async def generate_lesson_background(task_id: str, subject: str, topic: str, user_id: str, include_wikipedia: bool = True):
+    """
+    Background task to generate a lesson asynchronously
+    """
+    try:
+        # Update task status to in_progress
+        if task_id in generation_tasks:
+            generation_tasks[task_id].status = GenerationStatus.IN_PROGRESS
+            logger.info(f"Starting background generation for task {task_id}: {subject}/{topic}")
+
+        # Generate the lesson using existing logic with force_fresh=True for dynamic generation
+        generated_lesson = await generate_lesson_endpoint(
+            subject=subject,
+            topic=topic,
+            include_wikipedia=include_wikipedia,
+            use_knowledge_store=True,  # Always save to knowledge store
+            force_fresh=True  # Always generate fresh content
+        )
+
+        # Add user information to the generated lesson
+        if isinstance(generated_lesson, dict):
+            generated_lesson["created_by"] = user_id
+            generated_lesson["generation_method"] = "async_background"
+            generated_lesson["task_id"] = task_id
+
+        # Store the result
+        generation_results[task_id] = generated_lesson
+
+        # Update task status to completed
+        if task_id in generation_tasks:
+            generation_tasks[task_id].status = GenerationStatus.COMPLETED
+            generation_tasks[task_id].completed_at = datetime.now()
+            logger.info(f"Completed background generation for task {task_id}: {generated_lesson.get('title', 'Untitled')}")
+
+    except Exception as e:
+        logger.error(f"Error in background generation for task {task_id}: {str(e)}")
+
+        # Update task status to failed
+        if task_id in generation_tasks:
+            generation_tasks[task_id].status = GenerationStatus.FAILED
+            generation_tasks[task_id].error_message = str(e)
+            generation_tasks[task_id].completed_at = datetime.now()
+
+# Cleanup function to remove old completed tasks
+def cleanup_old_tasks():
+    """Remove tasks older than 1 hour to prevent memory leaks"""
+    cutoff_time = datetime.now() - timedelta(hours=1)
+    tasks_to_remove = []
+
+    for task_id, task in generation_tasks.items():
+        if task.completed_at and task.completed_at < cutoff_time:
+            tasks_to_remove.append(task_id)
+
+    for task_id in tasks_to_remove:
+        generation_tasks.pop(task_id, None)
+        generation_results.pop(task_id, None)
+        logger.info(f"Cleaned up old task: {task_id}")
 
 @app.get("/")
 async def root():
@@ -133,9 +242,18 @@ async def root():
             "gpu_status": gpu_status
         },
         "endpoints": {
-            "generate_lesson": "/generate_lesson?subject=Ved&topic=Sound",
+            "get_lesson": "/lessons/{subject}/{topic} - Retrieve existing lesson",
+            "create_lesson_async": "/lessons - Create new lesson (POST, async)",
+            "check_generation_status": "/lessons/status/{task_id} - Check lesson generation status",
+            "list_active_tasks": "/lessons/tasks - List active generation tasks",
+            "list_lessons": "/lessons - List all lessons",
+            "search_lessons": "/search_lessons?query=sound",
             "llm_status": "/llm_status",
-            "documentation": "/docs"
+            "documentation": "/docs",
+            "legacy": {
+                "generate_lesson_get": "/generate_lesson?subject=Ved&topic=Sound (deprecated)",
+                "generate_lesson_post": "/generate_lesson (POST, deprecated)"
+            }
         }
     }
 
@@ -244,15 +362,115 @@ async def llm_status():
             "error_details": str(e)
         }
 
+@app.get("/lessons/{subject}/{topic}", response_model=LessonResponse)
+async def get_lesson_endpoint(
+    subject: str,
+    topic: str,
+    include_wikipedia: bool = Query(False, description="Whether to include Wikipedia information in the response")
+):
+    """
+    Retrieve an existing lesson from the knowledge store
+
+    This endpoint only retrieves existing lessons and does not generate new content.
+    Use POST /lessons to create new lessons.
+
+    Args:
+        subject: Subject of the lesson (e.g., ved, ganita, yoga)
+        topic: Topic of the lesson (e.g., sound, algebra, asana)
+        include_wikipedia: Whether to fetch and include Wikipedia information
+
+    Returns:
+        LessonResponse: The existing lesson data
+
+    Raises:
+        404: If lesson is not found in knowledge store
+        500: If there's an error retrieving the lesson
+
+    Example usage:
+        GET /lessons/ved/sound?include_wikipedia=true
+    """
+    try:
+        logger.info(f"Retrieving lesson for subject: {subject}, topic: {topic}")
+
+        # Try to get lesson from knowledge store
+        try:
+            from knowledge_store import get_lesson
+            stored_lesson = get_lesson(subject, topic)
+
+            if not stored_lesson:
+                raise HTTPException(
+                    status_code=404,
+                    detail={
+                        "message": f"Lesson not found for subject '{subject}' and topic '{topic}'",
+                        "suggestion": "Use POST /lessons to create a new lesson",
+                        "available_endpoints": {
+                            "create_lesson": "POST /lessons",
+                            "list_lessons": "GET /lessons",
+                            "search_lessons": "GET /search_lessons?query=your_search"
+                        }
+                    }
+                )
+
+            logger.info(f"Successfully retrieved lesson: {stored_lesson.get('title', 'Untitled')}")
+
+            # Optionally fetch Wikipedia information if requested
+            if include_wikipedia and not stored_lesson.get("wikipedia_info"):
+                try:
+                    from wikipedia_utils import get_relevant_wikipedia_info
+                    logger.info(f"Fetching Wikipedia information for {subject}/{topic}")
+                    wiki_data = get_relevant_wikipedia_info(subject, topic)
+
+                    if wiki_data["wikipedia"]["title"]:
+                        stored_lesson["wikipedia_info"] = {
+                            "title": wiki_data["wikipedia"]["title"],
+                            "summary": wiki_data["wikipedia"]["summary"],
+                            "url": wiki_data["wikipedia"]["url"],
+                            "related_articles": wiki_data["wikipedia"]["related_articles"]
+                        }
+                        logger.info(f"Added Wikipedia information: {stored_lesson['wikipedia_info']['title']}")
+                except Exception as e:
+                    logger.warning(f"Could not fetch Wikipedia information: {str(e)}")
+                    # Continue without Wikipedia info - this is not a critical error
+
+            return stored_lesson
+
+        except ImportError:
+            raise HTTPException(
+                status_code=500,
+                detail={
+                    "message": "Knowledge store module not available",
+                    "error": "Cannot retrieve lessons - knowledge store is not configured"
+                }
+            )
+
+    except HTTPException:
+        # Re-raise HTTP exceptions as-is
+        raise
+    except Exception as e:
+        logger.error(f"Error retrieving lesson: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail={
+                "message": f"Error retrieving lesson: {str(e)}",
+                "subject": subject,
+                "topic": topic
+            }
+        )
+
 @app.get("/generate_lesson", response_model=LessonResponse)
 async def generate_lesson_endpoint(
     subject: str = Query(..., description="Subject of the lesson (e.g., Ved, Ganita, Yoga)", example="ved"),
     topic: str = Query(..., description="Topic of the lesson (e.g., Sound, Mathematics, Meditation)", example="ayurved"),
     include_wikipedia: bool = Query(True, description="Whether to include Wikipedia information in the response"),
-    use_knowledge_store: bool = Query(True, description="Whether to use the knowledge store for retrieving/saving lessons")
+    use_knowledge_store: bool = Query(True, description="Whether to use the knowledge store for retrieving/saving lessons"),
+    force_fresh: bool = Query(False, description="Force fresh generation, bypassing knowledge store retrieval")
 ):
     """
     Generate a structured lesson based on subject and topic
+
+    DEPRECATED: This endpoint is deprecated. Use the new REST endpoints instead:
+    - GET /lessons/{subject}/{topic} to retrieve existing lessons
+    - POST /lessons to create new lessons
 
     Example usage:
     GET /generate_lesson?subject=ved&topic=ayurved&include_wikipedia=true&use_knowledge_store=true
@@ -280,8 +498,8 @@ async def generate_lesson_endpoint(
                 from generate_lesson_enhanced import create_enhanced_lesson
                 from knowledge_store import get_lesson, save_lesson
 
-                # Try to get lesson from knowledge store if requested
-                if use_knowledge_store:
+                # Try to get lesson from knowledge store if requested and not forcing fresh generation
+                if use_knowledge_store and not force_fresh:
                     stored_lesson = get_lesson(subject, topic)
                     if stored_lesson:
                         logger.info(f"Retrieved lesson from knowledge store for {subject}/{topic}")
@@ -568,6 +786,8 @@ def generate_mock_lesson(subject: str, topic: str):
 async def generate_lesson_post(request: LessonRequest):
     """
     Generate a structured lesson based on subject and topic (POST method)
+
+    DEPRECATED: Use POST /lessons instead for creating new lessons
     """
     # Call the GET endpoint handler with the same parameters
     return await generate_lesson_endpoint(
@@ -576,6 +796,239 @@ async def generate_lesson_post(request: LessonRequest):
         include_wikipedia=request.include_wikipedia,
         use_knowledge_store=request.use_knowledge_store
     )
+
+@app.post("/lessons", response_model=LessonGenerationResponse)
+async def create_lesson_endpoint(request: CreateLessonRequest, background_tasks: BackgroundTasks):
+    """
+    Create a new lesson by generating content using AI models (Async)
+
+    This endpoint starts lesson generation in the background and returns immediately.
+    The lesson generation happens asynchronously to prevent timeout issues.
+    Use the returned task_id to poll for completion status.
+
+    Args:
+        request: CreateLessonRequest containing:
+            - subject: Subject of the lesson (e.g., ved, ganita, yoga)
+            - topic: Topic of the lesson (e.g., sound, algebra, asana)
+            - user_id: ID of the user creating the lesson
+            - include_wikipedia: Whether to include Wikipedia information
+            - force_regenerate: Always True for dynamic generation
+
+    Returns:
+        LessonGenerationResponse: Task information for polling status
+
+    Example usage:
+        POST /lessons
+        {
+            "subject": "english",
+            "topic": "verbs",
+            "user_id": "user123",
+            "include_wikipedia": true
+        }
+    """
+    try:
+        # Validate required parameters
+        if not request.subject or not request.topic or not request.user_id:
+            raise HTTPException(
+                status_code=400,
+                detail={
+                    "message": "Subject, topic, and user_id are required",
+                    "example": {
+                        "subject": "english",
+                        "topic": "verbs",
+                        "user_id": "user123"
+                    },
+                    "available_subjects": ["ved", "ganita", "yoga", "ayurveda", "english", "maths"],
+                    "example_topics": ["sound", "algebra", "asana", "doshas", "verbs", "geometry"]
+                }
+            )
+
+        # Clean up old tasks periodically
+        cleanup_old_tasks()
+
+        # Generate unique task ID
+        task_id = str(uuid.uuid4())
+
+        # Create task record
+        task = LessonGenerationTask(
+            task_id=task_id,
+            subject=request.subject,
+            topic=request.topic,
+            user_id=request.user_id,
+            status=GenerationStatus.PENDING,
+            created_at=datetime.now(),
+            include_wikipedia=request.include_wikipedia
+        )
+
+        # Store task
+        generation_tasks[task_id] = task
+
+        # Start background generation
+        background_tasks.add_task(
+            generate_lesson_background,
+            task_id=task_id,
+            subject=request.subject,
+            topic=request.topic,
+            user_id=request.user_id,
+            include_wikipedia=request.include_wikipedia
+        )
+
+        logger.info(f"Started async lesson generation - Task ID: {task_id}, Subject: {request.subject}, Topic: {request.topic}")
+
+        # Return task information
+        return LessonGenerationResponse(
+            task_id=task_id,
+            status=GenerationStatus.PENDING,
+            message=f"Lesson generation started for {request.subject}/{request.topic}",
+            estimated_completion_time="30-60 seconds",
+            poll_url=f"/lessons/status/{task_id}"
+        )
+
+    except HTTPException:
+        # Re-raise HTTP exceptions as-is
+        raise
+    except Exception as e:
+        logger.error(f"Error starting lesson generation: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail={
+                "message": f"Error starting lesson generation: {str(e)}",
+                "subject": request.subject if hasattr(request, 'subject') else 'unknown',
+                "topic": request.topic if hasattr(request, 'topic') else 'unknown'
+            }
+        )
+
+@app.get("/lessons/status/{task_id}", response_model=LessonStatusResponse)
+async def get_lesson_generation_status(task_id: str):
+    """
+    Get the status of a lesson generation task
+
+    Args:
+        task_id: The unique task identifier returned from POST /lessons
+
+    Returns:
+        LessonStatusResponse: Current status and lesson data if completed
+    """
+    try:
+        # Check if task exists
+        if task_id not in generation_tasks:
+            raise HTTPException(
+                status_code=404,
+                detail={
+                    "message": f"Task {task_id} not found",
+                    "suggestion": "The task may have expired or the task_id is invalid"
+                }
+            )
+
+        task = generation_tasks[task_id]
+
+        # Prepare response based on status
+        if task.status == GenerationStatus.COMPLETED:
+            # Get the generated lesson data
+            lesson_data = generation_results.get(task_id)
+            lesson_response = None
+
+            if lesson_data:
+                # Convert to LessonResponse format
+                lesson_response = LessonResponse(
+                    title=lesson_data.get("title", ""),
+                    shloka=lesson_data.get("shloka", ""),
+                    translation=lesson_data.get("translation", ""),
+                    explanation=lesson_data.get("explanation", ""),
+                    activity=lesson_data.get("activity", ""),
+                    question=lesson_data.get("question", ""),
+                    wikipedia_info=lesson_data.get("wikipedia_info")
+                )
+
+            return LessonStatusResponse(
+                task_id=task_id,
+                status=task.status,
+                progress_message="Lesson generation completed successfully",
+                created_at=task.created_at,
+                completed_at=task.completed_at,
+                lesson_data=lesson_response
+            )
+
+        elif task.status == GenerationStatus.FAILED:
+            return LessonStatusResponse(
+                task_id=task_id,
+                status=task.status,
+                progress_message="Lesson generation failed",
+                created_at=task.created_at,
+                completed_at=task.completed_at,
+                error_message=task.error_message
+            )
+
+        elif task.status == GenerationStatus.IN_PROGRESS:
+            return LessonStatusResponse(
+                task_id=task_id,
+                status=task.status,
+                progress_message="Lesson generation is in progress...",
+                created_at=task.created_at
+            )
+
+        else:  # PENDING
+            return LessonStatusResponse(
+                task_id=task_id,
+                status=task.status,
+                progress_message="Lesson generation is queued and will start shortly",
+                created_at=task.created_at
+            )
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error getting task status: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error retrieving task status: {str(e)}"
+        )
+
+@app.get("/lessons/tasks")
+async def list_active_generation_tasks():
+    """
+    List all active lesson generation tasks
+
+    Returns:
+        Dict: Information about all active generation tasks
+    """
+    try:
+        # Clean up old tasks first
+        cleanup_old_tasks()
+
+        active_tasks = []
+        for task_id, task in generation_tasks.items():
+            active_tasks.append({
+                "task_id": task_id,
+                "subject": task.subject,
+                "topic": task.topic,
+                "user_id": task.user_id,
+                "status": task.status.value,
+                "created_at": task.created_at.isoformat(),
+                "completed_at": task.completed_at.isoformat() if task.completed_at else None,
+                "error_message": task.error_message
+            })
+
+        return {
+            "status": "success",
+            "total_tasks": len(active_tasks),
+            "tasks": active_tasks,
+            "status_counts": {
+                "pending": len([t for t in active_tasks if t["status"] == "pending"]),
+                "in_progress": len([t for t in active_tasks if t["status"] == "in_progress"]),
+                "completed": len([t for t in active_tasks if t["status"] == "completed"]),
+                "failed": len([t for t in active_tasks if t["status"] == "failed"])
+            }
+        }
+
+    except Exception as e:
+        logger.error(f"Error listing active tasks: {str(e)}")
+        return {
+            "status": "error",
+            "message": f"Error listing active tasks: {str(e)}",
+            "total_tasks": 0,
+            "tasks": []
+        }
 
 @app.get("/lessons")
 async def list_lessons():
@@ -634,7 +1087,4 @@ async def search_lessons(query: str = Query(..., description="Search query")):
         }
 
 if __name__ == "__main__":
-    import uvicorn
-    # Try with localhost and a different port
-    print("Starting server on http://192.168.0.73:8000")
-    uvicorn.run("app:app", host="192.168.0.73", port=8000, reload=False)
+    uvicorn.run("app:app", host="192.168.0.70", port=8000, reload=False)

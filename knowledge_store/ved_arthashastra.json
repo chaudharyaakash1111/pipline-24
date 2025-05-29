@@ -1,0 +1,31 @@
+{
+  "subject": "ved",
+  "topic": "arthashastra",
+  "title": "A Modest Mind Is Better Than An Inflated One",
+  "shloka": "A modest mind is better than an inflated one.",
+  "translation": "A modest mind is better than an inflated one.",
+  "explanation": "Arthashastra, the ancient Indian wisdom of health and wellness, teaches us to cultivate a modest spirit. This philosophy emphasizes self-realization, the harmony between mind and body, and the importance of inner peace. It draws from Vedic teachings on self-knowledge and the role of the body in meditating oneself. The concept also highlights the historical significance of mental practices in promoting overall well-being, suggesting that true health is not just physical but also psychological. In today's modern context, this idea resonates with mindfulness and holistic wellness approaches, emphasizing individualized attention to personal growth and emotional balance.",
+  "activity": "Have students participate in a fitness challenge where they walk 10 miles daily, encouraging them to reflect on how mental practices like walking contribute to overall health.",
+  "question": "In ancient Vedic times, what was the role of meditation? How does this relate to today's emphasis on mindfulness and holistic wellness?",
+  "wikipedia_info": {
+    "title": "Vyasa",
+    "summary": "Vyasa (; Sanskrit: व्यास, lit. 'compiler, arranger', IAST: Vyāsa) or Veda Vyasa (Sanskrit: वेदव्यास, lit. 'the one who classified the Vedas', IAST: Vedavyāsa), also known as Krishna Dvaipayana Veda Vyasa (Sanskrit: कृष्णद्वैपायन, IAST: Kṛṣṇadvaipāyana Vedavyāsa), is a rishi (sage) with a prominent role in most Hindu traditions. He is traditionally regarded as the author of the epic Mahābhārata, where he also plays a prominent role as a character. He is also regarded by the Hindu traditions to be the compiler of the mantras of the Vedas into four texts, as well as the author of the eighteen Purāṇas and the Brahma Sutras.\nVyasa is regarded by many Hindus as a partial incarnation (Sanskrit: अंशावतार, IAST: Aṃśāvatāra) of Vishnu. He is one of the immortals called the Chiranjivis, held by adherents to still be alive in the current age known as the Kali Yuga.",
+    "url": "https://en.wikipedia.org/wiki/Vyasa",
+    "related_articles": [
+      "Maharishi Mahesh Yogi",
+      "Historical Vedic religion",
+      "Adivasi",
+      "Hindu denominations"
+    ]
+  },
+  "sources": [
+    "Wikipedia",
+    "Ollama (deepseek-r1:1.5b)"
+  ],
+  "wikipedia_summary": "Vyasa (; Sanskrit: व्यास, lit. 'compiler, arranger', IAST: Vyāsa) or Veda Vyasa (Sanskrit: वेदव्यास, lit. 'the one who classified the Vedas', IAST: Vedavyāsa), also known as Krishna Dvaipayana Veda Vyasa (Sanskrit: कृष्णद्वैपायन, IAST: Kṛṣṇadvaipāyana Vedavyāsa), is a rishi (sage) with a prominent role in most Hindu traditions. He is traditionally regarded as the author of the epic Mahābhārata, where he also plays a prominent role as a character. He is also regarded by the Hindu traditions to...",
+  "metadata": {
+    "timestamp": 1748508430.533973,
+    "date_created": "2025-05-29T14:17:10.533972",
+    "version": "1.0"
+  }
+}
