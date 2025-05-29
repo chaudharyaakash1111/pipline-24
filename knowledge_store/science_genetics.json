@@ -1,0 +1,31 @@
+{
+  "subject": "science",
+  "topic": "genetics",
+  "title": "The title of the lesson",
+  "shloka": "Adi Prakasa Nitya",
+  "translation": "Self-Composure Science",
+  "explanation": "The shloka 'Adi Prakasa Nitya' translates to 'Self-Composure Science.' This concept in ancient Indian wisdom, found in Vedic texts like the Vedas and Shulbasutras, emphasizes the importance of self-love, harmony, and balance. In modern genetics, this principle is reflected in understanding how genes interact within individuals and how they contribute to overall well-being. The shloka highlights the idea that by practicing self-composure, one can enhance their own health and happiness through scientific principles like inheritance patterns and hereditary traits.",
+  "activity": "Have students research popular animal coat colors from pet ownership statistics and analyze how genetic factors influence these traits.",
+  "question": "How do ancient Vedic teachings contribute to the advancement of modern genetics? Provide an example.",
+  "wikipedia_info": {
+    "title": "Genetics in fiction",
+    "summary": "Aspects of genetics including mutation, hybridisation, cloning, genetic engineering, and eugenics have appeared in fiction since the 19th century.\nGenetics is a young science, having started in 1900 with the rediscovery of Gregor Mendel's study on the inheritance of traits in pea plants. During the 20th century it developed to create new sciences and technologies including molecular biology, DNA sequencing, cloning, and genetic engineering. The ethical implications were brought into focus with the eugenics movement.\nSince then, many science fiction novels and films have used aspects of genetics as plot devices, often taking one of two routes: a genetic accident with disastrous consequences; or, the feasibility and desirability of a planned genetic alteration. The treatment of science in these stories has been uneven and often unrealistic. The film Gattaca did attempt to portray science accurately but was criticised by scientists.",
+    "url": "https://en.wikipedia.org/wiki/Genetics_in_fiction",
+    "related_articles": [
+      "Genetics",
+      "Forensic Science International: Genetics",
+      "Behavioural genetics",
+      "Encyclopedia of Genetics"
+    ]
+  },
+  "sources": [
+    "Ollama (deepseek-r1:1.5b)"
+  ],
+  "wikipedia_summary": "Aspects of genetics including mutation, hybridisation, cloning, genetic engineering, and eugenics have appeared in fiction since the 19th century.",
+  "metadata": {
+    "timestamp": 1748513536.9624417,
+    "date_created": "2025-05-29T15:42:16.962441",
+    "version": "1.0",
+    "last_updated": "2025-05-29T15:42:16.962441"
+  }
+}

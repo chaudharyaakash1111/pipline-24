@@ -5053,3 +5053,476 @@ I should make sure the content is authentic and respectful of tradition while be
 2025-05-29 14:58:26,827 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 0.0020s
 2025-05-29 15:08:16,089 [INFO] Using CPU for compute
 2025-05-29 15:08:16,135 [INFO] Using CPU for compute
+2025-05-29 15:09:32,650 [INFO] Using CPU for compute
+2025-05-29 15:09:32,692 [INFO] Using CPU for compute
+2025-05-29 15:13:30,592 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-29 15:13:30,593 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0010s
+2025-05-29 15:13:30,690 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-29 15:13:30,698 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0084s
+2025-05-29 15:14:15,223 [INFO] >>> HTTP REQUEST: POST /generate_lesson - Query params: 
+2025-05-29 15:14:15,224 [INFO] Generating lesson for subject: science, topic: human body, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 15:14:15,429 [INFO] Generating enhanced lesson for science/human body
+2025-05-29 15:14:15,429 [INFO] Creating enhanced lesson for subject: science, topic: human body
+2025-05-29 15:14:15,429 [INFO] No lesson found for science/human body in knowledge store
+2025-05-29 15:14:16,487 [INFO] Wikipedia search for 'human body in science' returned 5 results
+2025-05-29 15:14:17,561 [INFO] Wikipedia search for 'human body science ancient India' returned 5 results
+2025-05-29 15:14:18,569 [INFO] Wikipedia search for 'human body in ancient Indian science' returned 5 results
+2025-05-29 15:14:19,570 [INFO] Wikipedia search for 'science human body' returned 5 results
+2025-05-29 15:14:21,377 [ERROR] Page error for 'Human body': Page id "human both" does not match any pages. Try another id!
+2025-05-29 15:14:23,463 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-29 15:14:32,512 [ERROR] Error parsing JSON from Ollama response: Expecting ',' delimiter: line 9 column 5 (char 1086)
+2025-05-29 15:14:32,513 [ERROR] Error using enhanced lesson generator: 'sources'
+2025-05-29 15:14:32,513 [INFO] Fetching Wikipedia information for science/human body
+2025-05-29 15:14:33,571 [INFO] Wikipedia search for 'human body in science' returned 5 results
+2025-05-29 15:14:34,630 [INFO] Wikipedia search for 'human body science ancient India' returned 5 results
+2025-05-29 15:14:35,716 [INFO] Wikipedia search for 'human body in ancient Indian science' returned 5 results
+2025-05-29 15:14:36,712 [INFO] Wikipedia search for 'science human body' returned 5 results
+2025-05-29 15:14:38,468 [ERROR] Page error for 'Human body': Page id "human both" does not match any pages. Try another id!
+2025-05-29 15:14:38,468 [WARNING] No Wikipedia information found for science/human body
+2025-05-29 15:14:38,468 [INFO] Checking Ollama service status...
+2025-05-29 15:14:40,500 [INFO] Ollama API is responding
+2025-05-29 15:14:40,500 [INFO] Ollama service is running.
+2025-05-29 15:14:40,533 [INFO] Trying to generate lesson using Ollama subprocess...
+2025-05-29 15:14:42,583 [INFO] Using Ollama model: deepseek-r1:1.5b
+2025-05-29 15:14:42,583 [INFO] Generating lesson with Ollama...
+2025-05-29 15:14:48,642 [INFO] Ollama output received. Length: 2954 characters
+2025-05-29 15:14:48,643 [INFO] Found and parsed JSON from text
+2025-05-29 15:14:48,643 [INFO] Successfully generated and validated lesson
+2025-05-29 15:14:48,643 [INFO] Successfully generated lesson with Ollama: The Study of Nature Through Observation and Ethics
+2025-05-29 15:14:48,643 [INFO] <<< HTTP RESPONSE: POST /generate_lesson - Status: 200 - Time: 33.4205s
+2025-05-29 15:15:42,949 [INFO] >>> HTTP REQUEST: POST /lessons - Query params: 
+2025-05-29 15:15:42,950 [INFO] Started async lesson generation - Task ID: 6602308a-a2e3-4793-82e6-34a0f608d9a7, Subject: science, Topic: human
+2025-05-29 15:15:42,950 [INFO] <<< HTTP RESPONSE: POST /lessons - Status: 200 - Time: 0.0010s
+2025-05-29 15:15:42,952 [INFO] Starting background generation for task 6602308a-a2e3-4793-82e6-34a0f608d9a7: science/human
+2025-05-29 15:15:42,952 [INFO] Generating lesson for subject: science, topic: human, include_wikipedia: True, use_knowledge_store: True
+2025-05-29 15:15:42,952 [INFO] Generating enhanced lesson for science/human
+2025-05-29 15:15:42,953 [INFO] Creating enhanced lesson for subject: science, topic: human
+2025-05-29 15:15:42,953 [INFO] No lesson found for science/human in knowledge store
+2025-05-29 15:15:44,095 [INFO] Wikipedia search for 'human in science' returned 5 results
+2025-05-29 15:15:45,211 [INFO] Wikipedia search for 'human science ancient India' returned 5 results
+2025-05-29 15:15:46,210 [INFO] Wikipedia search for 'human in ancient Indian science' returned 5 results
+2025-05-29 15:15:47,368 [INFO] Wikipedia search for 'science human' returned 5 results
+2025-05-29 15:15:50,699 [INFO] Successfully fetched Wikipedia content for 'Human science'
+2025-05-29 15:15:50,700 [INFO] Saved Wikipedia content to cache for science/human
+2025-05-29 15:15:52,788 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-29 15:15:59,809 [ERROR] Error parsing JSON from Ollama response: Expecting ',' delimiter: line 8 column 5 (char 429)
+2025-05-29 15:15:59,809 [ERROR] Error using enhanced lesson generator: 'sources'
+2025-05-29 15:15:59,809 [INFO] Fetching Wikipedia information for science/human
+2025-05-29 15:15:59,821 [INFO] Loaded Wikipedia content from cache for science/human
+2025-05-29 15:15:59,822 [INFO] Found Wikipedia article: Human science
+2025-05-29 15:15:59,822 [INFO] Checking Ollama service status...
+2025-05-29 15:16:01,884 [INFO] Ollama API is responding
+2025-05-29 15:16:01,884 [INFO] Ollama service is running.
+2025-05-29 15:16:01,923 [INFO] Trying to generate lesson using Ollama subprocess...
+2025-05-29 15:16:03,971 [INFO] Using Ollama model: deepseek-r1:1.5b
+2025-05-29 15:16:03,972 [INFO] Generating lesson with Ollama...
+2025-05-29 15:16:11,478 [INFO] Ollama output received. Length: 3975 characters
+2025-05-29 15:16:11,479 [ERROR] Failed to parse JSON: Expecting ',' delimiter: line 3 column 36 (char 104)
+2025-05-29 15:16:11,479 [ERROR] Raw output: <think>
+Okay, so I need to create a structured lesson on the topic of human within the context of science using ancient Indian wisdom. The user provided an example response in JSON format with specific fields like title, shloka, translation, explanation, activity, and question. Now, I have to think through how to approach this task.
+
+First, I should understand the components required for such a lesson. The title needs to capture the essence of the lesson on the human within. A shloka or verse is needed from ancient Indian tradition that can guide the discussion. An English translation would be helpful for those who might not know the Sanskrit words. The explanation must include the significance in ancient knowledge systems, which means I need to delve into how the concept aligns with traditional teachings. 
+
+Then there's the practical activity, something hands-on that students can engage with. It should allow them to apply their understanding of the concept. Finally, a reflective question will prompt deeper thought and encourage personal reflection.
+
+I also have to ensure that the content is authentic, respectful, and educationally valuable. That means I need to avoid anything that might be seen as disrespectful or outdated. The language should reflect the ancient Indian wisdom tradition without losing its essence in modern contexts.
+
+Let me brainstorm some key concepts related to "human within" science. It touches on biology, psychology, philosophy, etc. Ancient Indian teachings often explored human aspect of nature, cosmic creation, and inner peace. Concepts like "samsara," "shakti," etc., relate to duality and self-perception.
+
+I should think about how to structure the lesson. Maybe start with an introduction to ancient Indian concepts about human existence, then link it to modern science. The shloka might help in guiding the discussion on these concepts.
+
+In terms of materials needed for the practical activity, perhaps diagrams or models that show different aspects of humanity interacting with the universe. This hands-on approach would make learning more engaging and effective.
+
+Reflective questions should encourage students to think about how their understanding of human aspect in science aligns with ancient teachings and why it's valuable today.
+
+I also need to ensure that the translation from Sanskrit is accurate and not just a literal translation, but captures the essence of the concept as per ancient Indian wisdom. The explanation needs to connect this concept to broader educational frameworks, explaining how it complements traditional knowledge systems.
+
+I might be overcomplicating some parts, but I need to make sure each component flows logically from one to the next, creating a cohesive lesson plan that's both educational and respectful.
+
+Alright, time to structure my thoughts into a coherent lesson plan.
+</think>
+
+{
+    "title": "The Human Within: A Journey Through Ancient Wisdom",
+    "shloka": "Yajurveda 12.150 | "Vibhavam" (Surya Shat summarize Shakti),
+    "translation": "Through the lens of Suddhu and Dharma, understand the journey of inner peace.",
+    "explanation": "The concept of 'human within' in ancient India refers to the interplay between human existence and cosmic creation. It explores ideas like duality (samsara) and self-perception, emphasizing inner peace and harmony with nature. This principle is integral to understanding how humans view their role in the universe, drawing from traditional philosophies that prioritize balance and interconnectedness.",
+    "activity": "Create a model of two concentric spheres, representing human awareness and cosmic structure. Label them as 'Shakti' (inner) and 'Samsara' (outer), symbolizing duality and self-properness.",
+    "question": "Reflect on how your understanding of the human within reflects ancient teachings about inner peace and interconnectedness. How do these principles guide your current perspective in science and society?"
+}
+2025-05-29 15:16:16,772 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-29 15:16:16,774 [INFO] Retrying request to /chat/completions in 0.433267 seconds
+2025-05-29 15:16:17,791 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-29 15:16:17,792 [INFO] Retrying request to /chat/completions in 0.840093 seconds
+2025-05-29 15:16:21,347 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-29 15:16:21,348 [INFO] Backing off generate_with_openai(...) for 0.2s (openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}})
+2025-05-29 15:16:22,411 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-29 15:16:22,412 [INFO] Retrying request to /chat/completions in 0.408615 seconds
+2025-05-29 15:16:23,115 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-29 15:16:23,116 [INFO] Retrying request to /chat/completions in 0.839156 seconds
+2025-05-29 15:16:24,262 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-29 15:16:24,263 [INFO] Backing off generate_with_openai(...) for 0.6s (openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}})
+2025-05-29 15:16:25,684 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-29 15:16:25,685 [INFO] Retrying request to /chat/completions in 0.420862 seconds
+2025-05-29 15:16:26,405 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-29 15:16:26,406 [INFO] Retrying request to /chat/completions in 0.827460 seconds
+2025-05-29 15:16:27,952 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-29 15:16:27,953 [ERROR] Giving up generate_with_openai(...) after 3 tries (openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}})
+2025-05-29 15:16:27,953 [ERROR] Error using OpenAI: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-05-29 15:16:27,953 [WARNING] All LLM services failed. Errors: Enhanced generator error: 'sources'; OpenAI error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Using mock lessons as fallback.
+2025-05-29 15:16:27,953 [INFO] Completed background generation for task 6602308a-a2e3-4793-82e6-34a0f608d9a7: Lesson on science: human
+2025-05-29 15:17:48,504 [INFO] >>> HTTP REQUEST: GET /lessons/science/human - Query params: include_wikipedia=true
+2025-05-29 15:17:48,505 [INFO] Retrieving lesson for subject: science, topic: human
+2025-05-29 15:17:48,505 [INFO] No lesson found for science/human in knowledge store
+2025-05-29 15:17:48,506 [INFO] <<< HTTP RESPONSE: GET /lessons/science/human - Status: 404 - Time: 0.0020s
+2025-05-29 15:22:58,013 [INFO] Using CPU for compute
+2025-05-29 15:22:58,055 [INFO] Using CPU for compute
+2025-05-29 15:30:03,185 [INFO] Using CPU for compute
+2025-05-29 15:30:03,230 [INFO] Using CPU for compute
+2025-05-29 15:30:15,988 [INFO] >>> HTTP REQUEST: OPTIONS /lessons - Query params: 
+2025-05-29 15:30:15,988 [INFO] <<< HTTP RESPONSE: OPTIONS /lessons - Status: 200 - Time: 0.0000s
+2025-05-29 15:30:15,992 [INFO] >>> HTTP REQUEST: POST /lessons - Query params: 
+2025-05-29 15:30:15,993 [INFO] Started async lesson generation - Task ID: e31760d3-8d37-4281-bf9c-964658221934, Subject: maths, Topic: not maths
+2025-05-29 15:30:15,994 [INFO] <<< HTTP RESPONSE: POST /lessons - Status: 200 - Time: 0.0020s
+2025-05-29 15:30:15,994 [INFO] Starting background generation for task e31760d3-8d37-4281-bf9c-964658221934: maths/not maths
+2025-05-29 15:30:16,179 [INFO] Creating enhanced lesson for subject: maths, topic: not maths
+2025-05-29 15:30:16,179 [INFO] No lesson found for maths/not maths in knowledge store
+2025-05-29 15:30:16,184 [ERROR] Error searching Wikipedia: HTTPConnectionPool(host='en.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=5&limit=5&srsearch=not+maths+in+maths&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000015FE75A6E10>: Failed to resolve 'en.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 15:30:16,185 [ERROR] Error searching Wikipedia: HTTPConnectionPool(host='en.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=5&limit=5&srsearch=not+maths+maths+ancient+India&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000015FE75B8E50>: Failed to resolve 'en.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 15:30:16,186 [ERROR] Error searching Wikipedia: HTTPConnectionPool(host='en.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=5&limit=5&srsearch=not+maths+in+ancient+Indian+maths&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000015FE75BAFD0>: Failed to resolve 'en.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 15:30:16,187 [ERROR] Error searching Wikipedia: HTTPConnectionPool(host='en.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=5&limit=5&srsearch=maths+not+maths&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000015FE75BCFD0>: Failed to resolve 'en.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 15:30:18,272 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-29 15:30:32,897 [INFO] Successfully generated lesson with Ollama: The Integration of Ancient Indian Wisdom in Mathematics
+2025-05-29 15:30:32,898 [INFO] Lesson on maths/not maths saved to knowledge store (version 1.0)
+2025-05-29 15:30:32,898 [INFO] Completed background generation for task e31760d3-8d37-4281-bf9c-964658221934: The Integration of Ancient Indian Wisdom in Mathematics
+2025-05-29 15:30:32,899 [INFO] >>> HTTP REQUEST: GET /lessons/maths/not maths - Query params: 
+2025-05-29 15:30:32,899 [INFO] Retrieving lesson for subject: maths, topic: not maths
+2025-05-29 15:30:32,908 [INFO] Lesson on maths/not maths retrieved from knowledge store
+2025-05-29 15:30:32,908 [INFO] Successfully retrieved lesson: The Integration of Ancient Indian Wisdom in Mathematics
+2025-05-29 15:30:32,908 [INFO] <<< HTTP RESPONSE: GET /lessons/maths/not maths - Status: 200 - Time: 0.0091s
+2025-05-29 15:30:38,708 [INFO] >>> HTTP REQUEST: OPTIONS /lessons - Query params: 
+2025-05-29 15:30:38,709 [INFO] <<< HTTP RESPONSE: OPTIONS /lessons - Status: 200 - Time: 0.0011s
+2025-05-29 15:30:38,716 [INFO] >>> HTTP REQUEST: POST /lessons - Query params: 
+2025-05-29 15:30:38,716 [INFO] Started async lesson generation - Task ID: c9824ac9-02e0-4fbc-a942-7de7ec6975b5, Subject: hello, Topic: hello
+2025-05-29 15:30:38,717 [INFO] <<< HTTP RESPONSE: POST /lessons - Status: 200 - Time: 0.0010s
+2025-05-29 15:30:38,717 [INFO] Starting background generation for task c9824ac9-02e0-4fbc-a942-7de7ec6975b5: hello/hello
+2025-05-29 15:30:38,717 [INFO] Creating enhanced lesson for subject: hello, topic: hello
+2025-05-29 15:30:38,717 [INFO] No lesson found for hello/hello in knowledge store
+2025-05-29 15:30:49,783 [ERROR] Error searching Wikipedia: HTTPConnectionPool(host='en.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=5&limit=5&srsearch=hello+in+hello&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000015FE74F4150>: Failed to resolve 'en.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 15:30:49,784 [ERROR] Error searching Wikipedia: HTTPConnectionPool(host='en.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=5&limit=5&srsearch=hello+hello+ancient+India&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000015FE75A6690>: Failed to resolve 'en.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 15:30:49,785 [ERROR] Error searching Wikipedia: HTTPConnectionPool(host='en.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=5&limit=5&srsearch=hello+in+ancient+Indian+hello&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000015FE75BDE10>: Failed to resolve 'en.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 15:30:49,787 [ERROR] Error searching Wikipedia: HTTPConnectionPool(host='en.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=5&limit=5&srsearch=hello+hello&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000015FE5F4EA50>: Failed to resolve 'en.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 15:30:51,874 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-29 15:30:58,875 [INFO] Successfully generated lesson with Ollama: The Secret behind Hello—A Mathematical Journey
+2025-05-29 15:30:58,875 [INFO] Lesson on hello/hello saved to knowledge store (version 1.0)
+2025-05-29 15:30:58,875 [INFO] Completed background generation for task c9824ac9-02e0-4fbc-a942-7de7ec6975b5: The Secret behind Hello—A Mathematical Journey
+2025-05-29 15:30:58,876 [INFO] >>> HTTP REQUEST: GET /lessons/hello/hello - Query params: 
+2025-05-29 15:30:58,876 [INFO] Retrieving lesson for subject: hello, topic: hello
+2025-05-29 15:30:58,886 [INFO] Lesson on hello/hello retrieved from knowledge store
+2025-05-29 15:30:58,887 [INFO] Successfully retrieved lesson: The Secret behind Hello—A Mathematical Journey
+2025-05-29 15:30:58,887 [INFO] <<< HTTP RESPONSE: GET /lessons/hello/hello - Status: 200 - Time: 0.0110s
+2025-05-29 15:31:20,873 [INFO] Using CPU for compute
+2025-05-29 15:31:20,914 [INFO] Using CPU for compute
+2025-05-29 15:31:44,661 [INFO] >>> HTTP REQUEST: OPTIONS /lessons - Query params: 
+2025-05-29 15:31:44,662 [INFO] <<< HTTP RESPONSE: OPTIONS /lessons - Status: 200 - Time: 0.0010s
+2025-05-29 15:31:44,666 [INFO] >>> HTTP REQUEST: POST /lessons - Query params: 
+2025-05-29 15:31:44,666 [INFO] Started async lesson generation - Task ID: 8af19988-f1bc-4260-9dbc-cd600019cd05, Subject: science, Topic: mitochondria
+2025-05-29 15:31:44,666 [INFO] <<< HTTP RESPONSE: POST /lessons - Status: 200 - Time: 0.0005s
+2025-05-29 15:31:44,667 [INFO] Starting background generation for task 8af19988-f1bc-4260-9dbc-cd600019cd05: science/mitochondria
+2025-05-29 15:31:44,848 [INFO] Creating enhanced lesson for subject: science, topic: mitochondria
+2025-05-29 15:31:44,848 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:31:45,895 [INFO] Wikipedia search for 'mitochondria in science' returned 5 results
+2025-05-29 15:31:46,878 [INFO] Wikipedia search for 'mitochondria science ancient India' returned 5 results
+2025-05-29 15:31:47,911 [INFO] Wikipedia search for 'mitochondria in ancient Indian science' returned 5 results
+2025-05-29 15:31:48,821 [INFO] Wikipedia search for 'science mitochondria' returned 5 results
+2025-05-29 15:31:53,917 [INFO] Successfully fetched Wikipedia content for 'Mitochondrion'
+2025-05-29 15:31:53,919 [INFO] Saved Wikipedia content to cache for science/mitochondria
+2025-05-29 15:31:55,987 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-29 15:32:05,233 [ERROR] Error parsing JSON from Ollama response: Expecting ',' delimiter: line 7 column 5 (char 1165)
+2025-05-29 15:32:05,234 [ERROR] Error in background generation for task 8af19988-f1bc-4260-9dbc-cd600019cd05: 'sources'
+2025-05-29 15:32:05,234 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:05,234 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:05,235 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:05,235 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:06,283 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:06,283 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:06,284 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:06,284 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:07,344 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:07,345 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:07,345 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:07,345 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:08,409 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:08,409 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:08,410 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:08,410 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:09,470 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:09,471 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:09,471 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:09,471 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:10,537 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:10,537 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:10,538 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:10,538 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:11,591 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:11,591 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:11,591 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:11,592 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0013s
+2025-05-29 15:32:12,658 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:12,658 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:12,659 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:12,659 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:13,712 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:13,713 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:13,713 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:13,713 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0012s
+2025-05-29 15:32:14,765 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:14,765 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:14,765 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:14,766 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0020s
+2025-05-29 15:32:15,833 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:15,833 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:15,834 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:15,834 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:16,886 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:16,888 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:16,888 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:16,888 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0015s
+2025-05-29 15:32:17,940 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:17,940 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:17,940 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:17,940 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0004s
+2025-05-29 15:32:18,993 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:18,993 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:18,995 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:18,995 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0011s
+2025-05-29 15:32:20,047 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:20,047 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:20,048 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:20,048 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:21,114 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:21,115 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:21,116 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:21,116 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0012s
+2025-05-29 15:32:22,168 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:22,168 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:22,169 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:22,169 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0011s
+2025-05-29 15:32:23,222 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:23,222 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:23,223 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:23,223 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0011s
+2025-05-29 15:32:24,287 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:24,288 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:24,288 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:24,289 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0021s
+2025-05-29 15:32:25,356 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:25,356 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:25,357 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:25,357 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:26,421 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:26,421 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:26,422 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:26,423 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0016s
+2025-05-29 15:32:27,477 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:27,477 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:27,478 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:27,478 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:28,531 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:28,531 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:28,532 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:28,532 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:29,581 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:29,581 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:29,582 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:29,582 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:30,638 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:30,638 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:30,639 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:30,639 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0012s
+2025-05-29 15:32:31,687 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:31,688 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:31,688 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:31,688 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:32,742 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:32,743 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:32,743 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:32,743 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:33,795 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:33,795 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:33,796 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:33,796 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:34,852 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:34,852 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:34,854 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:34,854 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:35,919 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:35,919 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:35,921 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:35,921 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:36,986 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:36,986 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:36,987 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:36,987 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:38,035 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:38,035 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:38,036 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:38,036 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0011s
+2025-05-29 15:32:39,087 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:39,088 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:39,088 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:39,088 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:40,144 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:40,145 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:40,145 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:40,145 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0011s
+2025-05-29 15:32:41,201 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:41,201 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:41,203 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:41,203 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0011s
+2025-05-29 15:32:42,254 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:42,254 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:42,255 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:42,255 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:32:43,304 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:32:43,305 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:32:43,305 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:32:43,305 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:34:59,758 [INFO] Using CPU for compute
+2025-05-29 15:34:59,795 [INFO] Using CPU for compute
+2025-05-29 15:34:59,964 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:34:59,965 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:34:59,966 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:34:59,966 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0021s
+2025-05-29 15:35:01,025 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:35:01,025 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:35:01,026 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:35:01,026 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:35:02,079 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:35:02,079 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:35:02,080 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:35:02,080 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0011s
+2025-05-29 15:35:03,133 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:35:03,134 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:35:03,134 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:35:03,134 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:35:04,186 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:35:04,186 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:35:04,187 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:35:04,187 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0011s
+2025-05-29 15:35:05,240 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:35:05,240 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:35:05,241 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:35:05,241 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:35:06,303 [INFO] >>> HTTP REQUEST: GET /lessons/science/mitochondria - Query params: 
+2025-05-29 15:35:06,303 [INFO] Retrieving lesson for subject: science, topic: mitochondria
+2025-05-29 15:35:06,304 [INFO] No lesson found for science/mitochondria in knowledge store
+2025-05-29 15:35:06,304 [INFO] <<< HTTP RESPONSE: GET /lessons/science/mitochondria - Status: 404 - Time: 0.0010s
+2025-05-29 15:35:14,369 [INFO] Using CPU for compute
+2025-05-29 15:35:14,411 [INFO] Using CPU for compute
+2025-05-29 15:35:19,585 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-29 15:35:19,586 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0010s
+2025-05-29 15:35:19,688 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-29 15:35:19,693 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0052s
+2025-05-29 15:35:57,014 [INFO] >>> HTTP REQUEST: GET /docs - Query params: 
+2025-05-29 15:35:57,015 [INFO] <<< HTTP RESPONSE: GET /docs - Status: 200 - Time: 0.0010s
+2025-05-29 15:35:57,074 [INFO] >>> HTTP REQUEST: GET /openapi.json - Query params: 
+2025-05-29 15:35:57,075 [INFO] <<< HTTP RESPONSE: GET /openapi.json - Status: 200 - Time: 0.0010s
+2025-05-29 15:36:16,171 [INFO] >>> HTTP REQUEST: OPTIONS /lessons - Query params: 
+2025-05-29 15:36:16,171 [INFO] <<< HTTP RESPONSE: OPTIONS /lessons - Status: 200 - Time: 0.0008s
+2025-05-29 15:36:16,174 [INFO] >>> HTTP REQUEST: POST /lessons - Query params: 
+2025-05-29 15:36:16,175 [INFO] Started async lesson generation - Task ID: ca5ecd29-4ad1-4211-a9d8-ec155bd241d1, Subject: science, Topic: sun
+2025-05-29 15:36:16,175 [INFO] <<< HTTP RESPONSE: POST /lessons - Status: 200 - Time: 0.0010s
+2025-05-29 15:36:16,176 [INFO] Starting background generation for task ca5ecd29-4ad1-4211-a9d8-ec155bd241d1: science/sun
+2025-05-29 15:36:16,361 [INFO] Creating enhanced lesson for subject: science, topic: sun
+2025-05-29 15:36:16,361 [INFO] No lesson found for science/sun in knowledge store
+2025-05-29 15:36:17,523 [INFO] Wikipedia search for 'sun in science' returned 5 results
+2025-05-29 15:36:18,494 [INFO] Wikipedia search for 'sun science ancient India' returned 5 results
+2025-05-29 15:36:19,536 [INFO] Wikipedia search for 'sun in ancient Indian science' returned 5 results
+2025-05-29 15:36:20,511 [INFO] Wikipedia search for 'science sun' returned 5 results
+2025-05-29 15:36:23,824 [INFO] Successfully fetched Wikipedia content for 'Sun'
+2025-05-29 15:36:23,825 [INFO] Saved Wikipedia content to cache for science/sun
+2025-05-29 15:36:25,915 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-29 15:36:34,021 [ERROR] Error parsing JSON from Ollama response: Invalid control character at: line 5 column 549 (char 693)
+2025-05-29 15:36:34,022 [ERROR] Error in background generation for task ca5ecd29-4ad1-4211-a9d8-ec155bd241d1: 'sources'
+2025-05-29 15:36:34,023 [INFO] >>> HTTP REQUEST: GET /lessons/science/sun - Query params: 
+2025-05-29 15:36:34,023 [INFO] Retrieving lesson for subject: science, topic: sun
+2025-05-29 15:36:34,023 [INFO] No lesson found for science/sun in knowledge store
+2025-05-29 15:36:34,024 [INFO] <<< HTTP RESPONSE: GET /lessons/science/sun - Status: 404 - Time: 0.0010s
+2025-05-29 15:36:35,086 [INFO] >>> HTTP REQUEST: GET /lessons/science/sun - Query params: 
+2025-05-29 15:36:35,086 [INFO] Retrieving lesson for subject: science, topic: sun
+2025-05-29 15:36:35,087 [INFO] No lesson found for science/sun in knowledge store
+2025-05-29 15:36:35,087 [INFO] <<< HTTP RESPONSE: GET /lessons/science/sun - Status: 404 - Time: 0.0010s
+2025-05-29 15:36:36,149 [INFO] >>> HTTP REQUEST: GET /lessons/science/sun - Query params: 
+2025-05-29 15:36:36,150 [INFO] Retrieving lesson for subject: science, topic: sun
+2025-05-29 15:36:36,150 [INFO] No lesson found for science/sun in knowledge store
+2025-05-29 15:36:36,150 [INFO] <<< HTTP RESPONSE: GET /lessons/science/sun - Status: 404 - Time: 0.0007s
+2025-05-29 15:36:37,200 [INFO] >>> HTTP REQUEST: GET /lessons/science/sun - Query params: 
+2025-05-29 15:36:37,200 [INFO] Retrieving lesson for subject: science, topic: sun
+2025-05-29 15:36:37,201 [INFO] No lesson found for science/sun in knowledge store
+2025-05-29 15:36:37,201 [INFO] <<< HTTP RESPONSE: GET /lessons/science/sun - Status: 404 - Time: 0.0013s
+2025-05-29 15:36:38,252 [INFO] >>> HTTP REQUEST: GET /lessons/science/sun - Query params: 
+2025-05-29 15:36:38,253 [INFO] Retrieving lesson for subject: science, topic: sun
+2025-05-29 15:36:38,253 [INFO] No lesson found for science/sun in knowledge store
+2025-05-29 15:36:38,253 [INFO] <<< HTTP RESPONSE: GET /lessons/science/sun - Status: 404 - Time: 0.0008s
+2025-05-29 15:36:39,301 [INFO] >>> HTTP REQUEST: GET /lessons/science/sun - Query params: 
+2025-05-29 15:36:39,301 [INFO] Retrieving lesson for subject: science, topic: sun
+2025-05-29 15:36:39,302 [INFO] No lesson found for science/sun in knowledge store
+2025-05-29 15:36:39,302 [INFO] <<< HTTP RESPONSE: GET /lessons/science/sun - Status: 404 - Time: 0.0012s
+2025-05-29 15:36:40,362 [INFO] >>> HTTP REQUEST: GET /lessons/science/sun - Query params: 
+2025-05-29 15:36:40,362 [INFO] Retrieving lesson for subject: science, topic: sun
+2025-05-29 15:36:40,363 [INFO] No lesson found for science/sun in knowledge store
+2025-05-29 15:36:40,363 [INFO] <<< HTTP RESPONSE: GET /lessons/science/sun - Status: 404 - Time: 0.0010s
+2025-05-29 15:36:41,422 [INFO] >>> HTTP REQUEST: GET /lessons/science/sun - Query params: 
+2025-05-29 15:36:41,422 [INFO] Retrieving lesson for subject: science, topic: sun
+2025-05-29 15:36:41,423 [INFO] No lesson found for science/sun in knowledge store
+2025-05-29 15:36:41,423 [INFO] <<< HTTP RESPONSE: GET /lessons/science/sun - Status: 404 - Time: 0.0011s
+2025-05-29 15:36:42,475 [INFO] >>> HTTP REQUEST: GET /lessons/science/sun - Query params: 
+2025-05-29 15:36:42,475 [INFO] Retrieving lesson for subject: science, topic: sun
+2025-05-29 15:36:42,476 [INFO] No lesson found for science/sun in knowledge store
+2025-05-29 15:36:42,476 [INFO] <<< HTTP RESPONSE: GET /lessons/science/sun - Status: 404 - Time: 0.0010s
+2025-05-29 15:36:43,537 [INFO] >>> HTTP REQUEST: GET /lessons/science/sun - Query params: 
+2025-05-29 15:36:43,537 [INFO] Retrieving lesson for subject: science, topic: sun
+2025-05-29 15:36:43,538 [INFO] No lesson found for science/sun in knowledge store
+2025-05-29 15:36:43,538 [INFO] <<< HTTP RESPONSE: GET /lessons/science/sun - Status: 404 - Time: 0.0010s
+2025-05-29 15:36:44,591 [INFO] >>> HTTP REQUEST: GET /lessons/science/sun - Query params: 
+2025-05-29 15:36:44,592 [INFO] Retrieving lesson for subject: science, topic: sun
+2025-05-29 15:36:44,592 [INFO] No lesson found for science/sun in knowledge store
+2025-05-29 15:36:44,592 [INFO] <<< HTTP RESPONSE: GET /lessons/science/sun - Status: 404 - Time: 0.0010s
+2025-05-29 15:36:45,643 [INFO] >>> HTTP REQUEST: GET /lessons/science/sun - Query params: 
+2025-05-29 15:36:45,644 [INFO] Retrieving lesson for subject: science, topic: sun
+2025-05-29 15:36:45,644 [INFO] No lesson found for science/sun in knowledge store
+2025-05-29 15:36:45,646 [INFO] <<< HTTP RESPONSE: GET /lessons/science/sun - Status: 404 - Time: 0.0020s
+2025-05-29 15:36:46,698 [INFO] >>> HTTP REQUEST: GET /lessons/science/sun - Query params: 
+2025-05-29 15:36:46,698 [INFO] Retrieving lesson for subject: science, topic: sun
+2025-05-29 15:36:46,699 [INFO] No lesson found for science/sun in knowledge store
+2025-05-29 15:36:46,699 [INFO] <<< HTTP RESPONSE: GET /lessons/science/sun - Status: 404 - Time: 0.0010s
+2025-05-29 15:36:47,751 [INFO] >>> HTTP REQUEST: GET /lessons/science/sun - Query params: 
+2025-05-29 15:36:47,751 [INFO] Retrieving lesson for subject: science, topic: sun
+2025-05-29 15:36:47,752 [INFO] No lesson found for science/sun in knowledge store
+2025-05-29 15:36:47,752 [INFO] <<< HTTP RESPONSE: GET /lessons/science/sun - Status: 404 - Time: 0.0010s
+2025-05-29 15:41:46,756 [INFO] Using CPU for compute
+2025-05-29 15:41:46,794 [INFO] Using CPU for compute
+2025-05-29 15:41:59,846 [INFO] >>> HTTP REQUEST: OPTIONS /lessons - Query params: 
+2025-05-29 15:41:59,846 [INFO] <<< HTTP RESPONSE: OPTIONS /lessons - Status: 200 - Time: 0.0000s
+2025-05-29 15:41:59,867 [INFO] >>> HTTP REQUEST: POST /lessons - Query params: 
+2025-05-29 15:41:59,867 [INFO] Started async lesson generation - Task ID: 9e9a6fda-7ce3-40e6-81c6-33b24e71be85, Subject: science, Topic: genetics
+2025-05-29 15:41:59,868 [INFO] <<< HTTP RESPONSE: POST /lessons - Status: 200 - Time: 0.0010s
+2025-05-29 15:41:59,868 [INFO] Starting background generation for task 9e9a6fda-7ce3-40e6-81c6-33b24e71be85: science/genetics
+2025-05-29 15:42:00,055 [INFO] Creating enhanced lesson for subject: science, topic: genetics
+2025-05-29 15:42:00,055 [INFO] No lesson found for science/genetics in knowledge store
+2025-05-29 15:42:01,071 [INFO] Wikipedia search for 'genetics in science' returned 5 results
+2025-05-29 15:42:02,036 [INFO] Wikipedia search for 'genetics science ancient India' returned 5 results
+2025-05-29 15:42:03,044 [INFO] Wikipedia search for 'genetics in ancient Indian science' returned 5 results
+2025-05-29 15:42:03,950 [INFO] Wikipedia search for 'science genetics' returned 5 results
+2025-05-29 15:42:07,133 [INFO] Successfully fetched Wikipedia content for 'Genetics in fiction'
+2025-05-29 15:42:07,134 [INFO] Saved Wikipedia content to cache for science/genetics
+2025-05-29 15:42:09,204 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-29 15:42:16,961 [INFO] Successfully generated lesson with Ollama: The title of the lesson
+2025-05-29 15:42:16,963 [INFO] Lesson on science/genetics saved to knowledge store (version 1.0)
+2025-05-29 15:42:16,963 [INFO] Completed background generation for task 9e9a6fda-7ce3-40e6-81c6-33b24e71be85: The title of the lesson
+2025-05-29 15:42:16,963 [INFO] >>> HTTP REQUEST: GET /lessons/science/genetics - Query params: 
+2025-05-29 15:42:16,964 [INFO] Retrieving lesson for subject: science, topic: genetics
+2025-05-29 15:42:16,975 [INFO] Lesson on science/genetics retrieved from knowledge store
+2025-05-29 15:42:16,975 [INFO] Successfully retrieved lesson: The title of the lesson
+2025-05-29 15:42:16,976 [INFO] <<< HTTP RESPONSE: GET /lessons/science/genetics - Status: 200 - Time: 0.0132s

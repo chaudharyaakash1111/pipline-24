@@ -1,0 +1,20 @@
+{
+  "subject": "maths",
+  "topic": "not maths",
+  "title": "The Integration of Ancient Indian Wisdom in Mathematics",
+  "shloka": "Shloka related to maths.",
+  "translation": "An ancient Sanskrit shloka on the concept of integrating mathematics with spiritual practices.",
+  "explanation": "This lesson explores how ancient Indian mathematical concepts, such as Vedic maths and their applications in various disciplines including Ayurveda and Veda, enhance understanding through holistic approaches. The integration emphasizes mental calculation and practical application, fostering a deeper appreciation for both maths and spirituality.",
+  "activity": "Students will engage by applying mathematical principles to practical exercises in Ayurvedic or Vedic contexts, such as calculating doshas or meditative techniques, reinforcing their learning while gaining insights into how maths is integrated into spiritual traditions.",
+  "question": "Reflect on the significance of integrating mathematical concepts with ancient practices. How does this approach enhance one's understanding of both maths and spirituality?",
+  "wikipedia_info": null,
+  "sources": [
+    "Ollama (deepseek-r1:1.5b)"
+  ],
+  "metadata": {
+    "timestamp": 1748512832.8981733,
+    "date_created": "2025-05-29T15:30:32.898173",
+    "version": "1.0",
+    "last_updated": "2025-05-29T15:30:32.898173"
+  }
+}

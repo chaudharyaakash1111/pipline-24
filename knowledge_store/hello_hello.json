@@ -1,0 +1,20 @@
+{
+  "subject": "hello",
+  "topic": "hello",
+  "title": "The Secret behind Hello—A Mathematical Journey",
+  "shloka": "Vibhānavi-Vikramānān",
+  "translation": "Greeting, Thank you.",
+  "explanation": "In ancient Indian wisdom, 'hello' is not just a greeting but a reflection of mathematical patterns in nature. These patterns, known as the periodic table of life or Vedic mathematics, reveal the order hidden in chaos. Numbers, shapes, and sequences serve as universal guides, much like how instructions in nature ensure harmony and guidance across species.",
+  "activity": "Have students write numbers from 1 to 10 on pieces of paper and arrange them in a pattern that reflects symmetry or sequence—this could resemble a greeting or a simple instruction.",
+  "question": "How do mathematical patterns in nature guide our actions, like greetings?",
+  "wikipedia_info": null,
+  "sources": [
+    "Ollama (deepseek-r1:1.5b)"
+  ],
+  "metadata": {
+    "timestamp": 1748512858.875866,
+    "date_created": "2025-05-29T15:30:58.875865",
+    "version": "1.0",
+    "last_updated": "2025-05-29T15:30:58.875865"
+  }
+}
