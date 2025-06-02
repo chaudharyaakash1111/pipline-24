@@ -1,0 +1,20 @@
+{
+  "subject": "data science",
+  "topic": "machine learning",
+  "title": "The Vedic Insight in Machine Learning",
+  "shloka": "When the truth does not lie beyond reason...",
+  "translation": "When the reality is within our grasp with reason.",
+  "explanation": "Ancient Vedic wisdom emphasizes understanding through reasoning and logic. In machine learning, this manifests as algorithms deducing patterns from data to make decisions or predictions. The principles of cause and effect from Vedic teachings are akin to how algorithms identify relationships in datasets. This approach, though different from modern neural networks, aligns with ancient philosophies that value order and rationality in decision-making.",
+  "activity": "Students work in groups to build a simple machine learning model using only basic logical steps inspired by ancient Vedic principles. They analyze input data, apply decision rules, and predict outcomes while discussing how this mirrors human problem-solving.",
+  "question": "Does the universe hold its true nature through reason alone, or does it require the intervention of machines? Do humans need to control their environment in order for machines to make decisions?",
+  "wikipedia_info": null,
+  "sources": [
+    "Ollama (deepseek-r1:1.5b)"
+  ],
+  "metadata": {
+    "timestamp": 1748514325.2913022,
+    "date_created": "2025-05-29T15:55:25.291302",
+    "version": "1.0",
+    "last_updated": "2025-05-29T15:55:25.291302"
+  }
+}

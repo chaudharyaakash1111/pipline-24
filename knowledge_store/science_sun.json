@@ -1,0 +1,31 @@
+{
+  "subject": "science",
+  "topic": "sun",
+  "title": "The Science of the Sun: Ancient Wisdom Through Mathematics",
+  "shloka": "Siddhātan ma dharana-matikāya, samādhyāna mīlākāni,\nKālādharika niśanān, nashtayān: Vargādāna,\nDharana-matikā, niśanā, nashtayān: Vargādāna.",
+  "translation": "Siddhātan ma dharana-matikā, samādhyāna mīlākāni,\nKālādharika niśanān, nashtayān: Vargādāna,\nDharana-matikā, niśanā, nashtayān: Vargādāna.",
+  "explanation": "The sun, a natural object in science, is deeply studied by ancient scholars through mathematical principles. Concepts like geometry and trigonometry were used to calculate solar angles, such as sunrise and sunset times. Ancient texts like the Lilavati by Brahmagupta demonstrate how mathematics was applied to understand the Sun's movements. Additionally, ancient philosophical works often touched on the Sun's significance, providing foundational knowledge that bridges both scientific and spiritual understanding.",
+  "activity": "Have students calculate the angle of the sun at sunrise or sunset using shadows and trigonometric ratios. This activity helps them visualize ancient mathematical techniques applied to real-world phenomena.",
+  "question": "How did ancient Indian mathematicians use geometry to predict solar positions, and how has this knowledge influenced our understanding today?",
+  "wikipedia_info": {
+    "title": "Sun",
+    "summary": "A son is a male offspring; a boy or a man in relation to his parents. The female counterpart is a daughter.  From a biological perspective, a son constitutes a first degree relative.",
+    "url": "https://en.wikipedia.org/wiki/Son",
+    "related_articles": [
+      "Sun dog",
+      "Sun in fiction",
+      "Klara and the Sun (film)",
+      "The Book of the New Sun"
+    ]
+  },
+  "sources": [
+    "Ollama (deepseek-r1:1.5b)"
+  ],
+  "wikipedia_summary": "A son is a male offspring; a boy or a man in relation to his parents. The female counterpart is a daughter.  From a biological perspective, a son constitutes a first degree relative.",
+  "metadata": {
+    "timestamp": 1748514213.009067,
+    "date_created": "2025-05-29T15:53:33.009066",
+    "version": "1.0",
+    "last_updated": "2025-05-29T15:53:33.009066"
+  }
+}

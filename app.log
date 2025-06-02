@@ -5526,3 +5526,74 @@ Alright, time to structure my thoughts into a coherent lesson plan.
 2025-05-29 15:42:16,975 [INFO] Lesson on science/genetics retrieved from knowledge store
 2025-05-29 15:42:16,975 [INFO] Successfully retrieved lesson: The title of the lesson
 2025-05-29 15:42:16,976 [INFO] <<< HTTP RESPONSE: GET /lessons/science/genetics - Status: 200 - Time: 0.0132s
+2025-05-29 15:53:03,755 [INFO] Using CPU for compute
+2025-05-29 15:53:03,798 [INFO] Using CPU for compute
+2025-05-29 15:53:16,618 [INFO] >>> HTTP REQUEST: OPTIONS /lessons - Query params: 
+2025-05-29 15:53:16,619 [INFO] <<< HTTP RESPONSE: OPTIONS /lessons - Status: 200 - Time: 0.0010s
+2025-05-29 15:53:16,621 [INFO] >>> HTTP REQUEST: POST /lessons - Query params: 
+2025-05-29 15:53:16,621 [INFO] Started async lesson generation - Task ID: b71ddee9-fe4b-4c7f-b247-0ec0688fc568, Subject: science, Topic: sun
+2025-05-29 15:53:16,622 [INFO] <<< HTTP RESPONSE: POST /lessons - Status: 200 - Time: 0.0010s
+2025-05-29 15:53:16,622 [INFO] Starting background generation for task b71ddee9-fe4b-4c7f-b247-0ec0688fc568: science/sun
+2025-05-29 15:53:16,812 [INFO] Creating enhanced lesson for subject: science, topic: sun
+2025-05-29 15:53:16,812 [INFO] No lesson found for science/sun in knowledge store
+2025-05-29 15:53:16,812 [INFO] Loaded Wikipedia content from cache for science/sun
+2025-05-29 15:53:18,883 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-29 15:53:33,008 [INFO] Successfully generated lesson with Ollama: The Science of the Sun: Ancient Wisdom Through Mathematics
+2025-05-29 15:53:33,009 [INFO] Lesson on science/sun saved to knowledge store (version 1.0)
+2025-05-29 15:53:33,009 [INFO] Completed background generation for task b71ddee9-fe4b-4c7f-b247-0ec0688fc568: The Science of the Sun: Ancient Wisdom Through Mathematics
+2025-05-29 15:53:33,010 [INFO] >>> HTTP REQUEST: GET /lessons/science/sun - Query params: 
+2025-05-29 15:53:33,010 [INFO] Retrieving lesson for subject: science, topic: sun
+2025-05-29 15:53:33,018 [INFO] Lesson on science/sun retrieved from knowledge store
+2025-05-29 15:53:33,019 [INFO] Successfully retrieved lesson: The Science of the Sun: Ancient Wisdom Through Mathematics
+2025-05-29 15:53:33,019 [INFO] <<< HTTP RESPONSE: GET /lessons/science/sun - Status: 200 - Time: 0.0091s
+2025-05-29 15:55:10,367 [INFO] >>> HTTP REQUEST: POST /lessons - Query params: 
+2025-05-29 15:55:10,368 [INFO] Started async lesson generation - Task ID: 72ffc39e-4b54-46d3-b621-c389dbf90ad1, Subject: data science, Topic: machine learning
+2025-05-29 15:55:10,369 [INFO] <<< HTTP RESPONSE: POST /lessons - Status: 200 - Time: 0.0020s
+2025-05-29 15:55:10,369 [INFO] Starting background generation for task 72ffc39e-4b54-46d3-b621-c389dbf90ad1: data science/machine learning
+2025-05-29 15:55:10,369 [INFO] Creating enhanced lesson for subject: data science, topic: machine learning
+2025-05-29 15:55:10,369 [INFO] No lesson found for data science/machine learning in knowledge store
+2025-05-29 15:55:11,445 [INFO] Wikipedia search for 'machine learning in data science' returned 5 results
+2025-05-29 15:55:12,490 [INFO] Wikipedia search for 'machine learning data science ancient India' returned 5 results
+2025-05-29 15:55:13,560 [INFO] Wikipedia search for 'machine learning in ancient Indian data science' returned 5 results
+2025-05-29 15:55:14,556 [INFO] Wikipedia search for 'data science machine learning' returned 5 results
+2025-05-29 15:55:16,486 [ERROR] Page error for 'Machine learning': Page id "machine ;earning" does not match any pages. Try another id!
+2025-05-29 15:55:18,564 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-29 15:55:25,290 [INFO] Successfully generated lesson with Ollama: The Vedic Insight in Machine Learning
+2025-05-29 15:55:25,291 [INFO] Lesson on data science/machine learning saved to knowledge store (version 1.0)
+2025-05-29 15:55:25,291 [INFO] Completed background generation for task 72ffc39e-4b54-46d3-b621-c389dbf90ad1: The Vedic Insight in Machine Learning
+2025-05-29 15:55:25,293 [INFO] >>> HTTP REQUEST: GET /lessons/data science/machine learning - Query params: 
+2025-05-29 15:55:25,293 [INFO] Retrieving lesson for subject: data science, topic: machine learning
+2025-05-29 15:55:25,300 [INFO] Lesson on data science/machine learning retrieved from knowledge store
+2025-05-29 15:55:25,301 [INFO] Successfully retrieved lesson: The Vedic Insight in Machine Learning
+2025-05-29 15:55:25,301 [INFO] <<< HTTP RESPONSE: GET /lessons/data science/machine learning - Status: 200 - Time: 0.0102s
+2025-05-29 15:56:15,968 [INFO] >>> HTTP REQUEST: POST /lessons - Query params: 
+2025-05-29 15:56:15,970 [INFO] Started async lesson generation - Task ID: 02f48a50-eeb6-47bc-b50f-04ea21422f9b, Subject: ved, Topic: upnishad
+2025-05-29 15:56:15,970 [INFO] <<< HTTP RESPONSE: POST /lessons - Status: 200 - Time: 0.0011s
+2025-05-29 15:56:15,971 [INFO] Starting background generation for task 02f48a50-eeb6-47bc-b50f-04ea21422f9b: ved/upnishad
+2025-05-29 15:56:15,971 [INFO] Creating enhanced lesson for subject: ved, topic: upnishad
+2025-05-29 15:56:15,971 [INFO] No lesson found for ved/upnishad in knowledge store
+2025-05-29 15:56:16,852 [INFO] Wikipedia search for 'upnishad in ved' returned 5 results
+2025-05-29 15:56:17,765 [INFO] Wikipedia search for 'upnishad ved ancient India' returned 3 results
+2025-05-29 15:56:18,670 [INFO] Wikipedia search for 'upnishad in ancient Indian ved' returned 3 results
+2025-05-29 15:56:19,555 [INFO] Wikipedia search for 'ved upnishad' returned 5 results
+2025-05-29 15:56:20,469 [INFO] Wikipedia search for 'upnishad in Vedas' returned 5 results
+2025-05-29 15:56:21,345 [INFO] Wikipedia search for 'Vedas upnishad' returned 5 results
+2025-05-29 15:56:24,783 [INFO] Successfully fetched Wikipedia content for 'Maharishi Sandipani Rashtriya Ved Vidya Pratishthan'
+2025-05-29 15:56:24,784 [INFO] Saved Wikipedia content to cache for ved/upnishad
+2025-05-29 15:56:26,849 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-05-29 15:56:36,724 [INFO] Successfully generated lesson with Ollama: The Road to Self-Realization
+2025-05-29 15:56:36,726 [INFO] Lesson on ved/upnishad saved to knowledge store (version 1.0)
+2025-05-29 15:56:36,726 [INFO] Completed background generation for task 02f48a50-eeb6-47bc-b50f-04ea21422f9b: The Road to Self-Realization
+2025-05-29 15:56:36,727 [INFO] >>> HTTP REQUEST: GET /lessons/ved/upnishad - Query params: 
+2025-05-29 15:56:36,727 [INFO] Retrieving lesson for subject: ved, topic: upnishad
+2025-05-29 15:56:36,735 [INFO] Lesson on ved/upnishad retrieved from knowledge store
+2025-05-29 15:56:36,735 [INFO] Successfully retrieved lesson: The Road to Self-Realization
+2025-05-29 15:56:36,736 [INFO] <<< HTTP RESPONSE: GET /lessons/ved/upnishad - Status: 200 - Time: 0.0107s
+2025-05-29 16:03:45,972 [INFO] >>> HTTP REQUEST: GET /test_dummy - Query params: 
+2025-05-29 16:03:45,973 [INFO] <<< HTTP RESPONSE: GET /test_dummy - Status: 404 - Time: 0.0010s
+2025-05-29 16:03:49,363 [INFO] >>> HTTP REQUEST: GET /test_dummy - Query params: 
+2025-05-29 16:03:49,364 [INFO] <<< HTTP RESPONSE: GET /test_dummy - Status: 404 - Time: 0.0010s
+2025-05-29 16:03:49,899 [INFO] >>> HTTP REQUEST: GET /lecture_dummy - Query params: 
+2025-05-29 16:03:49,899 [INFO] <<< HTTP RESPONSE: GET /lecture_dummy - Status: 404 - Time: 0.0010s
+2025-05-29 16:03:51,073 [INFO] >>> HTTP REQUEST: GET /test_dummy - Query params: 
+2025-05-29 16:03:51,073 [INFO] <<< HTTP RESPONSE: GET /test_dummy - Status: 404 - Time: 0.0010s
